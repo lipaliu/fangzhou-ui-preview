@@ -1,0 +1,15 @@
+node_modules/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+*.map
+revisions/
+# Earlier review screenshots stay local.
+/*.png
+!/menu-type-desktop.png
+!/menu-model-desktop.png
+!/menu-output-desktop.png
+!/menu-model-mobile.png
+!/menu-output-mobile.png
