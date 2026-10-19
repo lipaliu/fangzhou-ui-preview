@@ -1,0 +1,119 @@
+{
+  "_id": "66900a7e21b5557342f7b0f6",
+  "id": "TencentARC/PhotoMaker-V2",
+  "sdk": "gradio",
+  "likes": 1219,
+  "tags": [
+    "gradio",
+    "region:us"
+  ],
+  "private": false,
+  "author": "TencentARC",
+  "sha": "2989a2401c1554a5d0513cc72ce98a6705b65d54",
+  "lastModified": "2025-05-09T06:42:57.000Z",
+  "cardData": {
+    "title": "PhotoMaker V2",
+    "emoji": "📷✏️",
+    "colorFrom": "pink",
+    "colorTo": "blue",
+    "sdk": "gradio",
+    "sdk_version": "5.29.0",
+    "app_file": "app.py",
+    "pinned": false,
+    "license": "apache-2.0"
+  },
+  "subdomain": "tencentarc-photomaker-v2",
+  "gated": false,
+  "disabled": false,
+  "host": "https://tencentarc-photomaker-v2.hf.space",
+  "models": [
+    "google/ddpm-celebahq-256",
+    "SG161222/RealVisXL_V4.0",
+    "TencentARC/PhotoMaker",
+    "TencentARC/PhotoMaker-V2",
+    "TencentARC/t2i-adapter-sketch-sdxl-1.0"
+  ],
+  "region": "us",
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "LICENSE"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "app.py"
+    },
+    {
+      "rfilename": "aspect_ratio_template.py"
+    },
+    {
+      "rfilename": "examples/newton_man/newton_0.jpg"
+    },
+    {
+      "rfilename": "examples/newton_man/newton_1.jpg"
+    },
+    {
+      "rfilename": "examples/newton_man/newton_3.jpg"
+    },
+    {
+      "rfilename": "examples/scarletthead_woman/scarlett_0.jpg"
+    },
+    {
+      "rfilename": "examples/scarletthead_woman/scarlett_1.jpg"
+    },
+    {
+      "rfilename": "examples/scarletthead_woman/scarlett_2.jpg"
+    },
+    {
+      "rfilename": "examples/scarletthead_woman/scarlett_3.jpg"
+    },
+    {
+      "rfilename": "face_utils.py"
+    },
+    {
+      "rfilename": "module/__init__.py"
+    },
+    {
+      "rfilename": "module/model_v2.py"
+    },
+    {
+      "rfilename": "module/resampler.py"
+    },
+    {
+      "rfilename": "pipeline_t2i_adapter.py"
+    },
+    {
+      "rfilename": "requirements.txt"
+    },
+    {
+      "rfilename": "style_template.py"
+    }
+  ],
+  "createdAt": "2024-07-11T16:38:22.000Z",
+  "usedStorage": 20462539,
+  "runtime": {
+    "stage": "RUNNING",
+    "hardware": {
+      "current": "zero-a10g",
+      "requested": "zero-a10g"
+    },
+    "gcTimeout": 172800,
+    "replicas": {
+      "current": 2,
+      "requested": 2
+    },
+    "devMode": false,
+    "domains": [
+      {
+        "domain": "tencentarc-photomaker-v2.hf.space",
+        "stage": "READY"
+      }
+    ],
+    "sha": "2989a2401c1554a5d0513cc72ce98a6705b65d54",
+    "pySpacesVersion": "0.50.0"
+  }
+}

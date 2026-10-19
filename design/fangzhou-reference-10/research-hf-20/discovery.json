@@ -1,0 +1,362 @@
+{
+  "DeepSite": [
+    {
+      "id": "enzostvs/deepsite",
+      "likes": 16610
+    },
+    {
+      "id": "victor/deepsite-gallery",
+      "likes": 941
+    },
+    {
+      "id": "victor/deepsite",
+      "likes": 442
+    },
+    {
+      "id": "Arial311/DeepSite-Gallery",
+      "likes": 74
+    }
+  ],
+  "ai-comic-factory": [
+    {
+      "id": "jbilcke-hf/ai-comic-factory",
+      "likes": 11321
+    },
+    {
+      "id": "makem/ai-comic-factory",
+      "likes": 147
+    },
+    {
+      "id": "jbilcke-hf/AiComicFactory2",
+      "likes": 29
+    },
+    {
+      "id": "jordonpeter01/ai-comic-factory",
+      "likes": 5
+    }
+  ],
+  "storydiffusion": [
+    {
+      "id": "YupengZhou/StoryDiffusion",
+      "likes": 620
+    },
+    {
+      "id": "aa22334/StoryDiffusion",
+      "likes": 2
+    },
+    {
+      "id": "ZENLLC/StoryDiffusion",
+      "likes": 1
+    },
+    {
+      "id": "cocktailpeanut/StoryDiffusion",
+      "likes": 0
+    }
+  ],
+  "FLUX.1-schnell": [
+    {
+      "id": "black-forest-labs/FLUX.1-schnell",
+      "likes": 5159
+    },
+    {
+      "id": "ChristianHappy/FLUX.1-schnell",
+      "likes": 74
+    },
+    {
+      "id": "PeepDaSlan9/B2BMGMT_FLUX.1-Schnell-Serverless",
+      "likes": 56
+    },
+    {
+      "id": "evalstate/flux1_schnell",
+      "likes": 55
+    }
+  ],
+  "IC-Light": [
+    {
+      "id": "lllyasviel/IC-Light",
+      "likes": 1366
+    },
+    {
+      "id": "lllyasviel/iclight-v2-vary",
+      "likes": 1169
+    },
+    {
+      "id": "1aurent/ic_light",
+      "likes": 19
+    },
+    {
+      "id": "Shivam098/IC-Light",
+      "likes": 17
+    }
+  ],
+  "LivePortrait": [
+    {
+      "id": "KlingTeam/LivePortrait",
+      "likes": 3810
+    },
+    {
+      "id": "Han-123/LivePortrait",
+      "likes": 91
+    },
+    {
+      "id": "innoai/LivePortrait",
+      "likes": 55
+    },
+    {
+      "id": "K00B404/LivePortrait_cpu",
+      "likes": 11
+    }
+  ],
+  "OOTDiffusion": [
+    {
+      "id": "levihsu/OOTDiffusion",
+      "likes": 1130
+    },
+    {
+      "id": "Katiyar48/OOTDiffusion-VirtualTryOnClothing",
+      "likes": 5
+    },
+    {
+      "id": "hikerxu/OOTDiffusion",
+      "likes": 3
+    },
+    {
+      "id": "eduardo4547/OOTDiffusion",
+      "likes": 2
+    }
+  ],
+  "TRELLIS": [
+    {
+      "id": "microsoft/TRELLIS",
+      "likes": 4775
+    },
+    {
+      "id": "microsoft/TRELLIS.2",
+      "likes": 2237
+    },
+    {
+      "id": "trellis-community/TRELLIS",
+      "likes": 769
+    },
+    {
+      "id": "theseanlavery/TRELLIS-3D",
+      "likes": 211
+    }
+  ],
+  "musicgen": [
+    {
+      "id": "facebook/MusicGen",
+      "likes": 5109
+    },
+    {
+      "id": "sanchit-gandhi/musicgen-streaming",
+      "likes": 297
+    },
+    {
+      "id": "Xenova/musicgen-web",
+      "likes": 258
+    },
+    {
+      "id": "fffiloni/Image-to-MusicGen",
+      "likes": 124
+    }
+  ],
+  "LTX-Video": [
+    {
+      "id": "Lightricks/ltx-video-distilled",
+      "likes": 1606
+    },
+    {
+      "id": "Lightricks/ltx-video-iclora",
+      "likes": 33
+    },
+    {
+      "id": "DeepRat/LTX-Video-ZeroGPU-Optimized",
+      "likes": 10
+    },
+    {
+      "id": "freddyaboulton/ltx-video-distilled",
+      "likes": 9
+    }
+  ],
+  "Qwen-Image": [
+    {
+      "id": "prithivMLmods/Qwen-Image-Edit-2511-LoRAs-Fast",
+      "likes": 2780
+    },
+    {
+      "id": "multimodalart/qwen-image-multiple-angles-3d-camera",
+      "likes": 2701
+    },
+    {
+      "id": "linoyts/Qwen-Image-Edit-Angles",
+      "likes": 2272
+    },
+    {
+      "id": "Qwen/Qwen-Image",
+      "likes": 928
+    }
+  ],
+  "InstantID": [
+    {
+      "id": "InstantX/InstantID",
+      "likes": 3655
+    },
+    {
+      "id": "fffiloni/InstantID-2V",
+      "likes": 53
+    },
+    {
+      "id": "Fucius/OMG-InstantID",
+      "likes": 53
+    },
+    {
+      "id": "multimodalart/InstantID-FaceID-6M",
+      "likes": 27
+    }
+  ],
+  "PhotoMaker": [
+    {
+      "id": "TencentARC/PhotoMaker",
+      "likes": 1956
+    },
+    {
+      "id": "TencentARC/PhotoMaker-V2",
+      "likes": 1219
+    },
+    {
+      "id": "TencentARC/PhotoMaker-Style",
+      "likes": 655
+    },
+    {
+      "id": "tsqn/PhotoMaker-V2",
+      "likes": 3
+    }
+  ],
+  "Inspyrenet": [
+    {
+      "id": "gokaygokay/Inspyrenet-Rembg",
+      "likes": 214
+    },
+    {
+      "id": "K00B404/InspyrenetRembg",
+      "likes": 0
+    },
+    {
+      "id": "Copy-cat13/Inspyrenet-Rembg",
+      "likes": 0
+    },
+    {
+      "id": "Copy-cat13/inspyrenet-api",
+      "likes": 0
+    }
+  ],
+  "SAM2": [
+    {
+      "id": "fffiloni/SAM2-Video-Predictor",
+      "likes": 120
+    },
+    {
+      "id": "fffiloni/SAM2-Image-Predictor",
+      "likes": 79
+    },
+    {
+      "id": "wondervictor/evf-sam2",
+      "likes": 77
+    },
+    {
+      "id": "Mar2Ding/SAM2Long-Demo",
+      "likes": 24
+    }
+  ],
+  "Image-Playground": [
+    {
+      "id": "bookbot/Image-Upscaling-Playground",
+      "likes": 874
+    },
+    {
+      "id": "Rowdy013/text-to-image-models-playgrounds",
+      "likes": 29
+    },
+    {
+      "id": "TheWolf/Image-Upscaling-Playground",
+      "likes": 10
+    },
+    {
+      "id": "Nymbo/Image-Models-Test-2024-Playground",
+      "likes": 9
+    }
+  ],
+  "OmniGen": [
+    {
+      "id": "Shitao/OmniGen",
+      "likes": 706
+    },
+    {
+      "id": "OmniGen2/OmniGen2",
+      "likes": 445
+    },
+    {
+      "id": "bytedance-research/UMO_OmniGen2",
+      "likes": 57
+    },
+    {
+      "id": "sudemai/OmniGen",
+      "likes": 11
+    }
+  ],
+  "FLUX-PRO": [
+    {
+      "id": "gokaygokay/FLUX-Prompt-Generator",
+      "likes": 1399
+    },
+    {
+      "id": "autotrain-projects/train-flux-lora-ease",
+      "likes": 217
+    },
+    {
+      "id": "aifeifei798/Image-To-Flux-Prompt",
+      "likes": 180
+    },
+    {
+      "id": "llamameta/flux-pro-uncensored",
+      "likes": 160
+    }
+  ],
+  "AI-Toolkit": [
+    {
+      "id": "multimodalart/ai-toolkit",
+      "likes": 153
+    },
+    {
+      "id": "JournalistsonHF/ai-toolkit",
+      "likes": 132
+    },
+    {
+      "id": "rahul7star/ai-toolkit",
+      "likes": 10
+    },
+    {
+      "id": "HieuHoi/dreamweaver-ai-uncensored-imagination-toolkit",
+      "likes": 6
+    }
+  ],
+  "3D-Camera": [
+    {
+      "id": "multimodalart/qwen-image-multiple-angles-3d-camera",
+      "likes": 2701
+    },
+    {
+      "id": "Woffee/qwen-image-multiple-angles-3d-camera",
+      "likes": 25
+    },
+    {
+      "id": "Bils/qwen-image-multiple-angles-3d-camera",
+      "likes": 8
+    },
+    {
+      "id": "raubatz/qwen-image-multiple-angles-3d-camera",
+      "likes": 4
+    }
+  ]
+}

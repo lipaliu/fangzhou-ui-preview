@@ -1,0 +1,68 @@
+{
+  "_id": "67ba7ed3670ece8d9126d08f",
+  "id": "JournalistsonHF/ai-toolkit",
+  "sdk": "static",
+  "likes": 132,
+  "tags": [
+    "static",
+    "region:us"
+  ],
+  "private": false,
+  "author": "JournalistsonHF",
+  "sha": "79cb80e67b1c0f1f0afceb205af8a232e795e969",
+  "lastModified": "2025-06-13T19:30:43.000Z",
+  "cardData": {
+    "title": "The Essential AI Toolkit",
+    "emoji": "🧰",
+    "colorFrom": "yellow",
+    "colorTo": "gray",
+    "sdk": "static",
+    "pinned": false,
+    "short_description": "A curated collection of AI tools for journalists & creators"
+  },
+  "subdomain": "journalistsonhf-ai-toolkit",
+  "gated": false,
+  "disabled": false,
+  "host": "https://journalistsonhf-ai-toolkit.static.hf.space",
+  "models": [
+    "ahmed-masry/chartgemma",
+    "nari-labs/Dia-1.6B",
+    "nikigoli/CountGD",
+    "nvidia/canary-1b-flash",
+    "nvidia/parakeet-tdt-0.6b-v2",
+    "Qwen/Qwen2.5-VL-72B-Instruct",
+    "ResembleAI/chatterbox",
+    "sesame/csm-1b"
+  ],
+  "datasets": [
+    "ahmed-masry/ChartGemma"
+  ],
+  "region": "us",
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "index.html"
+    },
+    {
+      "rfilename": "style.css"
+    }
+  ],
+  "createdAt": "2025-02-23T01:50:11.000Z",
+  "usedStorage": 0,
+  "runtime": {
+    "stage": "RUNNING",
+    "hardware": {
+      "current": null,
+      "requested": null
+    },
+    "replicas": {
+      "requested": 1,
+      "current": 1
+    }
+  }
+}

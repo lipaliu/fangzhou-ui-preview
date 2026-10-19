@@ -1,0 +1,146 @@
+{
+  "_id": "66b49ec683425904fa4b4252",
+  "id": "multimodalart/flux-lora-the-explorer",
+  "sdk": "gradio",
+  "likes": 1570,
+  "tags": [
+    "gradio",
+    "region:us"
+  ],
+  "private": false,
+  "author": "multimodalart",
+  "sha": "154a8f60a348bf4a62df23a512aa4032305741c1",
+  "lastModified": "2025-05-17T04:58:30.000Z",
+  "cardData": {
+    "title": "FLUX LoRa the Explorer",
+    "emoji": "🏆",
+    "colorFrom": "red",
+    "colorTo": "pink",
+    "sdk": "gradio",
+    "sdk_version": "5.29.0",
+    "app_file": "app.py",
+    "pinned": true,
+    "license": "mit",
+    "models": [
+      "black-forest-labs/FLUX.1-dev",
+      "renderartist/retrocomicflux",
+      "glif/l0w-r3z",
+      "Purz/vhs-box",
+      "renderartist/simplevectorflux",
+      "glif/anime-blockprint-style",
+      "multimodalart/flux-tarot-v1",
+      "alvdansen/pola-photo-flux",
+      "dvyio/flux-lora-the-sims",
+      "alvdansen/softpasty-flux-dev",
+      "dvyio/flux-lora-film-noir",
+      "AIWarper/RubberCore1920sCartoonStyle",
+      "Norod78/JojosoStyle-flux-lora",
+      "XLabs-AI/flux-RealismLora",
+      "multimodalart/vintage-ads-flux",
+      "glif/how2draw",
+      "mgwr/Cine-Aesthetic",
+      "sWizad/pokemon-trainer-sprites-pixelart-flux",
+      "nerijs/animation2k-flux",
+      "alvdansen/softserve_anime",
+      "veryVANYA/ps1-style-flux",
+      "alvdansen/flux-koda",
+      "alvdansen/frosting_lane_flux",
+      "davisbro/half_illustration",
+      "fofr/flux-wrong",
+      "linoyts/yarn_art_Flux_LoRA",
+      "Norod78/Flux_1_Dev_LoRA_Paper-Cutout-Style",
+      "SebastianBodza/Flux_Aquarell_Watercolor_v2",
+      "dataautogpt3/FLUX-SyntheticAnime",
+      "fofr/flux-80s-cyberpunk",
+      "kudzueye/boreal-flux-dev-v2",
+      "XLabs-AI/flux-lora-collection",
+      "martintomov/retrofuturism-flux"
+    ]
+  },
+  "subdomain": "multimodalart-flux-lora-the-explorer",
+  "gated": false,
+  "disabled": false,
+  "host": "https://multimodalart-flux-lora-the-explorer.hf.space",
+  "models": [
+    "black-forest-labs/FLUX.1-dev",
+    "renderartist/retrocomicflux",
+    "glif/l0w-r3z",
+    "Purz/vhs-box",
+    "renderartist/simplevectorflux",
+    "glif/anime-blockprint-style",
+    "multimodalart/flux-tarot-v1",
+    "alvdansen/pola-photo-flux",
+    "dvyio/flux-lora-the-sims",
+    "alvdansen/softpasty-flux-dev",
+    "dvyio/flux-lora-film-noir",
+    "AIWarper/RubberCore1920sCartoonStyle",
+    "Norod78/JojosoStyle-flux-lora",
+    "XLabs-AI/flux-RealismLora",
+    "multimodalart/vintage-ads-flux",
+    "glif/how2draw",
+    "mgwr/Cine-Aesthetic",
+    "sWizad/pokemon-trainer-sprites-pixelart-flux",
+    "nerijs/animation2k-flux",
+    "alvdansen/softserve_anime",
+    "veryVANYA/ps1-style-flux",
+    "alvdansen/flux-koda",
+    "alvdansen/frosting_lane_flux",
+    "davisbro/half_illustration",
+    "fofr/flux-wrong",
+    "linoyts/yarn_art_Flux_LoRA",
+    "Norod78/Flux_1_Dev_LoRA_Paper-Cutout-Style",
+    "SebastianBodza/Flux_Aquarell_Watercolor_v2",
+    "dataautogpt3/FLUX-SyntheticAnime",
+    "fofr/flux-80s-cyberpunk",
+    "kudzueye/boreal-flux-dev-v2",
+    "XLabs-AI/flux-lora-collection",
+    "martintomov/retrofuturism-flux"
+  ],
+  "region": "us",
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "app.py"
+    },
+    {
+      "rfilename": "flux_lora.png"
+    },
+    {
+      "rfilename": "live_preview_helpers.py"
+    },
+    {
+      "rfilename": "loras.json"
+    },
+    {
+      "rfilename": "requirements.txt"
+    }
+  ],
+  "createdAt": "2024-08-08T10:32:38.000Z",
+  "usedStorage": 581865477,
+  "runtime": {
+    "stage": "RUNNING",
+    "hardware": {
+      "current": "zero-a10g",
+      "requested": "zero-a10g"
+    },
+    "gcTimeout": 172800,
+    "replicas": {
+      "current": 1,
+      "requested": 1
+    },
+    "devMode": false,
+    "domains": [
+      {
+        "domain": "multimodalart-flux-lora-the-explorer.hf.space",
+        "stage": "READY"
+      }
+    ],
+    "sha": "154a8f60a348bf4a62df23a512aa4032305741c1",
+    "pySpacesVersion": "0.49.3"
+  }
+}

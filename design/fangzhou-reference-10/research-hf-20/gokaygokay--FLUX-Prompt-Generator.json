@@ -1,0 +1,644 @@
+{
+  "_id": "66b09190ed629b6a981670dd",
+  "id": "gokaygokay/FLUX-Prompt-Generator",
+  "sdk": "gradio",
+  "likes": 1399,
+  "tags": [
+    "gradio",
+    "region:us"
+  ],
+  "private": false,
+  "author": "gokaygokay",
+  "sha": "2cd53cb71730a78bee99a9a74c2effb9927710c7",
+  "lastModified": "2026-07-31T23:53:43.000Z",
+  "cardData": {
+    "title": "FLUX Prompt Generator",
+    "emoji": "😻",
+    "colorFrom": "red",
+    "colorTo": "blue",
+    "sdk": "gradio",
+    "sdk_version": "4.36.1",
+    "app_file": "app.py",
+    "pinned": true,
+    "license": "apache-2.0"
+  },
+  "subdomain": "gokaygokay-flux-prompt-generator",
+  "gated": false,
+  "disabled": false,
+  "host": "https://gokaygokay-flux-prompt-generator.hf.space",
+  "models": [
+    "google/siglip-so400m-patch14-384",
+    "microsoft/Florence-2-large",
+    "mistralai/Mistral-7B-Instruct-v0.3",
+    "mistralai/Mixtral-8x7B-Instruct-v0.1",
+    "Qwen/Qwen2-VL-2B-Instruct",
+    "Qwen/Qwen2.5-72B-Instruct",
+    "meta-llama/Llama-3.1-70B-Instruct",
+    "meta-llama/Llama-3.1-8B"
+  ],
+  "region": "us",
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "app.py"
+    },
+    {
+      "rfilename": "caption_models.py"
+    },
+    {
+      "rfilename": "data/additional_details.json"
+    },
+    {
+      "rfilename": "data/artform.json"
+    },
+    {
+      "rfilename": "data/artist.json"
+    },
+    {
+      "rfilename": "data/background.json"
+    },
+    {
+      "rfilename": "data/body_types.json"
+    },
+    {
+      "rfilename": "data/clothing.json"
+    },
+    {
+      "rfilename": "data/composition.json"
+    },
+    {
+      "rfilename": "data/default_tags.json"
+    },
+    {
+      "rfilename": "data/device.json"
+    },
+    {
+      "rfilename": "data/digital_artform.json"
+    },
+    {
+      "rfilename": "data/female_additional_details.json"
+    },
+    {
+      "rfilename": "data/female_body_types.json"
+    },
+    {
+      "rfilename": "data/female_clothing.json"
+    },
+    {
+      "rfilename": "data/female_default_tags.json"
+    },
+    {
+      "rfilename": "data/hairstyles.json"
+    },
+    {
+      "rfilename": "data/lighting.json"
+    },
+    {
+      "rfilename": "data/male_additional_details.json"
+    },
+    {
+      "rfilename": "data/male_body_types.json"
+    },
+    {
+      "rfilename": "data/male_clothing.json"
+    },
+    {
+      "rfilename": "data/male_default_tags.json"
+    },
+    {
+      "rfilename": "data/next/architecture/architect.json"
+    },
+    {
+      "rfilename": "data/next/architecture/architecture.json"
+    },
+    {
+      "rfilename": "data/next/architecture/buildings.json"
+    },
+    {
+      "rfilename": "data/next/architecture/detailed_styles.json"
+    },
+    {
+      "rfilename": "data/next/architecture/exotic.json"
+    },
+    {
+      "rfilename": "data/next/architecture/extreme_location.json"
+    },
+    {
+      "rfilename": "data/next/architecture/homes.json"
+    },
+    {
+      "rfilename": "data/next/architecture/interior.json"
+    },
+    {
+      "rfilename": "data/next/architecture/interior_design.json"
+    },
+    {
+      "rfilename": "data/next/architecture/materials.json"
+    },
+    {
+      "rfilename": "data/next/architecture/public.json"
+    },
+    {
+      "rfilename": "data/next/architecture/rooms.json"
+    },
+    {
+      "rfilename": "data/next/architecture/styles.json"
+    },
+    {
+      "rfilename": "data/next/architecture/terms.json"
+    },
+    {
+      "rfilename": "data/next/art/painting.json"
+    },
+    {
+      "rfilename": "data/next/art/palette.json"
+    },
+    {
+      "rfilename": "data/next/art/patterns.json"
+    },
+    {
+      "rfilename": "data/next/art/sculpture.json"
+    },
+    {
+      "rfilename": "data/next/art/styles.json"
+    },
+    {
+      "rfilename": "data/next/art/techniques.json"
+    },
+    {
+      "rfilename": "data/next/art/types.json"
+    },
+    {
+      "rfilename": "data/next/artist/concept.json"
+    },
+    {
+      "rfilename": "data/next/artist/dark.json"
+    },
+    {
+      "rfilename": "data/next/artist/illustrator.json"
+    },
+    {
+      "rfilename": "data/next/artist/painters.json"
+    },
+    {
+      "rfilename": "data/next/brands/brands.json"
+    },
+    {
+      "rfilename": "data/next/brands/famous_brand_with_objects.json"
+    },
+    {
+      "rfilename": "data/next/brands/random_with_objects.json"
+    },
+    {
+      "rfilename": "data/next/character/action.json"
+    },
+    {
+      "rfilename": "data/next/character/anime.json"
+    },
+    {
+      "rfilename": "data/next/character/fantasy.json"
+    },
+    {
+      "rfilename": "data/next/character/fictional.json"
+    },
+    {
+      "rfilename": "data/next/character/general.json"
+    },
+    {
+      "rfilename": "data/next/character/monsters.json"
+    },
+    {
+      "rfilename": "data/next/character/scifi.json"
+    },
+    {
+      "rfilename": "data/next/character/superheroes.json"
+    },
+    {
+      "rfilename": "data/next/character/supervillains.json"
+    },
+    {
+      "rfilename": "data/next/cinematic/aesthetics.json"
+    },
+    {
+      "rfilename": "data/next/cinematic/cinematic_effects.json"
+    },
+    {
+      "rfilename": "data/next/cinematic/color_grading.json"
+    },
+    {
+      "rfilename": "data/next/cinematic/color_modifiers.json"
+    },
+    {
+      "rfilename": "data/next/cinematic/directors.json"
+    },
+    {
+      "rfilename": "data/next/cinematic/effects.json"
+    },
+    {
+      "rfilename": "data/next/cinematic/film_type.json"
+    },
+    {
+      "rfilename": "data/next/cinematic/genre.json"
+    },
+    {
+      "rfilename": "data/next/cinematic/movies.json"
+    },
+    {
+      "rfilename": "data/next/cinematic/shot_type.json"
+    },
+    {
+      "rfilename": "data/next/fashion/accessories.json"
+    },
+    {
+      "rfilename": "data/next/fashion/cultural.json"
+    },
+    {
+      "rfilename": "data/next/fashion/designers.json"
+    },
+    {
+      "rfilename": "data/next/fashion/feminine.json"
+    },
+    {
+      "rfilename": "data/next/fashion/feminine_hair_styles.json"
+    },
+    {
+      "rfilename": "data/next/fashion/feminine_outfits.json"
+    },
+    {
+      "rfilename": "data/next/fashion/masculine.json"
+    },
+    {
+      "rfilename": "data/next/fashion/masculine_hair_styles.json"
+    },
+    {
+      "rfilename": "data/next/feelings/creepy.json"
+    },
+    {
+      "rfilename": "data/next/feelings/loving.json"
+    },
+    {
+      "rfilename": "data/next/feelings/melancholy.json"
+    },
+    {
+      "rfilename": "data/next/feelings/unnerved.json"
+    },
+    {
+      "rfilename": "data/next/foods/1word_food.json"
+    },
+    {
+      "rfilename": "data/next/foods/2word_food.json"
+    },
+    {
+      "rfilename": "data/next/foods/3word_foods.json"
+    },
+    {
+      "rfilename": "data/next/foods/interesting_foods.json"
+    },
+    {
+      "rfilename": "data/next/geography/countries.json"
+    },
+    {
+      "rfilename": "data/next/geography/nationalities.json"
+    },
+    {
+      "rfilename": "data/next/geography/territories.json"
+    },
+    {
+      "rfilename": "data/next/human/festivities.json"
+    },
+    {
+      "rfilename": "data/next/human/groups.json"
+    },
+    {
+      "rfilename": "data/next/human/hobbies.json"
+    },
+    {
+      "rfilename": "data/next/human/jobs.json"
+    },
+    {
+      "rfilename": "data/next/interaction/couple_interactions.json"
+    },
+    {
+      "rfilename": "data/next/interaction/couple_negative.json"
+    },
+    {
+      "rfilename": "data/next/interaction/crowd_interactions.json"
+    },
+    {
+      "rfilename": "data/next/interaction/detailed_individual_interactions.json"
+    },
+    {
+      "rfilename": "data/next/interaction/group_interactions.json"
+    },
+    {
+      "rfilename": "data/next/interaction/individual_interactions.json"
+    },
+    {
+      "rfilename": "data/next/keywords/detailed.json"
+    },
+    {
+      "rfilename": "data/next/keywords/epic.json"
+    },
+    {
+      "rfilename": "data/next/keywords/genres.json"
+    },
+    {
+      "rfilename": "data/next/keywords/glitch.json"
+    },
+    {
+      "rfilename": "data/next/keywords/modifiers.json"
+    },
+    {
+      "rfilename": "data/next/keywords/negatives.json"
+    },
+    {
+      "rfilename": "data/next/keywords/prayers.json"
+    },
+    {
+      "rfilename": "data/next/keywords/trending.json"
+    },
+    {
+      "rfilename": "data/next/keywords/unusual.json"
+    },
+    {
+      "rfilename": "data/next/objects/3word_objects.json"
+    },
+    {
+      "rfilename": "data/next/objects/classical_objects.json"
+    },
+    {
+      "rfilename": "data/next/objects/detailed_objects.json"
+    },
+    {
+      "rfilename": "data/next/objects/magical_objects.json"
+    },
+    {
+      "rfilename": "data/next/people/archtypes.json"
+    },
+    {
+      "rfilename": "data/next/people/body_types.json"
+    },
+    {
+      "rfilename": "data/next/people/expressions.json"
+    },
+    {
+      "rfilename": "data/next/people/eye_color.json"
+    },
+    {
+      "rfilename": "data/next/photography/camera.json"
+    },
+    {
+      "rfilename": "data/next/photography/color_grading.json"
+    },
+    {
+      "rfilename": "data/next/photography/film.json"
+    },
+    {
+      "rfilename": "data/next/photography/keywords.json"
+    },
+    {
+      "rfilename": "data/next/photography/landscape_subject.json"
+    },
+    {
+      "rfilename": "data/next/photography/lenses.json"
+    },
+    {
+      "rfilename": "data/next/photography/lighting.json"
+    },
+    {
+      "rfilename": "data/next/photography/portrait_photographer.json"
+    },
+    {
+      "rfilename": "data/next/plots/action.json"
+    },
+    {
+      "rfilename": "data/next/plots/arthouse.json"
+    },
+    {
+      "rfilename": "data/next/plots/cyberpunk.json"
+    },
+    {
+      "rfilename": "data/next/plots/fantasy.json"
+    },
+    {
+      "rfilename": "data/next/plots/general.json"
+    },
+    {
+      "rfilename": "data/next/plots/horror.json"
+    },
+    {
+      "rfilename": "data/next/plots/musical.json"
+    },
+    {
+      "rfilename": "data/next/plots/romance.json"
+    },
+    {
+      "rfilename": "data/next/plots/scifi.json"
+    },
+    {
+      "rfilename": "data/next/plots/war.json"
+    },
+    {
+      "rfilename": "data/next/poses/portrait_poses.json"
+    },
+    {
+      "rfilename": "data/next/poses/poses.json"
+    },
+    {
+      "rfilename": "data/next/scene/houseplants.json"
+    },
+    {
+      "rfilename": "data/next/scene/modifiers.json"
+    },
+    {
+      "rfilename": "data/next/scene/scenes.json"
+    },
+    {
+      "rfilename": "data/next/scene/textures.json"
+    },
+    {
+      "rfilename": "data/next/scene/trees.json"
+    },
+    {
+      "rfilename": "data/next/scene/weather.json"
+    },
+    {
+      "rfilename": "data/next/science/astronomy.json"
+    },
+    {
+      "rfilename": "data/next/science/elements.json"
+    },
+    {
+      "rfilename": "data/next/science/mathematics.json"
+    },
+    {
+      "rfilename": "data/next/science/medical.json"
+    },
+    {
+      "rfilename": "data/next/stuff/city.json"
+    },
+    {
+      "rfilename": "data/next/stuff/everyday.json"
+    },
+    {
+      "rfilename": "data/next/stuff/fall.json"
+    },
+    {
+      "rfilename": "data/next/stuff/fantasy.json"
+    },
+    {
+      "rfilename": "data/next/stuff/gadgets.json"
+    },
+    {
+      "rfilename": "data/next/stuff/icons.json"
+    },
+    {
+      "rfilename": "data/next/stuff/office.json"
+    },
+    {
+      "rfilename": "data/next/stuff/scary.json"
+    },
+    {
+      "rfilename": "data/next/stuff/scifi.json"
+    },
+    {
+      "rfilename": "data/next/stuff/space.json"
+    },
+    {
+      "rfilename": "data/next/stuff/spring.json"
+    },
+    {
+      "rfilename": "data/next/stuff/summer.json"
+    },
+    {
+      "rfilename": "data/next/stuff/winter.json"
+    },
+    {
+      "rfilename": "data/next/time/century.json"
+    },
+    {
+      "rfilename": "data/next/time/decades.json"
+    },
+    {
+      "rfilename": "data/next/time/eras.json"
+    },
+    {
+      "rfilename": "data/next/time/time.json"
+    },
+    {
+      "rfilename": "data/next/typography/features.json"
+    },
+    {
+      "rfilename": "data/next/typography/font_styles.json"
+    },
+    {
+      "rfilename": "data/next/typography/fonts.json"
+    },
+    {
+      "rfilename": "data/next/typography/types.json"
+    },
+    {
+      "rfilename": "data/next/typography/word_art.json"
+    },
+    {
+      "rfilename": "data/next/vehicle/cars.json"
+    },
+    {
+      "rfilename": "data/next/vehicle/classic_cars.json"
+    },
+    {
+      "rfilename": "data/next/vehicle/famous_cars.json"
+    },
+    {
+      "rfilename": "data/next/vehicle/fast_cars.json"
+    },
+    {
+      "rfilename": "data/next/vehicle/types.json"
+    },
+    {
+      "rfilename": "data/next/video_game/actions.json"
+    },
+    {
+      "rfilename": "data/next/video_game/designers.json"
+    },
+    {
+      "rfilename": "data/next/video_game/engines.json"
+    },
+    {
+      "rfilename": "data/next/video_game/games.json"
+    },
+    {
+      "rfilename": "data/next/video_game/regions.json"
+    },
+    {
+      "rfilename": "data/next/video_game/type.json"
+    },
+    {
+      "rfilename": "data/photo_framing.json"
+    },
+    {
+      "rfilename": "data/photo_type.json"
+    },
+    {
+      "rfilename": "data/photographer.json"
+    },
+    {
+      "rfilename": "data/photography_styles.json"
+    },
+    {
+      "rfilename": "data/place.json"
+    },
+    {
+      "rfilename": "data/pose.json"
+    },
+    {
+      "rfilename": "data/roles.json"
+    },
+    {
+      "rfilename": "huggingface_inference_node.py"
+    },
+    {
+      "rfilename": "prompt_generator.py"
+    },
+    {
+      "rfilename": "requirements.txt"
+    },
+    {
+      "rfilename": "ui_components.py"
+    },
+    {
+      "rfilename": "wpkklhc6/image_adapter.pt"
+    },
+    {
+      "rfilename": "wpkklhc6/wpkklhc6_config.yaml"
+    }
+  ],
+  "createdAt": "2024-08-05T08:47:12.000Z",
+  "usedStorage": 86887806,
+  "runtime": {
+    "stage": "RUNNING",
+    "hardware": {
+      "current": "zero-a10g",
+      "requested": "zero-a10g"
+    },
+    "gcTimeout": 172800,
+    "replicas": {
+      "current": 1,
+      "requested": 1
+    },
+    "devMode": false,
+    "domains": [
+      {
+        "domain": "gokaygokay-flux-prompt-generator.hf.space",
+        "stage": "READY"
+      }
+    ],
+    "sha": "2cd53cb71730a78bee99a9a74c2effb9927710c7",
+    "pySpacesVersion": "0.51.1"
+  }
+}

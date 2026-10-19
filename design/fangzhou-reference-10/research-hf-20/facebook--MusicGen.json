@@ -1,0 +1,789 @@
+{
+  "_id": "6482173af4620f11c00c2219",
+  "id": "facebook/MusicGen",
+  "sdk": "gradio",
+  "likes": 5109,
+  "tags": [
+    "gradio",
+    "music generation",
+    "language models",
+    "LLMs",
+    "region:us"
+  ],
+  "private": false,
+  "author": "facebook",
+  "sha": "39609d0bd7d857f5876e4e445359a5f2fd75df84",
+  "lastModified": "2026-05-27T11:46:50.000Z",
+  "cardData": {
+    "title": "MusicGen",
+    "python_version": "3.10",
+    "tags": [
+      "music generation",
+      "language models",
+      "LLMs"
+    ],
+    "app_file": "demos/musicgen_app.py",
+    "emoji": "🎵",
+    "colorFrom": "gray",
+    "colorTo": "blue",
+    "sdk": "gradio",
+    "sdk_version": "5.49.1",
+    "pinned": true,
+    "license": "cc-by-nc-4.0",
+    "disable_embedding": true
+  },
+  "subdomain": "facebook-musicgen",
+  "gated": false,
+  "disabled": false,
+  "host": "https://facebook-musicgen.hf.space",
+  "models": [
+    "facebook/audiogen-medium",
+    "facebook/encodec_24khz",
+    "facebook/encodec_32khz",
+    "facebook/multiband-diffusion",
+    "facebook/MusicGen",
+    "facebook/musicgen-large",
+    "facebook/musicgen-medium",
+    "facebook/musicgen-melody",
+    "facebook/musicgen-melody-large",
+    "facebook/musicgen-small",
+    "facebook/musicgen-stereo-large",
+    "facebook/musicgen-stereo-medium",
+    "facebook/musicgen-stereo-melody",
+    "facebook/musicgen-stereo-melody-large",
+    "facebook/musicgen-stereo-small",
+    "google/flan-t5-base",
+    "google/flan-t5-large",
+    "google/flan-t5-small",
+    "google/flan-t5-xl",
+    "google/flan-t5-xxl",
+    "FacebookAI/roberta-base",
+    "google-t5/t5-11b",
+    "google-t5/t5-3b",
+    "google-t5/t5-base",
+    "google-t5/t5-large",
+    "google-t5/t5-small"
+  ],
+  "region": "us",
+  "siblings": [
+    {
+      "rfilename": ".github/actions/audiocraft_build/action.yml"
+    },
+    {
+      "rfilename": ".github/workflows/audiocraft_docs.yml"
+    },
+    {
+      "rfilename": ".github/workflows/audiocraft_linter.yml"
+    },
+    {
+      "rfilename": ".github/workflows/audiocraft_tests.yml"
+    },
+    {
+      "rfilename": ".gitignore"
+    },
+    {
+      "rfilename": "CHANGELOG.md"
+    },
+    {
+      "rfilename": "CODE_OF_CONDUCT.md"
+    },
+    {
+      "rfilename": "CONTRIBUTING.md"
+    },
+    {
+      "rfilename": "LICENSE"
+    },
+    {
+      "rfilename": "LICENSE_weights"
+    },
+    {
+      "rfilename": "MANIFEST.in"
+    },
+    {
+      "rfilename": "Makefile"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "assets/a_duck_quacking_as_birds_chirp_and_a_pigeon_cooing.mp3"
+    },
+    {
+      "rfilename": "assets/bach.mp3"
+    },
+    {
+      "rfilename": "assets/bolero_ravel.mp3"
+    },
+    {
+      "rfilename": "assets/sirens_and_a_humming_engine_approach_and_pass.mp3"
+    },
+    {
+      "rfilename": "audiocraft/__init__.py"
+    },
+    {
+      "rfilename": "audiocraft/adversarial/__init__.py"
+    },
+    {
+      "rfilename": "audiocraft/adversarial/discriminators/__init__.py"
+    },
+    {
+      "rfilename": "audiocraft/adversarial/discriminators/base.py"
+    },
+    {
+      "rfilename": "audiocraft/adversarial/discriminators/mpd.py"
+    },
+    {
+      "rfilename": "audiocraft/adversarial/discriminators/msd.py"
+    },
+    {
+      "rfilename": "audiocraft/adversarial/discriminators/msstftd.py"
+    },
+    {
+      "rfilename": "audiocraft/adversarial/losses.py"
+    },
+    {
+      "rfilename": "audiocraft/data/__init__.py"
+    },
+    {
+      "rfilename": "audiocraft/data/audio.py"
+    },
+    {
+      "rfilename": "audiocraft/data/audio_dataset.py"
+    },
+    {
+      "rfilename": "audiocraft/data/audio_utils.py"
+    },
+    {
+      "rfilename": "audiocraft/data/info_audio_dataset.py"
+    },
+    {
+      "rfilename": "audiocraft/data/music_dataset.py"
+    },
+    {
+      "rfilename": "audiocraft/data/sound_dataset.py"
+    },
+    {
+      "rfilename": "audiocraft/data/zip.py"
+    },
+    {
+      "rfilename": "audiocraft/environment.py"
+    },
+    {
+      "rfilename": "audiocraft/grids/__init__.py"
+    },
+    {
+      "rfilename": "audiocraft/grids/_base_explorers.py"
+    },
+    {
+      "rfilename": "audiocraft/grids/audiogen/__init__.py"
+    },
+    {
+      "rfilename": "audiocraft/grids/audiogen/audiogen_base_16khz.py"
+    },
+    {
+      "rfilename": "audiocraft/grids/audiogen/audiogen_pretrained_16khz_eval.py"
+    },
+    {
+      "rfilename": "audiocraft/grids/compression/__init__.py"
+    },
+    {
+      "rfilename": "audiocraft/grids/compression/_explorers.py"
+    },
+    {
+      "rfilename": "audiocraft/grids/compression/debug.py"
+    },
+    {
+      "rfilename": "audiocraft/grids/compression/encodec_audiogen_16khz.py"
+    },
+    {
+      "rfilename": "audiocraft/grids/compression/encodec_base_24khz.py"
+    },
+    {
+      "rfilename": "audiocraft/grids/compression/encodec_musicgen_32khz.py"
+    },
+    {
+      "rfilename": "audiocraft/grids/diffusion/4_bands_base_32khz.py"
+    },
+    {
+      "rfilename": "audiocraft/grids/diffusion/__init__.py"
+    },
+    {
+      "rfilename": "audiocraft/grids/diffusion/_explorers.py"
+    },
+    {
+      "rfilename": "audiocraft/grids/musicgen/__init__.py"
+    },
+    {
+      "rfilename": "audiocraft/grids/musicgen/_explorers.py"
+    },
+    {
+      "rfilename": "audiocraft/grids/musicgen/musicgen_base_32khz.py"
+    },
+    {
+      "rfilename": "audiocraft/grids/musicgen/musicgen_base_cached_32khz.py"
+    },
+    {
+      "rfilename": "audiocraft/grids/musicgen/musicgen_clapemb_32khz.py"
+    },
+    {
+      "rfilename": "audiocraft/grids/musicgen/musicgen_melody_32khz.py"
+    },
+    {
+      "rfilename": "audiocraft/grids/musicgen/musicgen_pretrained_32khz_eval.py"
+    },
+    {
+      "rfilename": "audiocraft/grids/musicgen/musicgen_stereo_finetune_32khz.py"
+    },
+    {
+      "rfilename": "audiocraft/losses/__init__.py"
+    },
+    {
+      "rfilename": "audiocraft/losses/balancer.py"
+    },
+    {
+      "rfilename": "audiocraft/losses/sisnr.py"
+    },
+    {
+      "rfilename": "audiocraft/losses/specloss.py"
+    },
+    {
+      "rfilename": "audiocraft/losses/stftloss.py"
+    },
+    {
+      "rfilename": "audiocraft/metrics/__init__.py"
+    },
+    {
+      "rfilename": "audiocraft/metrics/chroma_cosinesim.py"
+    },
+    {
+      "rfilename": "audiocraft/metrics/clap_consistency.py"
+    },
+    {
+      "rfilename": "audiocraft/metrics/fad.py"
+    },
+    {
+      "rfilename": "audiocraft/metrics/kld.py"
+    },
+    {
+      "rfilename": "audiocraft/metrics/rvm.py"
+    },
+    {
+      "rfilename": "audiocraft/metrics/visqol.py"
+    },
+    {
+      "rfilename": "audiocraft/models/__init__.py"
+    },
+    {
+      "rfilename": "audiocraft/models/audiogen.py"
+    },
+    {
+      "rfilename": "audiocraft/models/builders.py"
+    },
+    {
+      "rfilename": "audiocraft/models/encodec.py"
+    },
+    {
+      "rfilename": "audiocraft/models/lm.py"
+    },
+    {
+      "rfilename": "audiocraft/models/loaders.py"
+    },
+    {
+      "rfilename": "audiocraft/models/multibanddiffusion.py"
+    },
+    {
+      "rfilename": "audiocraft/models/musicgen.py"
+    },
+    {
+      "rfilename": "audiocraft/models/unet.py"
+    },
+    {
+      "rfilename": "audiocraft/modules/__init__.py"
+    },
+    {
+      "rfilename": "audiocraft/modules/activations.py"
+    },
+    {
+      "rfilename": "audiocraft/modules/chroma.py"
+    },
+    {
+      "rfilename": "audiocraft/modules/codebooks_patterns.py"
+    },
+    {
+      "rfilename": "audiocraft/modules/conditioners.py"
+    },
+    {
+      "rfilename": "audiocraft/modules/conv.py"
+    },
+    {
+      "rfilename": "audiocraft/modules/diffusion_schedule.py"
+    },
+    {
+      "rfilename": "audiocraft/modules/lstm.py"
+    },
+    {
+      "rfilename": "audiocraft/modules/rope.py"
+    },
+    {
+      "rfilename": "audiocraft/modules/seanet.py"
+    },
+    {
+      "rfilename": "audiocraft/modules/streaming.py"
+    },
+    {
+      "rfilename": "audiocraft/modules/transformer.py"
+    },
+    {
+      "rfilename": "audiocraft/optim/__init__.py"
+    },
+    {
+      "rfilename": "audiocraft/optim/cosine_lr_scheduler.py"
+    },
+    {
+      "rfilename": "audiocraft/optim/dadam.py"
+    },
+    {
+      "rfilename": "audiocraft/optim/ema.py"
+    },
+    {
+      "rfilename": "audiocraft/optim/fsdp.py"
+    },
+    {
+      "rfilename": "audiocraft/optim/inverse_sqrt_lr_scheduler.py"
+    },
+    {
+      "rfilename": "audiocraft/optim/linear_warmup_lr_scheduler.py"
+    },
+    {
+      "rfilename": "audiocraft/optim/polynomial_decay_lr_scheduler.py"
+    },
+    {
+      "rfilename": "audiocraft/py.typed"
+    },
+    {
+      "rfilename": "audiocraft/quantization/__init__.py"
+    },
+    {
+      "rfilename": "audiocraft/quantization/base.py"
+    },
+    {
+      "rfilename": "audiocraft/quantization/core_vq.py"
+    },
+    {
+      "rfilename": "audiocraft/quantization/vq.py"
+    },
+    {
+      "rfilename": "audiocraft/solvers/__init__.py"
+    },
+    {
+      "rfilename": "audiocraft/solvers/audiogen.py"
+    },
+    {
+      "rfilename": "audiocraft/solvers/base.py"
+    },
+    {
+      "rfilename": "audiocraft/solvers/builders.py"
+    },
+    {
+      "rfilename": "audiocraft/solvers/compression.py"
+    },
+    {
+      "rfilename": "audiocraft/solvers/diffusion.py"
+    },
+    {
+      "rfilename": "audiocraft/solvers/musicgen.py"
+    },
+    {
+      "rfilename": "audiocraft/train.py"
+    },
+    {
+      "rfilename": "audiocraft/utils/__init__.py"
+    },
+    {
+      "rfilename": "audiocraft/utils/autocast.py"
+    },
+    {
+      "rfilename": "audiocraft/utils/best_state.py"
+    },
+    {
+      "rfilename": "audiocraft/utils/cache.py"
+    },
+    {
+      "rfilename": "audiocraft/utils/checkpoint.py"
+    },
+    {
+      "rfilename": "audiocraft/utils/cluster.py"
+    },
+    {
+      "rfilename": "audiocraft/utils/deadlock.py"
+    },
+    {
+      "rfilename": "audiocraft/utils/export.py"
+    },
+    {
+      "rfilename": "audiocraft/utils/export_legacy.py"
+    },
+    {
+      "rfilename": "audiocraft/utils/notebook.py"
+    },
+    {
+      "rfilename": "audiocraft/utils/profiler.py"
+    },
+    {
+      "rfilename": "audiocraft/utils/samples/__init__.py"
+    },
+    {
+      "rfilename": "audiocraft/utils/samples/manager.py"
+    },
+    {
+      "rfilename": "audiocraft/utils/utils.py"
+    },
+    {
+      "rfilename": "config/conditioner/chroma2music.yaml"
+    },
+    {
+      "rfilename": "config/conditioner/clapemb2music.yaml"
+    },
+    {
+      "rfilename": "config/conditioner/none.yaml"
+    },
+    {
+      "rfilename": "config/conditioner/text2music.yaml"
+    },
+    {
+      "rfilename": "config/conditioner/text2sound.yaml"
+    },
+    {
+      "rfilename": "config/config.yaml"
+    },
+    {
+      "rfilename": "config/dset/audio/audiocaps_16khz.yaml"
+    },
+    {
+      "rfilename": "config/dset/audio/default.yaml"
+    },
+    {
+      "rfilename": "config/dset/audio/example.yaml"
+    },
+    {
+      "rfilename": "config/dset/audio/musiccaps_32khz.yaml"
+    },
+    {
+      "rfilename": "config/dset/default.yaml"
+    },
+    {
+      "rfilename": "config/dset/internal/music_10k_32khz.yaml"
+    },
+    {
+      "rfilename": "config/dset/internal/music_400k_32khz.yaml"
+    },
+    {
+      "rfilename": "config/dset/internal/sounds_16khz.yaml"
+    },
+    {
+      "rfilename": "config/model/encodec/default.yaml"
+    },
+    {
+      "rfilename": "config/model/encodec/encodec_base_causal.yaml"
+    },
+    {
+      "rfilename": "config/model/encodec/encodec_large_nq4_s320.yaml"
+    },
+    {
+      "rfilename": "config/model/encodec/encodec_large_nq4_s640.yaml"
+    },
+    {
+      "rfilename": "config/model/lm/audiogen_lm.yaml"
+    },
+    {
+      "rfilename": "config/model/lm/default.yaml"
+    },
+    {
+      "rfilename": "config/model/lm/model_scale/base.yaml"
+    },
+    {
+      "rfilename": "config/model/lm/model_scale/large.yaml"
+    },
+    {
+      "rfilename": "config/model/lm/model_scale/medium.yaml"
+    },
+    {
+      "rfilename": "config/model/lm/model_scale/small.yaml"
+    },
+    {
+      "rfilename": "config/model/lm/model_scale/xsmall.yaml"
+    },
+    {
+      "rfilename": "config/model/lm/musicgen_lm.yaml"
+    },
+    {
+      "rfilename": "config/model/none.yaml"
+    },
+    {
+      "rfilename": "config/model/score/basic.yaml"
+    },
+    {
+      "rfilename": "config/solver/audiogen/audiogen_base_16khz.yaml"
+    },
+    {
+      "rfilename": "config/solver/audiogen/debug.yaml"
+    },
+    {
+      "rfilename": "config/solver/audiogen/default.yaml"
+    },
+    {
+      "rfilename": "config/solver/audiogen/evaluation/none.yaml"
+    },
+    {
+      "rfilename": "config/solver/audiogen/evaluation/objective_eval.yaml"
+    },
+    {
+      "rfilename": "config/solver/compression/debug.yaml"
+    },
+    {
+      "rfilename": "config/solver/compression/default.yaml"
+    },
+    {
+      "rfilename": "config/solver/compression/encodec_audiogen_16khz.yaml"
+    },
+    {
+      "rfilename": "config/solver/compression/encodec_base_24khz.yaml"
+    },
+    {
+      "rfilename": "config/solver/compression/encodec_musicgen_32khz.yaml"
+    },
+    {
+      "rfilename": "config/solver/default.yaml"
+    },
+    {
+      "rfilename": "config/solver/diffusion/debug.yaml"
+    },
+    {
+      "rfilename": "config/solver/diffusion/default.yaml"
+    },
+    {
+      "rfilename": "config/solver/diffusion/encodec_24khz.yaml"
+    },
+    {
+      "rfilename": "config/solver/musicgen/debug.yaml"
+    },
+    {
+      "rfilename": "config/solver/musicgen/default.yaml"
+    },
+    {
+      "rfilename": "config/solver/musicgen/evaluation/none.yaml"
+    },
+    {
+      "rfilename": "config/solver/musicgen/evaluation/objective_eval.yaml"
+    },
+    {
+      "rfilename": "config/solver/musicgen/musicgen_base_32khz.yaml"
+    },
+    {
+      "rfilename": "config/solver/musicgen/musicgen_melody_32khz.yaml"
+    },
+    {
+      "rfilename": "config/teams/default.yaml"
+    },
+    {
+      "rfilename": "config/teams/labs.yaml"
+    },
+    {
+      "rfilename": "dataset/example/electro_1.json"
+    },
+    {
+      "rfilename": "dataset/example/electro_1.mp3"
+    },
+    {
+      "rfilename": "dataset/example/electro_2.json"
+    },
+    {
+      "rfilename": "dataset/example/electro_2.mp3"
+    },
+    {
+      "rfilename": "demos/audiogen_demo.ipynb"
+    },
+    {
+      "rfilename": "demos/musicgen_app.py"
+    },
+    {
+      "rfilename": "demos/musicgen_demo.ipynb"
+    },
+    {
+      "rfilename": "docs/AUDIOGEN.md"
+    },
+    {
+      "rfilename": "docs/CONDITIONING.md"
+    },
+    {
+      "rfilename": "docs/DATASETS.md"
+    },
+    {
+      "rfilename": "docs/ENCODEC.md"
+    },
+    {
+      "rfilename": "docs/MBD.md"
+    },
+    {
+      "rfilename": "docs/METRICS.md"
+    },
+    {
+      "rfilename": "docs/MUSICGEN.md"
+    },
+    {
+      "rfilename": "docs/TRAINING.md"
+    },
+    {
+      "rfilename": "egs/example/data.jsonl"
+    },
+    {
+      "rfilename": "model_cards/AUDIOGEN_MODEL_CARD.md"
+    },
+    {
+      "rfilename": "model_cards/MUSICGEN_MODEL_CARD.md"
+    },
+    {
+      "rfilename": "mypy.ini"
+    },
+    {
+      "rfilename": "requirements.txt"
+    },
+    {
+      "rfilename": "scripts/__init__.py"
+    },
+    {
+      "rfilename": "scripts/mos.py"
+    },
+    {
+      "rfilename": "scripts/resample_dataset.py"
+    },
+    {
+      "rfilename": "scripts/static/style.css"
+    },
+    {
+      "rfilename": "scripts/templates/base.html"
+    },
+    {
+      "rfilename": "scripts/templates/index.html"
+    },
+    {
+      "rfilename": "scripts/templates/login.html"
+    },
+    {
+      "rfilename": "scripts/templates/results.html"
+    },
+    {
+      "rfilename": "scripts/templates/survey.html"
+    },
+    {
+      "rfilename": "setup.cfg"
+    },
+    {
+      "rfilename": "setup.py"
+    },
+    {
+      "rfilename": "tests/__init__.py"
+    },
+    {
+      "rfilename": "tests/adversarial/__init__.py"
+    },
+    {
+      "rfilename": "tests/adversarial/test_discriminators.py"
+    },
+    {
+      "rfilename": "tests/adversarial/test_losses.py"
+    },
+    {
+      "rfilename": "tests/common_utils/__init__.py"
+    },
+    {
+      "rfilename": "tests/common_utils/temp_utils.py"
+    },
+    {
+      "rfilename": "tests/common_utils/wav_utils.py"
+    },
+    {
+      "rfilename": "tests/data/__init__.py"
+    },
+    {
+      "rfilename": "tests/data/test_audio.py"
+    },
+    {
+      "rfilename": "tests/data/test_audio_dataset.py"
+    },
+    {
+      "rfilename": "tests/data/test_audio_utils.py"
+    },
+    {
+      "rfilename": "tests/losses/__init__.py"
+    },
+    {
+      "rfilename": "tests/losses/test_losses.py"
+    },
+    {
+      "rfilename": "tests/models/test_audiogen.py"
+    },
+    {
+      "rfilename": "tests/models/test_encodec_model.py"
+    },
+    {
+      "rfilename": "tests/models/test_multibanddiffusion.py"
+    },
+    {
+      "rfilename": "tests/models/test_musicgen.py"
+    },
+    {
+      "rfilename": "tests/modules/__init__.py"
+    },
+    {
+      "rfilename": "tests/modules/test_activations.py"
+    },
+    {
+      "rfilename": "tests/modules/test_codebooks_patterns.py"
+    },
+    {
+      "rfilename": "tests/modules/test_conv.py"
+    },
+    {
+      "rfilename": "tests/modules/test_lstm.py"
+    },
+    {
+      "rfilename": "tests/modules/test_rope.py"
+    },
+    {
+      "rfilename": "tests/modules/test_seanet.py"
+    },
+    {
+      "rfilename": "tests/modules/test_transformer.py"
+    },
+    {
+      "rfilename": "tests/quantization/test_vq.py"
+    },
+    {
+      "rfilename": "tests/utils/__init__.py"
+    }
+  ],
+  "createdAt": "2023-06-08T18:00:26.000Z",
+  "usedStorage": 2443175,
+  "runtime": {
+    "stage": "RUNNING",
+    "hardware": {
+      "current": "zero-a10g",
+      "requested": "zero-a10g"
+    },
+    "gcTimeout": 172800,
+    "replicas": {
+      "current": 1,
+      "requested": 1
+    },
+    "devMode": false,
+    "domains": [
+      {
+        "domain": "facebook-musicgen.hf.space",
+        "stage": "READY"
+      }
+    ],
+    "sha": "39609d0bd7d857f5876e4e445359a5f2fd75df84",
+    "pySpacesVersion": "0.50.2"
+  }
+}

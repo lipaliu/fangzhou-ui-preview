@@ -1,0 +1,74 @@
+{
+  "_id": "66b51e7dfc66a466e6f55391",
+  "id": "not-lain/background-removal",
+  "sdk": "gradio",
+  "likes": 2974,
+  "tags": [
+    "gradio",
+    "mcp-server",
+    "region:us"
+  ],
+  "private": false,
+  "author": "not-lain",
+  "sha": "448a02eff7df7ee3f7ab6026d7882561f895911a",
+  "lastModified": "2026-04-20T14:16:25.000Z",
+  "cardData": {
+    "title": "Background Removal",
+    "emoji": "🌘w🌖",
+    "colorFrom": "purple",
+    "colorTo": "indigo",
+    "sdk": "gradio",
+    "sdk_version": "5.35.0",
+    "app_file": "app.py",
+    "pinned": true,
+    "license": "mit"
+  },
+  "subdomain": "not-lain-background-removal",
+  "gated": false,
+  "disabled": false,
+  "host": "https://not-lain-background-removal.hf.space",
+  "models": [
+    "ZhengPeng7/BiRefNet"
+  ],
+  "region": "us",
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "app.py"
+    },
+    {
+      "rfilename": "butterfly.jpg"
+    },
+    {
+      "rfilename": "requirements.txt"
+    }
+  ],
+  "createdAt": "2024-08-08T19:37:33.000Z",
+  "usedStorage": 0,
+  "runtime": {
+    "stage": "RUNNING",
+    "hardware": {
+      "current": "zero-a10g",
+      "requested": "zero-a10g"
+    },
+    "gcTimeout": 172800,
+    "replicas": {
+      "current": 1,
+      "requested": 1
+    },
+    "devMode": false,
+    "domains": [
+      {
+        "domain": "not-lain-background-removal.hf.space",
+        "stage": "READY"
+      }
+    ],
+    "sha": "448a02eff7df7ee3f7ab6026d7882561f895911a",
+    "pySpacesVersion": "0.49.3"
+  }
+}

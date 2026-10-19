@@ -1,0 +1,552 @@
+{
+  "_id": "66ab60f6e85cd3c33d7a4486",
+  "id": "fffiloni/SAM2-Image-Predictor",
+  "sdk": "gradio",
+  "likes": 79,
+  "tags": [
+    "gradio",
+    "region:us"
+  ],
+  "private": false,
+  "author": "fffiloni",
+  "sha": "3737bd915f9cf0fa84cd42cfe332a5f2d7f1b832",
+  "lastModified": "2026-05-13T12:27:09.000Z",
+  "cardData": {
+    "title": "SAM2 Image Predictor",
+    "emoji": "🔥",
+    "colorFrom": "pink",
+    "colorTo": "purple",
+    "sdk": "gradio",
+    "sdk_version": "6.14.0",
+    "app_file": "app.py",
+    "pinned": false
+  },
+  "subdomain": "fffiloni-sam2-image-predictor",
+  "gated": false,
+  "disabled": false,
+  "host": "https://fffiloni-sam2-image-predictor.hf.space",
+  "region": "us",
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "CODE_OF_CONDUCT.md"
+    },
+    {
+      "rfilename": "CONTRIBUTING.md"
+    },
+    {
+      "rfilename": "LICENSE"
+    },
+    {
+      "rfilename": "LICENSE_cctorch"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "app.py"
+    },
+    {
+      "rfilename": "assets/model_diagram.png"
+    },
+    {
+      "rfilename": "assets/sa_v_dataset.jpg"
+    },
+    {
+      "rfilename": "checkpoints/download_ckpts.sh"
+    },
+    {
+      "rfilename": "checkpoints/sam2_hiera_base_plus.pt"
+    },
+    {
+      "rfilename": "checkpoints/sam2_hiera_large.pt"
+    },
+    {
+      "rfilename": "checkpoints/sam2_hiera_small.pt"
+    },
+    {
+      "rfilename": "checkpoints/sam2_hiera_tiny.pt"
+    },
+    {
+      "rfilename": "notebooks/automatic_mask_generator_example.ipynb"
+    },
+    {
+      "rfilename": "notebooks/image_predictor_example.ipynb"
+    },
+    {
+      "rfilename": "notebooks/images/cars.jpg"
+    },
+    {
+      "rfilename": "notebooks/images/groceries.jpg"
+    },
+    {
+      "rfilename": "notebooks/images/truck.jpg"
+    },
+    {
+      "rfilename": "notebooks/video_predictor_example.ipynb"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00018.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00019.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00022.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00023.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00024.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00025.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00026.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00027.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00030.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00031.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00032.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00033.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00036.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00037.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00040.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00041.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00042.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00043.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00044.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00045.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00046.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00047.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00050.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00051.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00052.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00053.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00054.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00055.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00056.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00057.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00068.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00069.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00078.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00079.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00080.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00081.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00082.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00083.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00084.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00085.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00086.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00087.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00090.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00091.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00092.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00093.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00094.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00095.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00096.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00097.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00108.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00109.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00118.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00119.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00120.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00121.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00122.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00123.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00124.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00125.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00126.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00127.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00130.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00131.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00132.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00133.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00134.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00135.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00136.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00137.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00140.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00142.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00143.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00144.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00145.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00146.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00147.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00150.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00151.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00152.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00153.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00154.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00156.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00157.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00168.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00178.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00179.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00180.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00181.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00184.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00185.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00186.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00187.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00190.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00191.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00192.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00193.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00194.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00195.jpg"
+    },
+    {
+      "rfilename": "notebooks/videos/bedroom/00197.jpg"
+    },
+    {
+      "rfilename": "pyproject.toml"
+    },
+    {
+      "rfilename": "requirements.txt"
+    },
+    {
+      "rfilename": "sam2/__init__.py"
+    },
+    {
+      "rfilename": "sam2/automatic_mask_generator.py"
+    },
+    {
+      "rfilename": "sam2/build_sam.py"
+    },
+    {
+      "rfilename": "sam2/csrc/connected_components.cu"
+    },
+    {
+      "rfilename": "sam2/modeling/__init__.py"
+    },
+    {
+      "rfilename": "sam2/modeling/backbones/__init__.py"
+    },
+    {
+      "rfilename": "sam2/modeling/backbones/hieradet.py"
+    },
+    {
+      "rfilename": "sam2/modeling/backbones/image_encoder.py"
+    },
+    {
+      "rfilename": "sam2/modeling/backbones/utils.py"
+    },
+    {
+      "rfilename": "sam2/modeling/memory_attention.py"
+    },
+    {
+      "rfilename": "sam2/modeling/memory_encoder.py"
+    },
+    {
+      "rfilename": "sam2/modeling/position_encoding.py"
+    },
+    {
+      "rfilename": "sam2/modeling/sam/__init__.py"
+    },
+    {
+      "rfilename": "sam2/modeling/sam/mask_decoder.py"
+    },
+    {
+      "rfilename": "sam2/modeling/sam/prompt_encoder.py"
+    },
+    {
+      "rfilename": "sam2/modeling/sam/transformer.py"
+    },
+    {
+      "rfilename": "sam2/modeling/sam2_base.py"
+    },
+    {
+      "rfilename": "sam2/modeling/sam2_utils.py"
+    },
+    {
+      "rfilename": "sam2/sam2_image_predictor.py"
+    },
+    {
+      "rfilename": "sam2/sam2_video_predictor.py"
+    },
+    {
+      "rfilename": "sam2/utils/__init__.py"
+    },
+    {
+      "rfilename": "sam2/utils/amg.py"
+    },
+    {
+      "rfilename": "sam2/utils/misc.py"
+    },
+    {
+      "rfilename": "sam2/utils/transforms.py"
+    },
+    {
+      "rfilename": "sam2_configs/__init__.py"
+    },
+    {
+      "rfilename": "sam2_configs/sam2_hiera_b+.yaml"
+    },
+    {
+      "rfilename": "sam2_configs/sam2_hiera_l.yaml"
+    },
+    {
+      "rfilename": "sam2_configs/sam2_hiera_s.yaml"
+    },
+    {
+      "rfilename": "sam2_configs/sam2_hiera_t.yaml"
+    },
+    {
+      "rfilename": "sav_dataset/LICENSE"
+    },
+    {
+      "rfilename": "sav_dataset/LICENSE_DAVIS"
+    },
+    {
+      "rfilename": "sav_dataset/LICENSE_VOS_BENCHMARK"
+    },
+    {
+      "rfilename": "sav_dataset/README.md"
+    },
+    {
+      "rfilename": "sav_dataset/example/sav_000001.mp4"
+    },
+    {
+      "rfilename": "sav_dataset/example/sav_000001_auto.json"
+    },
+    {
+      "rfilename": "sav_dataset/example/sav_000001_manual.json"
+    },
+    {
+      "rfilename": "sav_dataset/requirements.txt"
+    },
+    {
+      "rfilename": "sav_dataset/sav_evaluator.py"
+    },
+    {
+      "rfilename": "sav_dataset/sav_visualization_example.ipynb"
+    },
+    {
+      "rfilename": "sav_dataset/utils/sav_benchmark.py"
+    },
+    {
+      "rfilename": "sav_dataset/utils/sav_utils.py"
+    },
+    {
+      "rfilename": "setup.py"
+    },
+    {
+      "rfilename": "tools/README.md"
+    },
+    {
+      "rfilename": "tools/vos_inference.py"
+    }
+  ],
+  "createdAt": "2024-08-01T10:18:30.000Z",
+  "usedStorage": 1582318296,
+  "runtime": {
+    "stage": "RUNNING",
+    "hardware": {
+      "current": "zero-a10g",
+      "requested": "zero-a10g"
+    },
+    "gcTimeout": 172800,
+    "replicas": {
+      "current": 1,
+      "requested": 1
+    },
+    "devMode": false,
+    "domains": [
+      {
+        "domain": "fffiloni-sam2-image-predictor.hf.space",
+        "stage": "READY"
+      }
+    ],
+    "sha": "3737bd915f9cf0fa84cd42cfe332a5f2d7f1b832",
+    "pySpacesVersion": "0.50.0"
+  }
+}

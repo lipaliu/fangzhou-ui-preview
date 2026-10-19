@@ -1,0 +1,271 @@
+{
+  "_id": "68562cb9e7f344a47d1b637e",
+  "id": "OmniGen2/OmniGen2",
+  "sdk": "gradio",
+  "likes": 445,
+  "tags": [
+    "gradio",
+    "region:us"
+  ],
+  "private": false,
+  "author": "OmniGen2",
+  "sha": "36dc20bb793e20d9e505a1997f9b9903cdeb50be",
+  "lastModified": "2025-06-27T14:46:51.000Z",
+  "cardData": {
+    "title": "OmniGen2",
+    "emoji": "👀",
+    "colorFrom": "red",
+    "colorTo": "yellow",
+    "sdk": "gradio",
+    "pinned": false,
+    "license": "apache-2.0",
+    "short_description": "OmniGen2: Unified Image Understanding and Generation."
+  },
+  "subdomain": "omnigen2-omnigen2",
+  "gated": false,
+  "disabled": false,
+  "host": "https://omnigen2-omnigen2.hf.space",
+  "models": [
+    "OmniGen2/OmniGen2"
+  ],
+  "region": "us",
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "Dockerfile"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "app.py"
+    },
+    {
+      "rfilename": "example_images/000050281.jpg"
+    },
+    {
+      "rfilename": "example_images/000077066.jpg"
+    },
+    {
+      "rfilename": "example_images/000119733.jpg"
+    },
+    {
+      "rfilename": "example_images/000365954.jpg"
+    },
+    {
+      "rfilename": "example_images/000440817.jpg"
+    },
+    {
+      "rfilename": "example_images/00066-10350085.png"
+    },
+    {
+      "rfilename": "example_images/01.jpg"
+    },
+    {
+      "rfilename": "example_images/01194-20240127001056_1024x1536.png"
+    },
+    {
+      "rfilename": "example_images/02.jpg"
+    },
+    {
+      "rfilename": "example_images/04.jpg"
+    },
+    {
+      "rfilename": "example_images/1.png"
+    },
+    {
+      "rfilename": "example_images/1_20241127203215.png"
+    },
+    {
+      "rfilename": "example_images/1e5953ff5e029bfc81bb0a1d4792d26d.jpg"
+    },
+    {
+      "rfilename": "example_images/289089159-a6d7abc142419e63cab0a566eb38e0fb6acb217b340f054c6172139b316f6596.png"
+    },
+    {
+      "rfilename": "example_images/386724677-589d19050d4ea0603aee6831459aede29a24f4d8668c62c049f413db31508a54.png"
+    },
+    {
+      "rfilename": "example_images/468404374-d52ec1a44aa7e0dc9c2807ce09d303a111c78f34da3da2401b83ce10815ff872.png"
+    },
+    {
+      "rfilename": "example_images/46e79704-c88e-4e68-97b4-b4c40cd29826.png"
+    },
+    {
+      "rfilename": "example_images/6652baf6-4096-40ef-a475-425e4c072daf.png"
+    },
+    {
+      "rfilename": "example_images/8FtFUxRzXqaguVRGzkHvN.png"
+    },
+    {
+      "rfilename": "example_images/996e2cf6-daa5-48c4-9ad7-0719af640c17_1748848108409.png"
+    },
+    {
+      "rfilename": "example_images/ComfyUI_00254_.png"
+    },
+    {
+      "rfilename": "example_images/ComfyUI_temp_mllvz_00071_.png"
+    },
+    {
+      "rfilename": "example_images/RAL_0315.JPG"
+    },
+    {
+      "rfilename": "example_images/a_man.webp"
+    },
+    {
+      "rfilename": "example_images/apple.png"
+    },
+    {
+      "rfilename": "example_images/blv.png"
+    },
+    {
+      "rfilename": "example_images/byward-outfitters-B97YFrsITyo-unsplash.jpg"
+    },
+    {
+      "rfilename": "example_images/d8f8f44c64106e7715c61b5dfa9d9ca0974314c5d4a4a50418acf7ff373432bb.png"
+    },
+    {
+      "rfilename": "example_images/doll1.jpg"
+    },
+    {
+      "rfilename": "example_images/doll2.jpg"
+    },
+    {
+      "rfilename": "example_images/doll3.png"
+    },
+    {
+      "rfilename": "example_images/elon-twitter-new-ceo.webp"
+    },
+    {
+      "rfilename": "example_images/flux5.png"
+    },
+    {
+      "rfilename": "example_images/girl.png"
+    },
+    {
+      "rfilename": "example_images/man1.webp"
+    },
+    {
+      "rfilename": "example_images/nezha.png"
+    },
+    {
+      "rfilename": "example_images/saml-altman-openai-ceo.webp"
+    },
+    {
+      "rfilename": "example_images/toy.png"
+    },
+    {
+      "rfilename": "example_images/vicky-hladynets-C8Ta0gwPbQg-unsplash.jpg"
+    },
+    {
+      "rfilename": "example_images/woman1.webp"
+    },
+    {
+      "rfilename": "example_images/woman_kitchen.webp"
+    },
+    {
+      "rfilename": "omnigen2/.DS_Store"
+    },
+    {
+      "rfilename": "omnigen2/__init__.py"
+    },
+    {
+      "rfilename": "omnigen2/__pycache__/__init__.cpython-310.pyc"
+    },
+    {
+      "rfilename": "omnigen2/__pycache__/__init__.cpython-38.pyc"
+    },
+    {
+      "rfilename": "omnigen2/models/__init__.py"
+    },
+    {
+      "rfilename": "omnigen2/models/attention_processor.py"
+    },
+    {
+      "rfilename": "omnigen2/models/embeddings.py"
+    },
+    {
+      "rfilename": "omnigen2/models/transformers/__init__.py"
+    },
+    {
+      "rfilename": "omnigen2/models/transformers/block_lumina2.py"
+    },
+    {
+      "rfilename": "omnigen2/models/transformers/components.py"
+    },
+    {
+      "rfilename": "omnigen2/models/transformers/repo.py"
+    },
+    {
+      "rfilename": "omnigen2/models/transformers/transformer_omnigen2.py"
+    },
+    {
+      "rfilename": "omnigen2/ops/.DS_Store"
+    },
+    {
+      "rfilename": "omnigen2/ops/triton/__init__.py"
+    },
+    {
+      "rfilename": "omnigen2/ops/triton/layer_norm.py"
+    },
+    {
+      "rfilename": "omnigen2/pipelines/__init__.py"
+    },
+    {
+      "rfilename": "omnigen2/pipelines/image_processor.py"
+    },
+    {
+      "rfilename": "omnigen2/pipelines/omnigen2/pipeline_omnigen2.py"
+    },
+    {
+      "rfilename": "omnigen2/pipelines/omnigen2/pipeline_omnigen2_chat.py"
+    },
+    {
+      "rfilename": "omnigen2/pipelines/pipeline_utils.py"
+    },
+    {
+      "rfilename": "omnigen2/schedulers/__init__.py"
+    },
+    {
+      "rfilename": "omnigen2/schedulers/scheduling_dpmsolver_multistep.py"
+    },
+    {
+      "rfilename": "omnigen2/schedulers/scheduling_flow_match_euler_discrete.py"
+    },
+    {
+      "rfilename": "omnigen2/utils/__init__.py"
+    },
+    {
+      "rfilename": "omnigen2/utils/img_util.py"
+    },
+    {
+      "rfilename": "omnigen2/utils/vpn_utils.py"
+    },
+    {
+      "rfilename": "requirements.txt"
+    }
+  ],
+  "createdAt": "2025-06-21T03:53:29.000Z",
+  "usedStorage": 35451494,
+  "runtime": {
+    "stage": "RUNTIME_ERROR",
+    "hardware": {
+      "current": null,
+      "requested": "zero-a10g"
+    },
+    "gcTimeout": 172800,
+    "errorMessage": "Exit code: 128. Reason: failed to create containerd task: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: error running prestart hook #0: exit status 1, stdout: , stderr: Using requested mode 'legacy'",
+    "replicas": {
+      "requested": 1
+    },
+    "devMode": false,
+    "domains": [
+      {
+        "domain": "omnigen2-omnigen2.hf.space",
+        "stage": "READY"
+      }
+    ]
+  }
+}

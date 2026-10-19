@@ -1,0 +1,111 @@
+{
+  "_id": "66307f9cf45778918d227344",
+  "id": "YupengZhou/StoryDiffusion",
+  "sdk": "gradio",
+  "likes": 620,
+  "tags": [
+    "gradio",
+    "region:us"
+  ],
+  "private": false,
+  "author": "YupengZhou",
+  "sha": "960e7e25f28b6a8d2ee1f87bfa54c2626d65a009",
+  "lastModified": "2025-08-28T19:38:47.000Z",
+  "cardData": {
+    "title": "StoryDiffusion",
+    "emoji": "👁",
+    "colorFrom": "indigo",
+    "colorTo": "gray",
+    "sdk": "gradio",
+    "sdk_version": "4.28.3",
+    "app_file": "app.py",
+    "pinned": false,
+    "license": "cc-by-nc-4.0"
+  },
+  "subdomain": "yupengzhou-storydiffusion",
+  "gated": false,
+  "disabled": false,
+  "host": "https://yupengzhou-storydiffusion.hf.space",
+  "models": [
+    "google/ddpm-celebahq-256",
+    "RunDiffusion/Juggernaut-XL-v8",
+    "SG161222/RealVisXL_V4.0",
+    "stabilityai/stable-diffusion-xl-base-1.0",
+    "stablediffusionapi/sdxl-unstable-diffusers-y",
+    "TencentARC/PhotoMaker"
+  ],
+  "datasets": [
+    "radames/gradio-components"
+  ],
+  "region": "us",
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "app.py"
+    },
+    {
+      "rfilename": "examples/lecun/yann-lecun2.jpeg"
+    },
+    {
+      "rfilename": "examples/taylor/1.jpeg"
+    },
+    {
+      "rfilename": "fonts/Inkfree.ttf"
+    },
+    {
+      "rfilename": "images/logo.png"
+    },
+    {
+      "rfilename": "images/pad_images.png"
+    },
+    {
+      "rfilename": "requirements.txt"
+    },
+    {
+      "rfilename": "utils/__init__.py"
+    },
+    {
+      "rfilename": "utils/gradio_utils.py"
+    },
+    {
+      "rfilename": "utils/model.py"
+    },
+    {
+      "rfilename": "utils/pipeline.py"
+    },
+    {
+      "rfilename": "utils/style_template.py"
+    },
+    {
+      "rfilename": "utils/utils.py"
+    }
+  ],
+  "createdAt": "2024-04-30T05:20:28.000Z",
+  "usedStorage": 0,
+  "runtime": {
+    "stage": "RUNNING",
+    "hardware": {
+      "current": "zero-a10g",
+      "requested": "zero-a10g"
+    },
+    "gcTimeout": 172800,
+    "replicas": {
+      "current": 4,
+      "requested": 4
+    },
+    "devMode": false,
+    "domains": [
+      {
+        "domain": "yupengzhou-storydiffusion.hf.space",
+        "stage": "READY"
+      }
+    ],
+    "sha": "960e7e25f28b6a8d2ee1f87bfa54c2626d65a009",
+    "pySpacesVersion": "0.50.0"
+  }
+}

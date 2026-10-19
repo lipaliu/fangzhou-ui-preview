@@ -1,0 +1,82 @@
+{
+  "_id": "669a9045fe7871137e10f04d",
+  "id": "gokaygokay/Inspyrenet-Rembg",
+  "sdk": "gradio",
+  "likes": 214,
+  "tags": [
+    "gradio",
+    "region:us"
+  ],
+  "private": false,
+  "author": "gokaygokay",
+  "sha": "e7d68bc0a65ca390387bd690558f9e6c7e2a0548",
+  "lastModified": "2026-07-31T23:54:00.000Z",
+  "cardData": {
+    "title": "Inspyrenet Remove Background",
+    "emoji": "🏢",
+    "colorFrom": "blue",
+    "colorTo": "red",
+    "sdk": "gradio",
+    "sdk_version": "5.3.0",
+    "app_file": "app.py",
+    "pinned": true,
+    "license": "apache-2.0"
+  },
+  "subdomain": "gokaygokay-inspyrenet-rembg",
+  "gated": false,
+  "disabled": false,
+  "host": "https://gokaygokay-inspyrenet-rembg.hf.space",
+  "models": [
+    "plemeri/InSPyReNet"
+  ],
+  "region": "us",
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "1.png"
+    },
+    {
+      "rfilename": "2.png"
+    },
+    {
+      "rfilename": "3.jfif"
+    },
+    {
+      "rfilename": "4.webp"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "app.py"
+    },
+    {
+      "rfilename": "requirements.txt"
+    }
+  ],
+  "createdAt": "2024-07-19T16:11:49.000Z",
+  "usedStorage": 4742489,
+  "runtime": {
+    "stage": "RUNNING",
+    "hardware": {
+      "current": "zero-a10g",
+      "requested": "zero-a10g"
+    },
+    "gcTimeout": 172800,
+    "replicas": {
+      "current": 1,
+      "requested": 1
+    },
+    "devMode": false,
+    "domains": [
+      {
+        "domain": "gokaygokay-inspyrenet-rembg.hf.space",
+        "stage": "READY"
+      }
+    ],
+    "sha": "e7d68bc0a65ca390387bd690558f9e6c7e2a0548",
+    "pySpacesVersion": "0.51.1"
+  }
+}

@@ -1,0 +1,590 @@
+[
+  {
+    "id": "victor/deepsite-gallery",
+    "sha": "be441feedd93afef2a209af62eb279bb21281fbb",
+    "host": "https://victor-deepsite-gallery.static.hf.space",
+    "runtime": "RUNNING",
+    "card": {
+      "title": "DeepSite Gallery",
+      "emoji": "🐋",
+      "colorFrom": "blue",
+      "colorTo": "indigo",
+      "sdk": "static",
+      "pinned": false,
+      "short_description": "Browse apps made with DeepSite"
+    },
+    "files": [
+      ".DS_Store",
+      ".gitattributes",
+      ".gitignore",
+      "README.md",
+      "bun.lock",
+      "index.html",
+      "package.json",
+      "screenshots.json",
+      "screenshots/.DS_Store",
+      "screenshots/space-0xsarah-touch-orange-try-2.png",
+      "screenshots/space-0xsarah-touch-orange-try-4.png",
+      "screenshots/space-0xsarah-touch-orange-try3.png"
+    ]
+  },
+  {
+    "id": "enzostvs/deepsite",
+    "sha": "d4c8bedc29019597fa5dd25cd8a73e875f1ea8b9",
+    "host": "https://enzostvs-deepsite.hf.space",
+    "runtime": "RUNNING",
+    "card": {
+      "title": "DeepSite v4",
+      "emoji": "🐳",
+      "colorFrom": "blue",
+      "colorTo": "blue",
+      "sdk": "docker",
+      "pinned": true,
+      "app_port": 3001,
+      "license": "mit",
+      "failure_strategy": "rollback",
+      "short_description": "Generate any application by Vibe Coding it",
+      "models": [
+        "deepseek-ai/DeepSeek-V3-0324",
+        "deepseek-ai/DeepSeek-V3.2",
+        "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+        "moonshotai/Kimi-K2-Instruct-0905",
+        "zai-org/GLM-4.7",
+        "MiniMaxAI/MiniMax-M2.1"
+      ]
+    },
+    "files": [
+      ".env.example",
+      ".github/workflows/deploy-prod.yml",
+      ".gitignore",
+      "Dockerfile",
+      "README.md",
+      "actions/mentions.ts",
+      "actions/projects.ts",
+      "app/(public)/layout.tsx",
+      "app/(public)/page.tsx",
+      "app/(public)/signin/page.tsx",
+      "app/[owner]/[repoId]/page.tsx",
+      "app/api/ask/route.ts"
+    ]
+  },
+  {
+    "id": "jbilcke-hf/ai-comic-factory",
+    "sha": "c5dc3c7dafeb593efa3b7c95431ee982965bb524",
+    "host": "https://jbilcke-hf-ai-comic-factory.hf.space",
+    "runtime": "RUNNING",
+    "card": {
+      "title": "AI Comic Factory",
+      "emoji": "👩‍🎨",
+      "colorFrom": "red",
+      "colorTo": "yellow",
+      "sdk": "docker",
+      "pinned": true,
+      "app_port": 3000,
+      "disable_embedding": false,
+      "short_description": "Create your own AI comic with a single prompt",
+      "hf_oauth": true,
+      "hf_oauth_expiration_minutes": 43200,
+      "hf_oauth_scopes": [
+        "inference-api"
+      ]
+    },
+    "files": [
+      ".env",
+      ".eslintrc.json",
+      ".github/FUNDING.yml",
+      ".gitignore",
+      ".nvmrc",
+      "CLAUDE.md",
+      "CONTRIBUTORS.md",
+      "Dockerfile",
+      "LICENCE.md",
+      "README.md",
+      "components.json",
+      "next.config.js"
+    ]
+  },
+  {
+    "id": "YupengZhou/StoryDiffusion",
+    "sha": "960e7e25f28b6a8d2ee1f87bfa54c2626d65a009",
+    "host": "https://yupengzhou-storydiffusion.hf.space",
+    "runtime": "RUNNING",
+    "card": {
+      "title": "StoryDiffusion",
+      "emoji": "👁",
+      "colorFrom": "indigo",
+      "colorTo": "gray",
+      "sdk": "gradio",
+      "sdk_version": "4.28.3",
+      "app_file": "app.py",
+      "pinned": false,
+      "license": "cc-by-nc-4.0"
+    },
+    "files": [
+      ".gitattributes",
+      "README.md",
+      "app.py",
+      "examples/lecun/yann-lecun2.jpeg",
+      "examples/taylor/1.jpeg",
+      "fonts/Inkfree.ttf",
+      "images/logo.png",
+      "images/pad_images.png",
+      "requirements.txt",
+      "utils/__init__.py",
+      "utils/gradio_utils.py",
+      "utils/model.py"
+    ]
+  },
+  {
+    "id": "black-forest-labs/FLUX.1-schnell",
+    "sha": "2569ee41266dd6d3a5e84c2a5ea3f4ad6e4ff25e",
+    "host": "https://black-forest-labs-flux-1-schnell.hf.space",
+    "runtime": "RUNNING",
+    "card": {
+      "title": "FLUX.1 [Schnell]",
+      "emoji": "🏎️💨",
+      "colorFrom": "yellow",
+      "colorTo": "pink",
+      "sdk": "gradio",
+      "sdk_version": "5.43.1",
+      "app_file": "app.py",
+      "pinned": false,
+      "license": "mit"
+    },
+    "files": [
+      ".gitattributes",
+      "README.md",
+      "app.py",
+      "requirements.txt"
+    ]
+  },
+  {
+    "id": "lllyasviel/IC-Light",
+    "sha": "607696fa4cad6dffb31e9f455a6b0e0f5636f24d",
+    "host": "https://lllyasviel-ic-light.hf.space",
+    "runtime": "RUNNING",
+    "card": {
+      "title": "IC Light",
+      "emoji": "📈",
+      "colorFrom": "yellow",
+      "colorTo": "red",
+      "sdk": "gradio",
+      "sdk_version": "4.29.0",
+      "app_file": "app.py",
+      "pinned": false,
+      "license": "creativeml-openrail-m"
+    },
+    "files": [
+      ".gitattributes",
+      ".gitignore",
+      "README.md",
+      "app.py",
+      "briarmbg.py",
+      "db_examples.py",
+      "imgs/alter/i1.jpeg",
+      "imgs/alter/i2.png",
+      "imgs/alter/i3.png",
+      "imgs/alter/i4.png",
+      "imgs/alter/i5.png",
+      "imgs/alter/i6.webp"
+    ]
+  },
+  {
+    "id": "KlingTeam/LivePortrait",
+    "sha": "a531730891f3ddcd5a30bc32a24a2f387cf3ae61",
+    "host": "https://klingteam-liveportrait.hf.space",
+    "runtime": "RUNNING",
+    "card": {
+      "title": "Live Portrait",
+      "emoji": "🤪",
+      "colorFrom": "red",
+      "colorTo": "yellow",
+      "sdk": "gradio",
+      "sdk_version": "4.37.2",
+      "app_file": "app.py",
+      "pinned": false,
+      "disable_embedding": true,
+      "tags": [
+        "Multimodal",
+        "Motion control",
+        "Image-to-Video",
+        "Video-to-Video",
+        "language models",
+        "LLMs"
+      ],
+      "short_description": "Apply the motion of a video on a portrait"
+    },
+    "files": [
+      ".gitattributes",
+      ".gitignore",
+      ".vscode/settings.json",
+      "LICENSE",
+      "README.md",
+      "app.py",
+      "assets/docs/inference.gif",
+      "assets/docs/showcase.gif",
+      "assets/docs/showcase2.gif",
+      "assets/examples/driving/d0.mp4",
+      "assets/examples/driving/d14.mp4",
+      "assets/examples/driving/d14_trim.mp4"
+    ]
+  },
+  {
+    "id": "levihsu/OOTDiffusion",
+    "sha": "6ead2c44c878d68767d655cdb51a4848d35c26e1",
+    "host": "https://levihsu-ootdiffusion.hf.space",
+    "runtime": "RUNNING",
+    "card": {
+      "title": "OOTDiffusion",
+      "emoji": "🥼👖👗",
+      "colorFrom": "yellow",
+      "colorTo": "pink",
+      "sdk": "gradio",
+      "sdk_version": "6.20.0",
+      "python_version": "3.10",
+      "app_file": "./run/gradio_ootd.py",
+      "pinned": false,
+      "license": "cc-by-nc-sa-4.0",
+      "short_description": "High-quality virtual try-on ~ Your cyber fitting room"
+    },
+    "files": [
+      ".gitattributes",
+      "README.md",
+      "checkpoints/humanparsing/parsing_atr.onnx",
+      "checkpoints/humanparsing/parsing_lip.onnx",
+      "checkpoints/ootd/feature_extractor/preprocessor_config.json",
+      "checkpoints/ootd/model_index.json",
+      "checkpoints/ootd/ootd_dc/checkpoint-36000/unet_garm/config.json",
+      "checkpoints/ootd/ootd_dc/checkpoint-36000/unet_garm/diffusion_pytorch_model.safetensors",
+      "checkpoints/ootd/ootd_dc/checkpoint-36000/unet_vton/config.json",
+      "checkpoints/ootd/ootd_dc/checkpoint-36000/unet_vton/diffusion_pytorch_model.safetensors",
+      "checkpoints/ootd/ootd_hd/checkpoint-36000/unet_garm/config.json",
+      "checkpoints/ootd/ootd_hd/checkpoint-36000/unet_garm/diffusion_pytorch_model.safetensors"
+    ]
+  },
+  {
+    "id": "microsoft/TRELLIS",
+    "sha": "e9f217fddcd570861645dcc67214d165dc73dd2c",
+    "host": "https://microsoft-trellis.hf.space",
+    "runtime": "CONFIG_ERROR",
+    "card": {
+      "title": "TRELLIS",
+      "emoji": "🏢",
+      "colorFrom": "indigo",
+      "colorTo": "blue",
+      "sdk": "gradio",
+      "sdk_version": "4.44.1",
+      "app_file": "app.py",
+      "pinned": false,
+      "license": "mit",
+      "short_description": "Scalable and Versatile 3D Generation from images"
+    },
+    "files": [
+      ".gitattributes",
+      "README.md",
+      "app.py",
+      "assets/example_image/T.png",
+      "assets/example_image/typical_building_building.png",
+      "assets/example_image/typical_building_castle.png",
+      "assets/example_image/typical_building_colorful_cottage.png",
+      "assets/example_image/typical_building_maya_pyramid.png",
+      "assets/example_image/typical_building_mushroom.png",
+      "assets/example_image/typical_building_space_station.png",
+      "assets/example_image/typical_creature_dragon.png",
+      "assets/example_image/typical_creature_elephant.png"
+    ]
+  },
+  {
+    "id": "facebook/MusicGen",
+    "sha": "39609d0bd7d857f5876e4e445359a5f2fd75df84",
+    "host": "https://facebook-musicgen.hf.space",
+    "runtime": "RUNNING",
+    "card": {
+      "title": "MusicGen",
+      "python_version": "3.10",
+      "tags": [
+        "music generation",
+        "language models",
+        "LLMs"
+      ],
+      "app_file": "demos/musicgen_app.py",
+      "emoji": "🎵",
+      "colorFrom": "gray",
+      "colorTo": "blue",
+      "sdk": "gradio",
+      "sdk_version": "5.49.1",
+      "pinned": true,
+      "license": "cc-by-nc-4.0",
+      "disable_embedding": true
+    },
+    "files": [
+      ".github/actions/audiocraft_build/action.yml",
+      ".github/workflows/audiocraft_docs.yml",
+      ".github/workflows/audiocraft_linter.yml",
+      ".github/workflows/audiocraft_tests.yml",
+      ".gitignore",
+      "CHANGELOG.md",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "LICENSE_weights",
+      "MANIFEST.in",
+      "Makefile"
+    ]
+  },
+  {
+    "id": "Lightricks/ltx-video-distilled",
+    "sha": "8a42e93469c66b62d794b83a4233f5fc8439e2b5",
+    "host": "https://lightricks-ltx-video-distilled.hf.space",
+    "runtime": "RUNNING",
+    "card": {
+      "title": "LTX Video Fast",
+      "emoji": "🎥",
+      "colorFrom": "yellow",
+      "colorTo": "pink",
+      "sdk": "gradio",
+      "sdk_version": "5.42.0",
+      "app_file": "app.py",
+      "pinned": false,
+      "short_description": "ultra-fast video model, LTX 0.9.8 13B distilled"
+    },
+    "files": [
+      ".gitattributes",
+      "README.md",
+      "app.py",
+      "configs/ltxv-13b-0.9.7-dev.yaml",
+      "configs/ltxv-13b-0.9.7-distilled.yaml",
+      "configs/ltxv-13b-0.9.8-dev-fp8.yaml",
+      "configs/ltxv-13b-0.9.8-dev.yaml",
+      "configs/ltxv-13b-0.9.8-distilled-fp8.yaml",
+      "configs/ltxv-13b-0.9.8-distilled.yaml",
+      "configs/ltxv-2b-0.9.1.yaml",
+      "configs/ltxv-2b-0.9.5.yaml",
+      "configs/ltxv-2b-0.9.6-dev.yaml"
+    ]
+  },
+  {
+    "id": "multimodalart/qwen-image-multiple-angles-3d-camera",
+    "sha": "3a95a450b7b4d8a1bc85ee2ab16a616335f208b2",
+    "host": "https://multimodalart-qwen-image-multiple-angles-3d-camera.hf.space",
+    "runtime": "RUNNING",
+    "card": {
+      "title": "Qwen Image Multiple Angles 3D Camera",
+      "emoji": "🎥",
+      "colorFrom": "indigo",
+      "colorTo": "purple",
+      "sdk": "gradio",
+      "sdk_version": "6.22.0",
+      "app_file": "app.py",
+      "pinned": false
+    },
+    "files": [
+      ".gitattributes",
+      "README.md",
+      "app.py",
+      "requirements.txt"
+    ]
+  },
+  {
+    "id": "TencentARC/PhotoMaker-V2",
+    "sha": "2989a2401c1554a5d0513cc72ce98a6705b65d54",
+    "host": "https://tencentarc-photomaker-v2.hf.space",
+    "runtime": "RUNNING",
+    "card": {
+      "title": "PhotoMaker V2",
+      "emoji": "📷✏️",
+      "colorFrom": "pink",
+      "colorTo": "blue",
+      "sdk": "gradio",
+      "sdk_version": "5.29.0",
+      "app_file": "app.py",
+      "pinned": false,
+      "license": "apache-2.0"
+    },
+    "files": [
+      ".gitattributes",
+      "LICENSE",
+      "README.md",
+      "app.py",
+      "aspect_ratio_template.py",
+      "examples/newton_man/newton_0.jpg",
+      "examples/newton_man/newton_1.jpg",
+      "examples/newton_man/newton_3.jpg",
+      "examples/scarletthead_woman/scarlett_0.jpg",
+      "examples/scarletthead_woman/scarlett_1.jpg",
+      "examples/scarletthead_woman/scarlett_2.jpg",
+      "examples/scarletthead_woman/scarlett_3.jpg"
+    ]
+  },
+  {
+    "id": "OmniGen2/OmniGen2",
+    "sha": "36dc20bb793e20d9e505a1997f9b9903cdeb50be",
+    "host": "https://omnigen2-omnigen2.hf.space",
+    "runtime": "RUNTIME_ERROR",
+    "card": {
+      "title": "OmniGen2",
+      "emoji": "👀",
+      "colorFrom": "red",
+      "colorTo": "yellow",
+      "sdk": "gradio",
+      "pinned": false,
+      "license": "apache-2.0",
+      "short_description": "OmniGen2: Unified Image Understanding and Generation."
+    },
+    "files": [
+      ".gitattributes",
+      "Dockerfile",
+      "README.md",
+      "app.py",
+      "example_images/000050281.jpg",
+      "example_images/000077066.jpg",
+      "example_images/000119733.jpg",
+      "example_images/000365954.jpg",
+      "example_images/000440817.jpg",
+      "example_images/00066-10350085.png",
+      "example_images/01.jpg",
+      "example_images/01194-20240127001056_1024x1536.png"
+    ]
+  },
+  {
+    "id": "bookbot/Image-Upscaling-Playground",
+    "sha": "5033746daf4974d01e6fa928179d435d38be4178",
+    "host": "https://bookbot-image-upscaling-playground.hf.space",
+    "runtime": "RUNTIME_ERROR",
+    "card": {
+      "title": "Image Upscaling Playground",
+      "emoji": "🦆",
+      "colorFrom": "green",
+      "colorTo": "yellow",
+      "sdk": "gradio",
+      "sdk_version": "6.29.1",
+      "app_file": "app.py",
+      "pinned": false,
+      "license": "apache-2.0"
+    },
+    "files": [
+      ".gitattributes",
+      "README.md",
+      "app.py",
+      "examples/example_1.png",
+      "examples/example_2.png",
+      "examples/example_3.png",
+      "examples/example_4.png",
+      "examples/example_5.png",
+      "examples_x2/example_1.png",
+      "examples_x2/example_2.png",
+      "examples_x2/example_3.png",
+      "examples_x2/example_4.png"
+    ]
+  },
+  {
+    "id": "not-lain/background-removal",
+    "sha": "448a02eff7df7ee3f7ab6026d7882561f895911a",
+    "host": "https://not-lain-background-removal.hf.space",
+    "runtime": "RUNNING",
+    "card": {
+      "title": "Background Removal",
+      "emoji": "🌘w🌖",
+      "colorFrom": "purple",
+      "colorTo": "indigo",
+      "sdk": "gradio",
+      "sdk_version": "5.35.0",
+      "app_file": "app.py",
+      "pinned": true,
+      "license": "mit"
+    },
+    "files": [
+      ".gitattributes",
+      "README.md",
+      "app.py",
+      "butterfly.jpg",
+      "requirements.txt"
+    ]
+  },
+  {
+    "id": "fffiloni/SAM2-Image-Predictor",
+    "sha": "3737bd915f9cf0fa84cd42cfe332a5f2d7f1b832",
+    "host": "https://fffiloni-sam2-image-predictor.hf.space",
+    "runtime": "RUNNING",
+    "card": {
+      "title": "SAM2 Image Predictor",
+      "emoji": "🔥",
+      "colorFrom": "pink",
+      "colorTo": "purple",
+      "sdk": "gradio",
+      "sdk_version": "6.14.0",
+      "app_file": "app.py",
+      "pinned": false
+    },
+    "files": [
+      ".gitattributes",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "LICENSE_cctorch",
+      "README.md",
+      "app.py",
+      "assets/model_diagram.png",
+      "assets/sa_v_dataset.jpg",
+      "checkpoints/download_ckpts.sh",
+      "checkpoints/sam2_hiera_base_plus.pt",
+      "checkpoints/sam2_hiera_large.pt"
+    ]
+  },
+  {
+    "id": "gokaygokay/FLUX-Prompt-Generator",
+    "sha": "2cd53cb71730a78bee99a9a74c2effb9927710c7",
+    "host": "https://gokaygokay-flux-prompt-generator.hf.space",
+    "runtime": "RUNNING",
+    "card": {
+      "title": "FLUX Prompt Generator",
+      "emoji": "😻",
+      "colorFrom": "red",
+      "colorTo": "blue",
+      "sdk": "gradio",
+      "sdk_version": "4.36.1",
+      "app_file": "app.py",
+      "pinned": true,
+      "license": "apache-2.0"
+    },
+    "files": [
+      ".gitattributes",
+      "README.md",
+      "app.py",
+      "caption_models.py",
+      "data/additional_details.json",
+      "data/artform.json",
+      "data/artist.json",
+      "data/background.json",
+      "data/body_types.json",
+      "data/clothing.json",
+      "data/composition.json",
+      "data/default_tags.json"
+    ]
+  },
+  {
+    "id": "multimodalart/lora-the-explorer",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "id": "JournalistsonHF/ai-toolkit",
+    "sha": "79cb80e67b1c0f1f0afceb205af8a232e795e969",
+    "host": "https://journalistsonhf-ai-toolkit.static.hf.space",
+    "runtime": "RUNNING",
+    "card": {
+      "title": "The Essential AI Toolkit",
+      "emoji": "🧰",
+      "colorFrom": "yellow",
+      "colorTo": "gray",
+      "sdk": "static",
+      "pinned": false,
+      "short_description": "A curated collection of AI tools for journalists & creators"
+    },
+    "files": [
+      ".gitattributes",
+      "README.md",
+      "index.html",
+      "style.css"
+    ]
+  }
+]

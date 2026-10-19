@@ -1,0 +1,2007 @@
+{
+  "_id": "65b9af13af2d0be64263dda5",
+  "id": "levihsu/OOTDiffusion",
+  "sdk": "gradio",
+  "likes": 1130,
+  "tags": [
+    "gradio",
+    "region:us"
+  ],
+  "private": false,
+  "author": "levihsu",
+  "sha": "6ead2c44c878d68767d655cdb51a4848d35c26e1",
+  "lastModified": "2026-07-14T09:42:38.000Z",
+  "cardData": {
+    "title": "OOTDiffusion",
+    "emoji": "🥼👖👗",
+    "colorFrom": "yellow",
+    "colorTo": "pink",
+    "sdk": "gradio",
+    "sdk_version": "6.20.0",
+    "python_version": "3.10",
+    "app_file": "./run/gradio_ootd.py",
+    "pinned": false,
+    "license": "cc-by-nc-sa-4.0",
+    "short_description": "High-quality virtual try-on ~ Your cyber fitting room"
+  },
+  "subdomain": "levihsu-ootdiffusion",
+  "gated": false,
+  "disabled": false,
+  "host": "https://levihsu-ootdiffusion.hf.space",
+  "models": [
+    "levihsu/OOTDiffusion",
+    "openai/clip-vit-large-patch14",
+    "PixArt-alpha/PixArt-alpha",
+    "runwayml/stable-diffusion-v1-5"
+  ],
+  "region": "us",
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "checkpoints/humanparsing/parsing_atr.onnx"
+    },
+    {
+      "rfilename": "checkpoints/humanparsing/parsing_lip.onnx"
+    },
+    {
+      "rfilename": "checkpoints/ootd/feature_extractor/preprocessor_config.json"
+    },
+    {
+      "rfilename": "checkpoints/ootd/model_index.json"
+    },
+    {
+      "rfilename": "checkpoints/ootd/ootd_dc/checkpoint-36000/unet_garm/config.json"
+    },
+    {
+      "rfilename": "checkpoints/ootd/ootd_dc/checkpoint-36000/unet_garm/diffusion_pytorch_model.safetensors"
+    },
+    {
+      "rfilename": "checkpoints/ootd/ootd_dc/checkpoint-36000/unet_vton/config.json"
+    },
+    {
+      "rfilename": "checkpoints/ootd/ootd_dc/checkpoint-36000/unet_vton/diffusion_pytorch_model.safetensors"
+    },
+    {
+      "rfilename": "checkpoints/ootd/ootd_hd/checkpoint-36000/unet_garm/config.json"
+    },
+    {
+      "rfilename": "checkpoints/ootd/ootd_hd/checkpoint-36000/unet_garm/diffusion_pytorch_model.safetensors"
+    },
+    {
+      "rfilename": "checkpoints/ootd/ootd_hd/checkpoint-36000/unet_vton/config.json"
+    },
+    {
+      "rfilename": "checkpoints/ootd/ootd_hd/checkpoint-36000/unet_vton/diffusion_pytorch_model.safetensors"
+    },
+    {
+      "rfilename": "checkpoints/ootd/scheduler/scheduler_config.json"
+    },
+    {
+      "rfilename": "checkpoints/ootd/text_encoder/config.json"
+    },
+    {
+      "rfilename": "checkpoints/ootd/text_encoder/pytorch_model.bin"
+    },
+    {
+      "rfilename": "checkpoints/ootd/tokenizer/merges.txt"
+    },
+    {
+      "rfilename": "checkpoints/ootd/tokenizer/special_tokens_map.json"
+    },
+    {
+      "rfilename": "checkpoints/ootd/tokenizer/tokenizer_config.json"
+    },
+    {
+      "rfilename": "checkpoints/ootd/tokenizer/vocab.json"
+    },
+    {
+      "rfilename": "checkpoints/ootd/vae/config.json"
+    },
+    {
+      "rfilename": "checkpoints/ootd/vae/diffusion_pytorch_model.bin"
+    },
+    {
+      "rfilename": "ootd/inference_ootd.py"
+    },
+    {
+      "rfilename": "ootd/inference_ootd_dc.py"
+    },
+    {
+      "rfilename": "ootd/inference_ootd_hd.py"
+    },
+    {
+      "rfilename": "ootd/pipelines_ootd/attention_garm.py"
+    },
+    {
+      "rfilename": "ootd/pipelines_ootd/attention_vton.py"
+    },
+    {
+      "rfilename": "ootd/pipelines_ootd/pipeline_ootd.py"
+    },
+    {
+      "rfilename": "ootd/pipelines_ootd/transformer_garm_2d.py"
+    },
+    {
+      "rfilename": "ootd/pipelines_ootd/transformer_vton_2d.py"
+    },
+    {
+      "rfilename": "ootd/pipelines_ootd/unet_garm_2d_blocks.py"
+    },
+    {
+      "rfilename": "ootd/pipelines_ootd/unet_garm_2d_condition.py"
+    },
+    {
+      "rfilename": "ootd/pipelines_ootd/unet_vton_2d_blocks.py"
+    },
+    {
+      "rfilename": "ootd/pipelines_ootd/unet_vton_2d_condition.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/datasets/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/datasets/datasets.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/datasets/simple_extractor_dataset.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/datasets/target_generation.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/coco_style_annotation_creator/human_to_coco.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/coco_style_annotation_creator/pycococreatortools.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/coco_style_annotation_creator/test_human2coco_format.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/.circleci/config.yml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/.clang-format"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/.flake8"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/.github/CODE_OF_CONDUCT.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/.github/CONTRIBUTING.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/.github/Detectron2-Logo-Horz.svg"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/.github/ISSUE_TEMPLATE.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/.github/ISSUE_TEMPLATE/bugs.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/.github/ISSUE_TEMPLATE/config.yml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/.github/ISSUE_TEMPLATE/feature-request.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/.github/ISSUE_TEMPLATE/questions-help-support.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/.github/ISSUE_TEMPLATE/unexpected-problems-bugs.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/.github/pull_request_template.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/.gitignore"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/GETTING_STARTED.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/INSTALL.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/LICENSE"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/MODEL_ZOO.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/README.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Base-RCNN-C4.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Base-RCNN-DilatedC5.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Base-RCNN-FPN.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Base-RetinaNet.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-Detection/fast_rcnn_R_50_FPN_1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-Detection/faster_rcnn_R_101_C4_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-Detection/faster_rcnn_R_101_DC5_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-Detection/faster_rcnn_R_101_FPN_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-Detection/faster_rcnn_R_50_C4_1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-Detection/faster_rcnn_R_50_C4_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-Detection/faster_rcnn_R_50_DC5_1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-Detection/faster_rcnn_R_50_DC5_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-Detection/faster_rcnn_R_50_FPN_1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-Detection/faster_rcnn_X_101_32x8d_FPN_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-Detection/retinanet_R_101_FPN_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-Detection/retinanet_R_50_FPN_1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-Detection/retinanet_R_50_FPN_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-Detection/rpn_R_50_C4_1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-Detection/rpn_R_50_FPN_1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_R_101_C4_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_R_101_DC5_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_R_101_FPN_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_R_50_C4_1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_R_50_C4_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_R_50_DC5_1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_R_50_DC5_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_X_101_32x8d_FPN_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-Keypoints/Base-Keypoint-RCNN-FPN.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-Keypoints/keypoint_rcnn_R_101_FPN_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-Keypoints/keypoint_rcnn_R_50_FPN_1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-Keypoints/keypoint_rcnn_R_50_FPN_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-Keypoints/keypoint_rcnn_X_101_32x8d_FPN_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-PanopticSegmentation/Base-Panoptic-FPN.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-PanopticSegmentation/panoptic_fpn_R_101_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-PanopticSegmentation/panoptic_fpn_R_50_1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/COCO-PanopticSegmentation/panoptic_fpn_R_50_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Cityscapes/mask_rcnn_R_50_FPN.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Detectron1-Comparisons/README.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Detectron1-Comparisons/faster_rcnn_R_50_FPN_noaug_1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Detectron1-Comparisons/keypoint_rcnn_R_50_FPN_1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Detectron1-Comparisons/mask_rcnn_R_50_FPN_noaug_1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/LVIS-InstanceSegmentation/mask_rcnn_R_101_FPN_1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/LVIS-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/LVIS-InstanceSegmentation/mask_rcnn_X_101_32x8d_FPN_1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Misc/cascade_mask_rcnn_R_50_FPN_1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Misc/cascade_mask_rcnn_R_50_FPN_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Misc/cascade_mask_rcnn_X_152_32x8d_FPN_IN5k_gn_dconv.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Misc/cascade_mask_rcnn_X_152_32x8d_FPN_IN5k_gn_dconv_parsing.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Misc/demo.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Misc/mask_rcnn_R_50_FPN_1x_cls_agnostic.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Misc/mask_rcnn_R_50_FPN_1x_dconv_c3-c5.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Misc/mask_rcnn_R_50_FPN_3x_dconv_c3-c5.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Misc/mask_rcnn_R_50_FPN_3x_gn.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Misc/mask_rcnn_R_50_FPN_3x_syncbn.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Misc/panoptic_fpn_R_101_dconv_cascade_gn_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Misc/parsing_finetune_cihp.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Misc/parsing_inference.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Misc/scratch_mask_rcnn_R_50_FPN_3x_gn.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Misc/scratch_mask_rcnn_R_50_FPN_9x_gn.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Misc/scratch_mask_rcnn_R_50_FPN_9x_syncbn.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/Misc/semantic_R_50_FPN_1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/PascalVOC-Detection/faster_rcnn_R_50_C4.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/PascalVOC-Detection/faster_rcnn_R_50_FPN.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/my_Base-RCNN-FPN.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/README.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/cascade_mask_rcnn_R_50_FPN_inference_acc_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/cascade_mask_rcnn_R_50_FPN_instant_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/fast_rcnn_R_50_FPN_inference_acc_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/fast_rcnn_R_50_FPN_instant_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/keypoint_rcnn_R_50_FPN_inference_acc_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/keypoint_rcnn_R_50_FPN_instant_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/keypoint_rcnn_R_50_FPN_normalized_training_acc_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/keypoint_rcnn_R_50_FPN_training_acc_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/mask_rcnn_R_50_C4_GCV_instant_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/mask_rcnn_R_50_C4_inference_acc_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/mask_rcnn_R_50_C4_instant_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/mask_rcnn_R_50_C4_training_acc_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/mask_rcnn_R_50_DC5_inference_acc_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/mask_rcnn_R_50_FPN_inference_acc_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/mask_rcnn_R_50_FPN_instant_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/mask_rcnn_R_50_FPN_training_acc_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/panoptic_fpn_R_50_inference_acc_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/panoptic_fpn_R_50_instant_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/panoptic_fpn_R_50_training_acc_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/retinanet_R_50_FPN_inference_acc_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/retinanet_R_50_FPN_instant_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/rpn_R_50_FPN_inference_acc_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/rpn_R_50_FPN_instant_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/semantic_R_50_FPN_inference_acc_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/semantic_R_50_FPN_instant_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/configs/quick_schedules/semantic_R_50_FPN_training_acc_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/demo/README.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/demo/demo.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/demo/predictor.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/checkpoint/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/checkpoint/c2_model_loading.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/checkpoint/catalog.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/checkpoint/detection_checkpoint.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/config/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/config/compat.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/config/config.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/config/defaults.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/data/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/data/build.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/data/catalog.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/data/common.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/data/dataset_mapper.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/data/datasets/README.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/data/datasets/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/data/datasets/builtin.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/data/datasets/builtin_meta.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/data/datasets/cityscapes.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/data/datasets/coco.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/data/datasets/lvis.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/data/datasets/lvis_v0_5_categories.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/data/datasets/pascal_voc.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/data/datasets/register_coco.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/data/detection_utils.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/data/samplers/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/data/samplers/distributed_sampler.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/data/samplers/grouped_batch_sampler.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/data/transforms/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/data/transforms/transform.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/data/transforms/transform_gen.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/engine/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/engine/defaults.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/engine/hooks.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/engine/launch.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/engine/train_loop.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/evaluation/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/evaluation/cityscapes_evaluation.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/evaluation/coco_evaluation.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/evaluation/evaluator.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/evaluation/lvis_evaluation.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/evaluation/panoptic_evaluation.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/evaluation/pascal_voc_evaluation.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/evaluation/rotated_coco_evaluation.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/evaluation/sem_seg_evaluation.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/evaluation/testing.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/export/README.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/export/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/export/api.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/export/c10.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/export/caffe2_export.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/export/caffe2_inference.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/export/caffe2_modeling.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/export/patcher.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/export/shared.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/batch_norm.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/blocks.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/csrc/README.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/csrc/ROIAlign/ROIAlign.h"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/csrc/ROIAlign/ROIAlign_cpu.cpp"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/csrc/ROIAlign/ROIAlign_cuda.cu"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/csrc/ROIAlignRotated/ROIAlignRotated.h"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/csrc/ROIAlignRotated/ROIAlignRotated_cpu.cpp"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/csrc/ROIAlignRotated/ROIAlignRotated_cuda.cu"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/csrc/box_iou_rotated/box_iou_rotated.h"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/csrc/box_iou_rotated/box_iou_rotated_cpu.cpp"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/csrc/box_iou_rotated/box_iou_rotated_cuda.cu"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/csrc/box_iou_rotated/box_iou_rotated_utils.h"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/csrc/cuda_version.cu"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/csrc/deformable/deform_conv.h"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/csrc/deformable/deform_conv_cuda.cu"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/csrc/deformable/deform_conv_cuda_kernel.cu"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/csrc/nms_rotated/nms_rotated.h"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/csrc/nms_rotated/nms_rotated_cpu.cpp"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/csrc/nms_rotated/nms_rotated_cuda.cu"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/csrc/vision.cpp"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/deform_conv.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/mask_ops.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/nms.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/roi_align.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/roi_align_rotated.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/rotated_boxes.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/shape_spec.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/layers/wrappers.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/model_zoo/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/model_zoo/model_zoo.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/anchor_generator.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/backbone/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/backbone/backbone.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/backbone/build.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/backbone/fpn.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/backbone/resnet.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/box_regression.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/matcher.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/meta_arch/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/meta_arch/build.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/meta_arch/panoptic_fpn.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/meta_arch/rcnn.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/meta_arch/retinanet.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/meta_arch/semantic_seg.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/poolers.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/postprocessing.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/proposal_generator/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/proposal_generator/build.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/proposal_generator/proposal_utils.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/proposal_generator/rpn.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/proposal_generator/rpn_outputs.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/proposal_generator/rrpn.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/roi_heads/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/roi_heads/box_head.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/roi_heads/cascade_rcnn.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/roi_heads/fast_rcnn.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/roi_heads/keypoint_head.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/roi_heads/mask_head.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/roi_heads/roi_heads.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/roi_heads/rotated_fast_rcnn.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/sampling.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/modeling/test_time_augmentation.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/solver/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/solver/build.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/solver/lr_scheduler.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/structures/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/structures/boxes.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/structures/image_list.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/structures/instances.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/structures/keypoints.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/structures/masks.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/structures/rotated_boxes.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/utils/README.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/utils/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/utils/analysis.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/utils/collect_env.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/utils/colormap.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/utils/comm.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/utils/env.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/utils/events.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/utils/logger.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/utils/memory.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/utils/registry.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/utils/serialize.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/utils/video_visualizer.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/detectron2/utils/visualizer.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/dev/README.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/dev/linter.sh"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/dev/packaging/README.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/dev/packaging/build_all_wheels.sh"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/dev/packaging/build_wheel.sh"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/dev/packaging/gen_wheel_index.sh"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/dev/packaging/pkg_helpers.bash"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/dev/parse_results.sh"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/dev/run_inference_tests.sh"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/dev/run_instant_tests.sh"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docker/Dockerfile"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docker/Dockerfile-circleci"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docker/README.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docker/docker-compose.yml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/.gitignore"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/Makefile"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/README.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/conf.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/index.rst"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/modules/checkpoint.rst"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/modules/config.rst"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/modules/data.rst"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/modules/engine.rst"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/modules/evaluation.rst"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/modules/export.rst"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/modules/index.rst"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/modules/layers.rst"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/modules/model_zoo.rst"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/modules/modeling.rst"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/modules/solver.rst"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/modules/structures.rst"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/modules/utils.rst"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/notes/benchmarks.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/notes/changelog.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/notes/compatibility.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/notes/contributing.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/notes/index.rst"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/tutorials/README.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/tutorials/builtin_datasets.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/tutorials/configs.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/tutorials/data_loading.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/tutorials/datasets.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/tutorials/deployment.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/tutorials/evaluation.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/tutorials/extend.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/tutorials/getting_started.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/tutorials/index.rst"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/tutorials/install.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/tutorials/models.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/tutorials/training.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/docs/tutorials/write-models.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/README.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/apply_net.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/Base-DensePose-RCNN-FPN.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/densepose_rcnn_R_101_FPN_DL_WC1_s1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/densepose_rcnn_R_101_FPN_DL_WC2_s1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/densepose_rcnn_R_101_FPN_DL_s1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/densepose_rcnn_R_101_FPN_WC1_s1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/densepose_rcnn_R_101_FPN_WC2_s1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/densepose_rcnn_R_101_FPN_s1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/densepose_rcnn_R_101_FPN_s1x_legacy.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/densepose_rcnn_R_50_FPN_DL_WC1_s1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/densepose_rcnn_R_50_FPN_DL_WC2_s1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/densepose_rcnn_R_50_FPN_DL_s1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/densepose_rcnn_R_50_FPN_WC1_s1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/densepose_rcnn_R_50_FPN_WC2_s1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/densepose_rcnn_R_50_FPN_s1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/densepose_rcnn_R_50_FPN_s1x_legacy.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/evolution/Base-RCNN-FPN-MC.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/evolution/faster_rcnn_R_50_FPN_1x_MC.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/quick_schedules/densepose_rcnn_R_50_FPN_DL_instant_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/quick_schedules/densepose_rcnn_R_50_FPN_TTA_inference_acc_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/quick_schedules/densepose_rcnn_R_50_FPN_WC1_instant_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/quick_schedules/densepose_rcnn_R_50_FPN_WC2_instant_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/quick_schedules/densepose_rcnn_R_50_FPN_inference_acc_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/quick_schedules/densepose_rcnn_R_50_FPN_instant_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/configs/quick_schedules/densepose_rcnn_R_50_FPN_training_acc_test.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/densepose/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/densepose/config.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/densepose/data/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/densepose/data/build.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/densepose/data/dataset_mapper.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/densepose/data/datasets/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/densepose/data/datasets/builtin.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/densepose/data/datasets/coco.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/densepose/data/structures.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/densepose/densepose_coco_evaluation.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/densepose/densepose_head.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/densepose/evaluator.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/densepose/modeling/test_time_augmentation.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/densepose/roi_head.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/densepose/utils/dbhelper.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/densepose/utils/logger.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/densepose/utils/transform.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/densepose/vis/base.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/densepose/vis/bounding_box.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/densepose/vis/densepose.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/densepose/vis/extractor.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/dev/README.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/dev/run_inference_tests.sh"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/dev/run_instant_tests.sh"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/doc/GETTING_STARTED.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/doc/MODEL_ZOO.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/doc/TOOL_APPLY_NET.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/doc/TOOL_QUERY_DB.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/query_db.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/tests/common.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/tests/test_model_e2e.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/tests/test_setup.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/tests/test_structures.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/DensePose/train_net.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/PointRend/README.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/PointRend/configs/InstanceSegmentation/Base-PointRend-RCNN-FPN.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/PointRend/configs/InstanceSegmentation/pointrend_rcnn_R_50_FPN_1x_cityscapes.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/PointRend/configs/InstanceSegmentation/pointrend_rcnn_R_50_FPN_1x_coco.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/PointRend/configs/InstanceSegmentation/pointrend_rcnn_R_50_FPN_3x_coco.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/PointRend/configs/InstanceSegmentation/pointrend_rcnn_R_50_FPN_3x_parsing.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/PointRend/configs/InstanceSegmentation/pointrend_rcnn_X_101_32x8d_FPN_3x_parsing.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/PointRend/configs/SemanticSegmentation/Base-PointRend-Semantic-FPN.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/PointRend/configs/SemanticSegmentation/pointrend_semantic_R_101_FPN_1x_cityscapes.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/PointRend/configs/SemanticSegmentation/pointrend_semantic_R_50_FPN_1x_coco.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/PointRend/finetune_net.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/PointRend/logs/hadoop.kylin.libdfs.log"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/PointRend/point_rend/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/PointRend/point_rend/coarse_mask_head.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/PointRend/point_rend/color_augmentation.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/PointRend/point_rend/config.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/PointRend/point_rend/dataset_mapper.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/PointRend/point_rend/point_features.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/PointRend/point_rend/point_head.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/PointRend/point_rend/roi_heads.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/PointRend/point_rend/semantic_seg.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/PointRend/run.sh"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/PointRend/train_net.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/README.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TensorMask/README.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TensorMask/configs/Base-TensorMask.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TensorMask/configs/tensormask_R_50_FPN_1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TensorMask/configs/tensormask_R_50_FPN_6x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TensorMask/setup.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TensorMask/tensormask/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TensorMask/tensormask/arch.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TensorMask/tensormask/config.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TensorMask/tensormask/layers/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TensorMask/tensormask/layers/csrc/SwapAlign2Nat/SwapAlign2Nat.h"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TensorMask/tensormask/layers/csrc/SwapAlign2Nat/SwapAlign2Nat_cuda.cu"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TensorMask/tensormask/layers/csrc/vision.cpp"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TensorMask/tensormask/layers/swap_align2nat.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TensorMask/tests/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TensorMask/tests/test_swap_align2nat.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TensorMask/train_net.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TridentNet/README.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TridentNet/configs/Base-TridentNet-Fast-C4.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TridentNet/configs/tridentnet_fast_R_101_C4_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TridentNet/configs/tridentnet_fast_R_50_C4_1x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TridentNet/configs/tridentnet_fast_R_50_C4_3x.yaml"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TridentNet/train_net.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TridentNet/tridentnet/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TridentNet/tridentnet/config.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TridentNet/tridentnet/trident_backbone.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TridentNet/tridentnet/trident_conv.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TridentNet/tridentnet/trident_rcnn.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/projects/TridentNet/tridentnet/trident_rpn.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/setup.cfg"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/setup.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/README.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/data/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/data/test_coco.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/data/test_detection_utils.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/data/test_rotation_transform.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/data/test_sampler.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/data/test_transforms.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/layers/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/layers/test_mask_ops.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/layers/test_nms_rotated.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/layers/test_roi_align.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/layers/test_roi_align_rotated.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/modeling/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/modeling/test_anchor_generator.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/modeling/test_box2box_transform.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/modeling/test_fast_rcnn.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/modeling/test_model_e2e.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/modeling/test_roi_heads.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/modeling/test_roi_pooler.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/modeling/test_rpn.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/structures/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/structures/test_boxes.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/structures/test_imagelist.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/structures/test_instances.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/structures/test_rotated_boxes.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/test_checkpoint.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/test_config.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/test_export_caffe2.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/test_model_analysis.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/test_model_zoo.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tests/test_visualizer.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tools/README.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tools/analyze_model.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tools/benchmark.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tools/convert-torchvision-to-d2.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tools/deploy/README.md"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tools/deploy/caffe2_converter.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tools/deploy/caffe2_mask_rcnn.cpp"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tools/deploy/torchscript_traced_mask_rcnn.cpp"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tools/finetune_net.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tools/inference.sh"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tools/plain_train_net.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tools/run.sh"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tools/train_net.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tools/visualize_data.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/detectron2/tools/visualize_json_results.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/global_local_parsing/global_local_datasets.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/global_local_parsing/global_local_evaluate.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/global_local_parsing/global_local_train.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/global_local_parsing/make_id_list.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/logits_fusion.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/make_crop_and_mask_w_mask_nms.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/scripts/make_coco_style_annotation.sh"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/scripts/make_crop.sh"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/mhp_extension/scripts/parsing_fusion.sh"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/modules/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/modules/bn.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/modules/deeplab.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/modules/dense.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/modules/functions.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/modules/misc.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/modules/residual.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/modules/src/checks.h"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/modules/src/inplace_abn.cpp"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/modules/src/inplace_abn.h"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/modules/src/inplace_abn_cpu.cpp"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/modules/src/inplace_abn_cuda.cu"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/modules/src/inplace_abn_cuda_half.cu"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/modules/src/utils/checks.h"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/modules/src/utils/common.h"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/modules/src/utils/cuda.cuh"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/networks/AugmentCE2P.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/networks/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/networks/backbone/mobilenetv2.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/networks/backbone/resnet.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/networks/backbone/resnext.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/networks/context_encoding/aspp.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/networks/context_encoding/ocnet.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/networks/context_encoding/psp.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/parsing_api.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/run_parsing.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/utils/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/utils/consistency_loss.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/utils/criterion.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/utils/encoding.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/utils/kl_loss.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/utils/lovasz_softmax.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/utils/miou.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/utils/schp.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/utils/soft_dice_loss.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/utils/transforms.py"
+    },
+    {
+      "rfilename": "preprocess/humanparsing/utils/warmup_scheduler.py"
+    },
+    {
+      "rfilename": "preprocess/openpose/annotator/openpose/LICENSE"
+    },
+    {
+      "rfilename": "preprocess/openpose/annotator/openpose/__init__.py"
+    },
+    {
+      "rfilename": "preprocess/openpose/annotator/openpose/body.py"
+    },
+    {
+      "rfilename": "preprocess/openpose/annotator/openpose/face.py"
+    },
+    {
+      "rfilename": "preprocess/openpose/annotator/openpose/hand.py"
+    },
+    {
+      "rfilename": "preprocess/openpose/annotator/openpose/model.py"
+    },
+    {
+      "rfilename": "preprocess/openpose/annotator/openpose/util.py"
+    },
+    {
+      "rfilename": "preprocess/openpose/annotator/util.py"
+    },
+    {
+      "rfilename": "preprocess/openpose/run_openpose.py"
+    },
+    {
+      "rfilename": "requirements.txt"
+    },
+    {
+      "rfilename": "run/examples/garment/00055_00.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/00126_00.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/00151_00.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/00470_00.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/02015_00.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/02305_00.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/03032_00.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/03244_00.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/04825_00.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/048554_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/048769_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/049805_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/049920_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/049940_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/049947_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/049949_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/049965_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/050002_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/050105_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/050181_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/050191_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/051412_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/051473_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/051515_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/051517_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/051827_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/051946_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/051988_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/051991_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/051998_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/052234_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/053290_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/053319_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/053742_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/053744_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/053786_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/053790_1.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/06123_00.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/07382_00.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/07764_00.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/10297_00.jpg"
+    },
+    {
+      "rfilename": "run/examples/garment/12562_00.jpg"
+    },
+    {
+      "rfilename": "run/examples/model/01008_00.jpg"
+    },
+    {
+      "rfilename": "run/examples/model/01861_00.jpg"
+    },
+    {
+      "rfilename": "run/examples/model/02849_00.jpg"
+    },
+    {
+      "rfilename": "run/examples/model/049205_0.jpg"
+    },
+    {
+      "rfilename": "run/examples/model/049447_0.jpg"
+    },
+    {
+      "rfilename": "run/examples/model/049713_0.jpg"
+    },
+    {
+      "rfilename": "run/examples/model/051482_0.jpg"
+    },
+    {
+      "rfilename": "run/examples/model/051918_0.jpg"
+    },
+    {
+      "rfilename": "run/examples/model/051962_0.jpg"
+    },
+    {
+      "rfilename": "run/examples/model/052472_0.jpg"
+    },
+    {
+      "rfilename": "run/examples/model/052767_0.jpg"
+    },
+    {
+      "rfilename": "run/examples/model/052964_0.jpg"
+    },
+    {
+      "rfilename": "run/examples/model/053228_0.jpg"
+    },
+    {
+      "rfilename": "run/examples/model/053514_0.jpg"
+    },
+    {
+      "rfilename": "run/examples/model/053700_0.jpg"
+    },
+    {
+      "rfilename": "run/examples/model/05997_00.jpg"
+    },
+    {
+      "rfilename": "run/examples/model/07966_00.jpg"
+    },
+    {
+      "rfilename": "run/examples/model/09597_00.jpg"
+    },
+    {
+      "rfilename": "run/examples/model/14627_00.jpg"
+    },
+    {
+      "rfilename": "run/examples/model/model_1.png"
+    },
+    {
+      "rfilename": "run/examples/model/model_2.png"
+    },
+    {
+      "rfilename": "run/examples/model/model_3.png"
+    },
+    {
+      "rfilename": "run/examples/model/model_4.png"
+    },
+    {
+      "rfilename": "run/examples/model/model_5.png"
+    },
+    {
+      "rfilename": "run/examples/model/model_6.png"
+    },
+    {
+      "rfilename": "run/examples/model/model_7.png"
+    },
+    {
+      "rfilename": "run/examples/model/model_8.png"
+    },
+    {
+      "rfilename": "run/examples/model/model_9.png"
+    },
+    {
+      "rfilename": "run/gradio_ootd.py"
+    },
+    {
+      "rfilename": "run/images_output/mask.jpg"
+    },
+    {
+      "rfilename": "run/images_output/out_hd_0.png"
+    },
+    {
+      "rfilename": "run/images_output/out_hd_1.png"
+    },
+    {
+      "rfilename": "run/images_output/out_hd_2.png"
+    },
+    {
+      "rfilename": "run/images_output/out_hd_3.png"
+    },
+    {
+      "rfilename": "run/run_ootd.py"
+    },
+    {
+      "rfilename": "run/utils_ootd.py"
+    }
+  ],
+  "createdAt": "2024-01-31T02:23:15.000Z",
+  "usedStorage": 15116788654,
+  "runtime": {
+    "stage": "RUNNING",
+    "hardware": {
+      "current": "zero-a10g",
+      "requested": "zero-a10g"
+    },
+    "gcTimeout": 172800,
+    "replicas": {
+      "current": 1,
+      "requested": 1
+    },
+    "devMode": false,
+    "domains": [
+      {
+        "domain": "levihsu-ootdiffusion.hf.space",
+        "stage": "READY"
+      }
+    ],
+    "sha": "6ead2c44c878d68767d655cdb51a4848d35c26e1",
+    "pySpacesVersion": "0.51.0"
+  }
+}

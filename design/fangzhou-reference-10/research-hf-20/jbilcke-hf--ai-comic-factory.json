@@ -1,0 +1,831 @@
+{
+  "_id": "64e8bed7c5c7caadab0781ed",
+  "id": "jbilcke-hf/ai-comic-factory",
+  "sdk": "docker",
+  "likes": 11321,
+  "tags": [
+    "docker",
+    "region:us"
+  ],
+  "private": false,
+  "author": "jbilcke-hf",
+  "sha": "c5dc3c7dafeb593efa3b7c95431ee982965bb524",
+  "lastModified": "2025-10-30T19:17:19.000Z",
+  "cardData": {
+    "title": "AI Comic Factory",
+    "emoji": "👩‍🎨",
+    "colorFrom": "red",
+    "colorTo": "yellow",
+    "sdk": "docker",
+    "pinned": true,
+    "app_port": 3000,
+    "disable_embedding": false,
+    "short_description": "Create your own AI comic with a single prompt",
+    "hf_oauth": true,
+    "hf_oauth_expiration_minutes": 43200,
+    "hf_oauth_scopes": [
+      "inference-api"
+    ]
+  },
+  "subdomain": "jbilcke-hf-ai-comic-factory",
+  "gated": false,
+  "disabled": false,
+  "host": "https://jbilcke-hf-ai-comic-factory.hf.space",
+  "region": "us",
+  "siblings": [
+    {
+      "rfilename": ".env"
+    },
+    {
+      "rfilename": ".eslintrc.json"
+    },
+    {
+      "rfilename": ".github/FUNDING.yml"
+    },
+    {
+      "rfilename": ".gitignore"
+    },
+    {
+      "rfilename": ".nvmrc"
+    },
+    {
+      "rfilename": "CLAUDE.md"
+    },
+    {
+      "rfilename": "CONTRIBUTORS.md"
+    },
+    {
+      "rfilename": "Dockerfile"
+    },
+    {
+      "rfilename": "LICENCE.md"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "components.json"
+    },
+    {
+      "rfilename": "next.config.js"
+    },
+    {
+      "rfilename": "package-lock.json"
+    },
+    {
+      "rfilename": "package.json"
+    },
+    {
+      "rfilename": "postcss.config.js"
+    },
+    {
+      "rfilename": "public/bubble.jpg"
+    },
+    {
+      "rfilename": "public/favicon.ico"
+    },
+    {
+      "rfilename": "public/favicon/favicon-114-precomposed.png"
+    },
+    {
+      "rfilename": "public/favicon/favicon-120-precomposed.png"
+    },
+    {
+      "rfilename": "public/favicon/favicon-144-precomposed.png"
+    },
+    {
+      "rfilename": "public/favicon/favicon-152-precomposed.png"
+    },
+    {
+      "rfilename": "public/favicon/favicon-180-precomposed.png"
+    },
+    {
+      "rfilename": "public/favicon/favicon-192.png"
+    },
+    {
+      "rfilename": "public/favicon/favicon-32.png"
+    },
+    {
+      "rfilename": "public/favicon/favicon-36.png"
+    },
+    {
+      "rfilename": "public/favicon/favicon-48.png"
+    },
+    {
+      "rfilename": "public/favicon/favicon-57.png"
+    },
+    {
+      "rfilename": "public/favicon/favicon-60.png"
+    },
+    {
+      "rfilename": "public/favicon/favicon-72-precomposed.png"
+    },
+    {
+      "rfilename": "public/favicon/favicon-72.png"
+    },
+    {
+      "rfilename": "public/favicon/favicon-76.png"
+    },
+    {
+      "rfilename": "public/favicon/favicon-96.png"
+    },
+    {
+      "rfilename": "public/favicon/favicon.ico"
+    },
+    {
+      "rfilename": "public/favicon/index.html"
+    },
+    {
+      "rfilename": "public/favicon/manifest.json"
+    },
+    {
+      "rfilename": "public/icon.png"
+    },
+    {
+      "rfilename": "public/layouts/layout0.jpg"
+    },
+    {
+      "rfilename": "public/layouts/layout0_hd.jpg"
+    },
+    {
+      "rfilename": "public/layouts/layout1.jpg"
+    },
+    {
+      "rfilename": "public/layouts/layout1_hd.jpg"
+    },
+    {
+      "rfilename": "public/layouts/layout2.jpg"
+    },
+    {
+      "rfilename": "public/layouts/layout2_hd.jpg"
+    },
+    {
+      "rfilename": "public/layouts/layout3 hd.jpg"
+    },
+    {
+      "rfilename": "public/layouts/layout3.jpg"
+    },
+    {
+      "rfilename": "public/layouts/layout4 hd.jpg"
+    },
+    {
+      "rfilename": "public/layouts/layout4.jpg"
+    },
+    {
+      "rfilename": "public/mask.png"
+    },
+    {
+      "rfilename": "public/next.svg"
+    },
+    {
+      "rfilename": "public/quick-and-dirty-emoji.png"
+    },
+    {
+      "rfilename": "public/sign-in-with-huggingface-xl.svg"
+    },
+    {
+      "rfilename": "public/vercel.svg"
+    },
+    {
+      "rfilename": "src/app/engine/caption.ts"
+    },
+    {
+      "rfilename": "src/app/engine/censorship.ts"
+    },
+    {
+      "rfilename": "src/app/engine/community.ts"
+    },
+    {
+      "rfilename": "src/app/engine/forbidden.ts"
+    },
+    {
+      "rfilename": "src/app/engine/presets.ts"
+    },
+    {
+      "rfilename": "src/app/engine/render.ts"
+    },
+    {
+      "rfilename": "src/app/favicon.ico"
+    },
+    {
+      "rfilename": "src/app/globals.css"
+    },
+    {
+      "rfilename": "src/app/icon.png"
+    },
+    {
+      "rfilename": "src/app/interface/about/index.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/advert/index.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/auth-wall/index.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/bottom-bar/bottom-bar.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/bottom-bar/index.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/discord/index.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/display/index.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/edit-modal/index.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/grid/index.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/login/index.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/login/login.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/maintenance/index.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/page/index.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/panel/bubble/index.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/panel/bubble/legacy.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/panel/index.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/progress/index.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/progress/progress-bar.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/select-global-layout/index.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/select-layout/index.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/settings-dialog/defaultSettings.ts"
+    },
+    {
+      "rfilename": "src/app/interface/settings-dialog/field.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/settings-dialog/getSettings.ts"
+    },
+    {
+      "rfilename": "src/app/interface/settings-dialog/index.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/settings-dialog/label.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/settings-dialog/localStorageKeys.ts"
+    },
+    {
+      "rfilename": "src/app/interface/settings-dialog/section-title.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/share/index.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/sign-up-cta/index.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/sign-up-cta/sign-up-cta.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/top-menu/index.tsx"
+    },
+    {
+      "rfilename": "src/app/interface/zoom/index.tsx"
+    },
+    {
+      "rfilename": "src/app/layout.tsx"
+    },
+    {
+      "rfilename": "src/app/layouts/index.tsx"
+    },
+    {
+      "rfilename": "src/app/layouts/settings.tsx"
+    },
+    {
+      "rfilename": "src/app/main.tsx"
+    },
+    {
+      "rfilename": "src/app/page.tsx"
+    },
+    {
+      "rfilename": "src/app/queries/getDynamicConfig.ts"
+    },
+    {
+      "rfilename": "src/app/queries/getLLMEngineFunction.ts"
+    },
+    {
+      "rfilename": "src/app/queries/getStoryContinuation.ts"
+    },
+    {
+      "rfilename": "src/app/queries/getSystemPrompt.ts"
+    },
+    {
+      "rfilename": "src/app/queries/getUserPrompt.ts"
+    },
+    {
+      "rfilename": "src/app/queries/mockLLMResponse.ts"
+    },
+    {
+      "rfilename": "src/app/queries/predict.ts"
+    },
+    {
+      "rfilename": "src/app/queries/predictNextPanels.ts"
+    },
+    {
+      "rfilename": "src/app/queries/predictWithAnthropic.ts"
+    },
+    {
+      "rfilename": "src/app/queries/predictWithGroq.ts"
+    },
+    {
+      "rfilename": "src/app/queries/predictWithHuggingFace.ts"
+    },
+    {
+      "rfilename": "src/app/queries/predictWithOpenAI.ts"
+    },
+    {
+      "rfilename": "src/app/store/index.ts"
+    },
+    {
+      "rfilename": "src/components/icons/full-screen.tsx"
+    },
+    {
+      "rfilename": "src/components/icons/hugging-clap.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/accordion.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/alert.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/avatar.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/badge.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/button.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/card.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/checkbox.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/collapsible.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/command.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/dialog.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/dropdown-menu.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/input.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/label.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/menubar.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/popover.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/select.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/separator.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/slider.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/switch.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/table.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/textarea.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/toast.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/toaster.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/tooltip.tsx"
+    },
+    {
+      "rfilename": "src/components/ui/use-toast.ts"
+    },
+    {
+      "rfilename": "src/components/ui/vertical-slider.tsx"
+    },
+    {
+      "rfilename": "src/favicon.ico"
+    },
+    {
+      "rfilename": "src/fonts/Action-Man/Action-Man-Bold-Italic.woff2"
+    },
+    {
+      "rfilename": "src/fonts/Action-Man/Action-Man-Bold.woff2"
+    },
+    {
+      "rfilename": "src/fonts/Action-Man/Action-Man-Italic.woff2"
+    },
+    {
+      "rfilename": "src/fonts/Action-Man/Action-Man.woff2"
+    },
+    {
+      "rfilename": "src/fonts/Action-Man/Action_Man_Extended-webfont.woff"
+    },
+    {
+      "rfilename": "src/fonts/Action-Man/Action_Man_Extended_Bold-webfont.woff2"
+    },
+    {
+      "rfilename": "src/fonts/Action-Man/Action_Man_Extended_Bold_Italic-webfont.woff"
+    },
+    {
+      "rfilename": "src/fonts/Action-Man/Action_Man_Extended_Italic-webfont.woff"
+    },
+    {
+      "rfilename": "src/fonts/Action-Man/Action_Man_Shaded-webfont.woff"
+    },
+    {
+      "rfilename": "src/fonts/Action-Man/Action_Man_Shaded_Italic-webfont.woff"
+    },
+    {
+      "rfilename": "src/fonts/DigitalStripBB/DigitalStripBB_BoldItal.woff2"
+    },
+    {
+      "rfilename": "src/fonts/DigitalStripBB/DigitalStripBB_Ital.woff2"
+    },
+    {
+      "rfilename": "src/fonts/DigitalStripBB/DigitalStripBB_Reg.woff2"
+    },
+    {
+      "rfilename": "src/fonts/Karantula/Karantula-Bold.woff2"
+    },
+    {
+      "rfilename": "src/fonts/Karantula/Karantula-Italic-Bold.woff2"
+    },
+    {
+      "rfilename": "src/fonts/Karantula/Karantula-Italic.woff2"
+    },
+    {
+      "rfilename": "src/fonts/Karantula/Karantula.woff2"
+    },
+    {
+      "rfilename": "src/fonts/Komika-Display/Komika-Display.woff"
+    },
+    {
+      "rfilename": "src/fonts/Komika-Display/Komika_display_bold-webfont.woff"
+    },
+    {
+      "rfilename": "src/fonts/Komika-Display/Komika_display_kaps-webfont.woff"
+    },
+    {
+      "rfilename": "src/fonts/Komika-Display/Komika_display_kaps_bold-webfont.woff"
+    },
+    {
+      "rfilename": "src/fonts/Komika-Hand/Komika-Hand-Bold-Italic.woff2"
+    },
+    {
+      "rfilename": "src/fonts/Komika-Hand/Komika-Hand-Bold.woff2"
+    },
+    {
+      "rfilename": "src/fonts/Komika-Hand/Komika-Hand-Italic.woff2"
+    },
+    {
+      "rfilename": "src/fonts/Komika-Hand/Komika-Hand.woff2"
+    },
+    {
+      "rfilename": "src/fonts/Komika-Hand/Komika_Parch.woff2"
+    },
+    {
+      "rfilename": "src/fonts/Komika-Text/KOMTXKBI-webfont.woff"
+    },
+    {
+      "rfilename": "src/fonts/Komika-Text/KOMTXTBI-webfont.woff"
+    },
+    {
+      "rfilename": "src/fonts/Komika-Text/KOMTXTB_-webfont.woff"
+    },
+    {
+      "rfilename": "src/fonts/Komika-Text/KOMTXTI_-webfont.woff"
+    },
+    {
+      "rfilename": "src/fonts/Komika-Text/KOMTXTKB-webfont.woff"
+    },
+    {
+      "rfilename": "src/fonts/Komika-Text/KOMTXTKI-webfont.woff"
+    },
+    {
+      "rfilename": "src/fonts/Komika-Text/KOMTXTK_-webfont.woff"
+    },
+    {
+      "rfilename": "src/fonts/Komika-Text/KOMTXTTI-webfont.woff"
+    },
+    {
+      "rfilename": "src/fonts/Komika-Text/KOMTXTT_-webfont.woff"
+    },
+    {
+      "rfilename": "src/fonts/Komika-Text/KOMTXT__-webfont.woff"
+    },
+    {
+      "rfilename": "src/fonts/Manoskope/MANOSKOPE-Bold.woff2"
+    },
+    {
+      "rfilename": "src/fonts/Paete-Round/Paete-Round-Bold-Italic.woff2"
+    },
+    {
+      "rfilename": "src/fonts/Paete-Round/Paete-Round-Bold.woff2"
+    },
+    {
+      "rfilename": "src/fonts/Paete-Round/Paete-Round-Italic.woff2"
+    },
+    {
+      "rfilename": "src/fonts/Paete-Round/Paete-Round.woff2"
+    },
+    {
+      "rfilename": "src/fonts/Qarmic-Sans/Qarmic-Sans-Abridged.woff2"
+    },
+    {
+      "rfilename": "src/fonts/SF-Arch-Rival/SF-Arch-Rival-Bold-Italic.woff2"
+    },
+    {
+      "rfilename": "src/fonts/SF-Arch-Rival/SF-Arch-Rival-Bold.woff2"
+    },
+    {
+      "rfilename": "src/fonts/SF-Arch-Rival/SF-Arch-Rival-Extended-Bold-Italic.woff2"
+    },
+    {
+      "rfilename": "src/fonts/SF-Arch-Rival/SF-Arch-Rival-Extended-Bold.woff2"
+    },
+    {
+      "rfilename": "src/fonts/SF-Arch-Rival/SF-Arch-Rival-Extended-Italic.woff2"
+    },
+    {
+      "rfilename": "src/fonts/SF-Arch-Rival/SF-Arch-Rival-Extended.woff2"
+    },
+    {
+      "rfilename": "src/fonts/SF-Arch-Rival/SF-Arch-Rival-Italic.woff2"
+    },
+    {
+      "rfilename": "src/fonts/SF-Arch-Rival/SF-Arch-Rival.woff2"
+    },
+    {
+      "rfilename": "src/fonts/SF-Cartoonist-Hand/SF-Cartoonist-Hand-Bold-Italic.woff2"
+    },
+    {
+      "rfilename": "src/fonts/SF-Cartoonist-Hand/SF-Cartoonist-Hand-Bold.woff2"
+    },
+    {
+      "rfilename": "src/fonts/SF-Cartoonist-Hand/SF-Cartoonist-Hand-Italic.woff2"
+    },
+    {
+      "rfilename": "src/fonts/SF-Cartoonist-Hand/SF-Cartoonist-Hand-SC-Bold-Italic.woff2"
+    },
+    {
+      "rfilename": "src/fonts/SF-Cartoonist-Hand/SF-Cartoonist-Hand-SC-Bold.woff2"
+    },
+    {
+      "rfilename": "src/fonts/SF-Cartoonist-Hand/SF-Cartoonist-Hand-SC-Italic.woff2"
+    },
+    {
+      "rfilename": "src/fonts/SF-Cartoonist-Hand/SF-Cartoonist-Hand-SC.woff2"
+    },
+    {
+      "rfilename": "src/fonts/SF-Cartoonist-Hand/SF-Cartoonist-Hand.woff2"
+    },
+    {
+      "rfilename": "src/fonts/SF-Toontime/SF-Toontime-Blotch-Italic.woff2"
+    },
+    {
+      "rfilename": "src/fonts/SF-Toontime/SF-Toontime-Blotch.woff2"
+    },
+    {
+      "rfilename": "src/fonts/SF-Toontime/SF-Toontime-Bold-Italic.woff2"
+    },
+    {
+      "rfilename": "src/fonts/SF-Toontime/SF-Toontime-Bold.woff2"
+    },
+    {
+      "rfilename": "src/fonts/SF-Toontime/SF-Toontime-Italic.woff2"
+    },
+    {
+      "rfilename": "src/fonts/SF-Toontime/SF-Toontime.woff2"
+    },
+    {
+      "rfilename": "src/fonts/VTC-Letterer-Pro/VTC-Letterer-Pro.woff2"
+    },
+    {
+      "rfilename": "src/icon.png"
+    },
+    {
+      "rfilename": "src/lib/base64ToFile.ts"
+    },
+    {
+      "rfilename": "src/lib/bubble/injectSpeechBubbleInTheBackground.ts"
+    },
+    {
+      "rfilename": "src/lib/cleanJson.ts"
+    },
+    {
+      "rfilename": "src/lib/computePercentage.ts"
+    },
+    {
+      "rfilename": "src/lib/computeSecretFingerprint.ts"
+    },
+    {
+      "rfilename": "src/lib/computeSha256.ts"
+    },
+    {
+      "rfilename": "src/lib/createLlamaPrompt.ts"
+    },
+    {
+      "rfilename": "src/lib/createZephyrPrompt.ts"
+    },
+    {
+      "rfilename": "src/lib/cropImage.ts"
+    },
+    {
+      "rfilename": "src/lib/dirtyGeneratedPanelCleaner.ts"
+    },
+    {
+      "rfilename": "src/lib/dirtyGeneratedPanelsParser.ts"
+    },
+    {
+      "rfilename": "src/lib/dirtyLLMResponseCleaner.ts"
+    },
+    {
+      "rfilename": "src/lib/fileToBase64.ts"
+    },
+    {
+      "rfilename": "src/lib/fonts.ts"
+    },
+    {
+      "rfilename": "src/lib/generateSeed.ts"
+    },
+    {
+      "rfilename": "src/lib/getDefaultDynamicConfig.ts"
+    },
+    {
+      "rfilename": "src/lib/getImageDimension.ts"
+    },
+    {
+      "rfilename": "src/lib/getInitialRenderedScene.ts"
+    },
+    {
+      "rfilename": "src/lib/getLocalStorageShowSpeeches.ts"
+    },
+    {
+      "rfilename": "src/lib/getOAuthRedirectUrl.ts"
+    },
+    {
+      "rfilename": "src/lib/getParam.ts"
+    },
+    {
+      "rfilename": "src/lib/getValidBoolean.ts"
+    },
+    {
+      "rfilename": "src/lib/getValidNumber.ts"
+    },
+    {
+      "rfilename": "src/lib/getValidOAuth.ts"
+    },
+    {
+      "rfilename": "src/lib/getValidString.ts"
+    },
+    {
+      "rfilename": "src/lib/isValidNumber.ts"
+    },
+    {
+      "rfilename": "src/lib/joinWords.ts"
+    },
+    {
+      "rfilename": "src/lib/loadImage.ts"
+    },
+    {
+      "rfilename": "src/lib/loadImageToCanvas.ts"
+    },
+    {
+      "rfilename": "src/lib/parseBadJSON.ts"
+    },
+    {
+      "rfilename": "src/lib/parseLayoutFromStoryboards.ts"
+    },
+    {
+      "rfilename": "src/lib/parsePresetFromPrompts.ts"
+    },
+    {
+      "rfilename": "src/lib/pick.ts"
+    },
+    {
+      "rfilename": "src/lib/putTextInInput.ts"
+    },
+    {
+      "rfilename": "src/lib/replaceNonWhiteWithTransparent.ts"
+    },
+    {
+      "rfilename": "src/lib/replaceWhiteWithTransparent.ts"
+    },
+    {
+      "rfilename": "src/lib/sleep.ts"
+    },
+    {
+      "rfilename": "src/lib/triggerDownload.ts"
+    },
+    {
+      "rfilename": "src/lib/uploadToHuggingFace.ts"
+    },
+    {
+      "rfilename": "src/lib/useBetaEnabled.ts"
+    },
+    {
+      "rfilename": "src/lib/useDynamicConfig.ts"
+    },
+    {
+      "rfilename": "src/lib/useImageDimension.ts"
+    },
+    {
+      "rfilename": "src/lib/useIsBusy.ts"
+    },
+    {
+      "rfilename": "src/lib/useLLMVendorConfig.ts"
+    },
+    {
+      "rfilename": "src/lib/useOAuth.ts"
+    },
+    {
+      "rfilename": "src/lib/usePageOrientation.ts"
+    },
+    {
+      "rfilename": "src/lib/usePersistedOAuth.ts"
+    },
+    {
+      "rfilename": "src/lib/useShouldDisplayLoginWall.ts"
+    },
+    {
+      "rfilename": "src/lib/utils.ts"
+    },
+    {
+      "rfilename": "src/types.ts"
+    },
+    {
+      "rfilename": "tailwind.config.js"
+    },
+    {
+      "rfilename": "tsconfig.json"
+    }
+  ],
+  "createdAt": "2023-08-25T14:46:47.000Z",
+  "usedStorage": 42336624,
+  "runtime": {
+    "stage": "RUNNING",
+    "hardware": {
+      "current": "cpu-basic",
+      "requested": "cpu-basic"
+    },
+    "gcTimeout": 172800,
+    "replicas": {
+      "current": 1,
+      "requested": 1
+    },
+    "devMode": false,
+    "domains": [
+      {
+        "domain": "jbilcke-hf-ai-comic-factory.hf.space",
+        "stage": "READY"
+      }
+    ],
+    "sha": "c5dc3c7dafeb593efa3b7c95431ee982965bb524",
+    "pySpacesVersion": "0.48.1"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "_id": "68a1dd6b3bc30bba2a957c99",
+  "id": "Qwen/Qwen-Image-Edit",
+  "sdk": "gradio",
+  "likes": 872,
+  "tags": [
+    "gradio",
+    "region:us"
+  ],
+  "private": false,
+  "author": "Qwen",
+  "sha": "96113f30318d916d82a070a0c852b781b0ff911e",
+  "lastModified": "2026-06-05T06:37:33.000Z",
+  "cardData": {
+    "title": "Qwen Image Edit",
+    "emoji": "✒️",
+    "colorFrom": "pink",
+    "colorTo": "green",
+    "sdk": "gradio",
+    "sdk_version": "5.42.0",
+    "app_file": "app.py",
+    "pinned": false
+  },
+  "subdomain": "qwen-qwen-image-edit",
+  "gated": false,
+  "disabled": false,
+  "host": "https://qwen-qwen-image-edit.hf.space",
+  "models": [
+    "huggingface/documentation-images",
+    "kernels-community/vllm-flash-attn3",
+    "Qwen/Qwen-Image-Edit",
+    "Qwen/Qwen2.5-VL-7B-Instruct"
+  ],
+  "datasets": [
+    "huggingface/documentation-images"
+  ],
+  "region": "us",
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "app.py"
+    },
+    {
+      "rfilename": "cat_sitting.jpg"
+    },
+    {
+      "rfilename": "neon_sign.png"
+    },
+    {
+      "rfilename": "optimization.py"
+    },
+    {
+      "rfilename": "pie.png"
+    },
+    {
+      "rfilename": "qwenimage/__init__.py"
+    },
+    {
+      "rfilename": "qwenimage/pipeline_qwen_image_edit.py"
+    },
+    {
+      "rfilename": "qwenimage/qwen_fa3_processor.py"
+    },
+    {
+      "rfilename": "qwenimage/transformer_qwenimage.py"
+    },
+    {
+      "rfilename": "requirements.txt"
+    }
+  ],
+  "createdAt": "2025-08-17T13:47:23.000Z",
+  "usedStorage": 4540012,
+  "runtime": {
+    "stage": "RUNNING",
+    "hardware": {
+      "current": "zero-a10g",
+      "requested": "zero-a10g"
+    },
+    "gcTimeout": 172800,
+    "replicas": {
+      "current": 1,
+      "requested": "auto"
+    },
+    "devMode": false,
+    "domains": [
+      {
+        "domain": "qwen-qwen-image-edit.hf.space",
+        "stage": "READY"
+      }
+    ],
+    "sha": "96113f30318d916d82a070a0c852b781b0ff911e",
+    "pySpacesVersion": "0.50.2"
+  }
+}

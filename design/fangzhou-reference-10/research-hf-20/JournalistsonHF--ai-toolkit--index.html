@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Essential AI Toolkit for Journalists and Content Creators</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Simple search functionality -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('search');
+            const cards = document.querySelectorAll('.tool-card');
+            
+            searchInput.addEventListener('input', function() {
+                const searchTerm = this.value.toLowerCase();
+                
+                cards.forEach(card => {
+                    const content = card.textContent.toLowerCase();
+                    if (content.includes(searchTerm)) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+    
+    <style>
+        .tool-link {
+            @apply inline-flex items-center gap-1 px-3 py-1 bg-blue-50 hover:bg-blue-100 text-blue-700 rounded-md border border-blue-200 transition-colors text-sm;
+        }
+        .external-icon {
+            width: 12px;
+            height: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-bold mb-4">The Essential AI Toolkit for Journalists and Content Creators</h1>
+            <p class="text-md text-gray-600 mb-2">
+              All the tools listed here are free to use and open-source!<br/>
+              This is a curated list designed to help you create content. If you don't find what you need here, check out the <a href="https://huggingface.co/spaces" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">AI App Directory</a><br/>
+              Have a favorite tool or need help with a specific use case? <a href="https://huggingface.co/spaces/JournalistsonHF/ai-toolkit/discussions" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Share in the community tab!</a>            
+            </p>
+        </header>
+
+        <div class="relative mb-8">
+            <input
+                id="search"
+                type="text"
+                placeholder="Search tasks, examples, or tools..."
+                class="w-full p-3 pl-10 border rounded-lg"
+            />
+            <svg xmlns="http://www.w3.org/2000/svg" class="absolute left-3 top-3 text-gray-400" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+        </div>
+
+        <div class="space-y-6">
+            <!-- Category 1: Transcribe audio or video -->
+            <div class="tool-card border rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
+                <h2 class="text-xl font-bold mb-4">I need to transcribe audio or video</h2>
+                
+                <div class="ml-4">
+                    <p class="text-gray-600 mb-4">
+                      Convert interviews, press conferences, or audio files into text. Some models support 100+ languages and can run privately on your computer.
+                    </p>                
+
+                    <h3 class="font-medium text-gray-700 mb-2">Examples:</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li class="text-gray-600">Transcription for interview recordings with speaker identification and timestamps</li>
+                        <li class="text-gray-600">Convert press conference videos to searchable text</li>
+                        <li class="text-gray-600">Create subtitles for video content</li>
+                    </ul>
+                </div>
+
+                <div class="mt-4 pt-4 border-t">
+                    <h3 class="font-medium text-gray-700 mb-2">Recommended Tools:</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <a href="https://huggingface.co/spaces/Xenova/whisper-speaker-diarization/" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            Whisper Speaker Diarization (on-device, with timestamps)
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/webml-community/whisper-large-v3-turbo-webgpu?v2=" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            Whisper Large v3 Turbo
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/nvidia/parakeet-tdt-0.6b-v2" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            Parakeet TDT (with timestamps)
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/nvidia/canary-1b-flash" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            NeMo Canary 1B Flash
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 2: Edit or process audio -->
+            <div class="tool-card border rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
+                <h2 class="text-xl font-bold mb-4">I want to edit or process audio</h2>
+                
+                <div class="ml-4">
+                    <p class="text-gray-600 mb-4">
+                        Separate speech from background noise, isolate specific speakers, or enhance audio quality with reference styling.
+                    </p>
+
+                    <h3 class="font-medium text-gray-700 mb-2">Examples:</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li class="text-gray-600">Clean up noisy interview recordings</li>
+                        <li class="text-gray-600">Separate multiple speakers from a single recording</li>
+                        <li class="text-gray-600">Match your audio to the style of a reference recording</li>
+                    </ul>
+                </div>
+
+                <div class="mt-4 pt-4 border-t">
+                    <h3 class="font-medium text-gray-700 mb-2">Recommended Tools:</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <a href="https://huggingface.co/spaces/fffiloni/TIGER-audio-extraction" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            TIGER Audio Separation
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/ResembleAI/Chatterbox" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            Chatterbox TTS Styling
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 3: Create audio from text -->
+            <div class="tool-card border rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
+                <h2 class="text-xl font-bold mb-4">I want to create audio from text</h2>
+                
+                <div class="ml-4">
+                    <p class="text-gray-600 mb-4">
+                        Convert articles, scripts, or any text into natural-sounding speech — perfect for spoken-word formats like podcasts or voiceovers.
+                    </p>
+                
+                    <h3 class="font-medium text-gray-700 mb-2">Examples:</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li class="text-gray-600">Turn blog posts into narrated audio</li>
+                        <li class="text-gray-600">Simulate expert dialogue from research summaries</li>
+                        <li class="text-gray-600">Add narration tracks to videos or reels</li>
+                        <li class="text-gray-600">Generate audio for screen readers or learning tools</li>
+                    </ul>
+                </div>
+
+                <div class="mt-4 pt-4 border-t">
+                    <h3 class="font-medium text-gray-700 mb-2">Recommended Tools:</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <a href="https://huggingface.co/spaces/Xenova/kokoro-web" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            Kokoro Web (runs locally)
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/m-ric/open-notebooklm" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            Open NotebookLM (Podcast Generator)
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/nari-labs/Dia-1.6B" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            Nari Text-to-Speech
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/sesame/csm-1b" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            Sesame CSM 1B
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 4: Extract information from documents/websites -->
+            <div class="tool-card border rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
+                <h2 class="text-xl font-bold mb-4">I need to extract information from documents or websites</h2>
+                
+                <div class="ml-4">
+                    <p class="text-gray-600 mb-4">
+                        Extract data from PDFs, images, handwritten documents, charts, or scrape websites. Chat with documents to get specific information quickly.
+                    </p>
+
+                    <h3 class="font-medium text-gray-700 mb-2">Examples:</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li class="text-gray-600">Extract data from government reports or financial documents</li>
+                        <li class="text-gray-600">Scrape candidate press releases or event listings</li>
+                        <li class="text-gray-600">Convert chart data into spreadsheets for analysis</li>
+                        <li class="text-gray-600">Ask questions about lengthy research papers</li>
+                    </ul>
+                </div>
+
+                <div class="mt-4 pt-4 border-t">
+                    <h3 class="font-medium text-gray-700 mb-2">Recommended Tools:</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <a href="https://huggingface.co/spaces/Qwen/Qwen2.5-VL-72B-Instruct" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            Qwen2.5-VL-72B-Instruct
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://olmocr.allenai.org/" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            olmOCR
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/ahmed-masry/ChartGemma" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            ChartGemma
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/JournalistsonHF/ai-scraper" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            AI Scraper
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/chat/" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            HuggingChat (Chat with Documents)
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/chat/settings/assistants/new" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            HuggingChat Assistants (Website Search)
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 5: Create or edit images -->
+            <div class="tool-card border rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
+                <h2 class="text-xl font-bold mb-4">I want to create or edit images</h2>
+                
+                <div class="ml-4">
+                    <p class="text-gray-600 mb-4">
+                        Edit images using text descriptions, generate AI images in various styles, or create interactive artwork. Perfect for social media, thumbnails, and visual storytelling.
+                    </p>
+
+                    <h3 class="font-medium text-gray-700 mb-2">Examples:</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li class="text-gray-600">Remove unwanted objects from photos</li>
+                        <li class="text-gray-600">Create custom illustrations for articles</li>
+                        <li class="text-gray-600">Generate images in specific artistic styles</li>
+                        <li class="text-gray-600">Colorize historical black and white photos</li>
+                        <li class="text-gray-600">Extend images beyond their original borders</li>
+                    </ul>
+                </div>
+
+                <div class="mt-4 pt-4 border-t">
+                    <h3 class="font-medium text-gray-700 mb-2">Recommended Tools:</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <a href="https://huggingface.co/spaces/finegrain/finegrain-object-eraser" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            Finegrain Object Eraser
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/finegrain/finegrain-object-cutter" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            Finegrain Object Cutter
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/fffiloni/text-guided-image-colorization" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            Image Colorization
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/multimodalart/flux-fill-outpaint" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            Flux Image Extender
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/multimodalart/LoraTheExplorer" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            LoRA the Explorer (Various Styles)
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/Trudy/gemini-codrawing" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            Gemini Co-Drawing
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 6: Analyze images -->
+            <div class="tool-card border rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
+                <h2 class="text-xl font-bold mb-4">I need to analyze images</h2>
+                
+                <div class="ml-4">
+                    <p class="text-gray-600 mb-4">
+                        Detect objects, count items, describe image contents, or analyze visual elements for fact-checking and verification.
+                    </p>
+
+                    <h3 class="font-medium text-gray-700 mb-2">Examples:</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li class="text-gray-600">Count crowd sizes in protest photos</li>
+                        <li class="text-gray-600">Identify objects and people in images</li>
+                        <li class="text-gray-600">Generate detailed descriptions for accessibility</li>
+                        <li class="text-gray-600">Reverse-engineer prompts from existing images</li>
+                    </ul>
+                </div>
+
+                <div class="mt-4 pt-4 border-t">
+                    <h3 class="font-medium text-gray-700 mb-2">Recommended Tools:</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <a href="https://huggingface.co/spaces/ustc-community/d-fine-object-detection" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            Object Detection Demo
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/nikigoli/countgd" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            Count Objects
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/nvidia/describe-anything-model-demo" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            Describe Anything Model
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/pharmapsychotic/CLIP-Interrogator" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            CLIP Interrogator
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 7: Analyze videos -->
+            <div class="tool-card border rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
+                <h2 class="text-xl font-bold mb-4">I need to analyze videos</h2>
+                
+                <div class="ml-4">
+                    <p class="text-gray-600 mb-4">
+                        Create detailed shot lists, analyze video content, or generate VLC-compatible highlight reels for easy navigation.
+                    </p>
+
+                    <h3 class="font-medium text-gray-700 mb-2">Examples:</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li class="text-gray-600">Create shot lists for press conferences</li>
+                        <li class="text-gray-600">Identify key moments in long video recordings</li>
+                        <li class="text-gray-600">Generate clickable timestamps for video navigation</li>
+                        <li class="text-gray-600">Analyze video content for story planning</li>
+                    </ul>
+                </div>
+
+                <div class="mt-4 pt-4 border-t">
+                    <h3 class="font-medium text-gray-700 mb-2">Recommended Tools:</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <a href="https://huggingface.co/spaces/HuggingFaceTB/SmolVLM2" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            SmolVLM2 Video Analysis
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/HuggingFaceTB/SmolVLM2-XSPFGenerator" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            VLC Highlight Generator
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 8: Translate something -->
+            <div class="tool-card border rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
+                <h2 class="text-xl font-bold mb-4">I want to translate something</h2>
+                
+                <div class="ml-4">
+                    <p class="text-gray-600 mb-4">
+                        Translate text content across 200+ languages or convert audio files from one language to another.
+                    </p>
+
+                    <h3 class="font-medium text-gray-700 mb-2">Examples:</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li class="text-gray-600">Translate foreign news articles or documents</li>
+                        <li class="text-gray-600">Convert interview audio to different languages</li>
+                        <li class="text-gray-600">Make content accessible to global audiences</li>
+                        <li class="text-gray-600">Translate social media posts for international coverage</li>
+                    </ul>
+                </div>
+
+                <div class="mt-4 pt-4 border-t">
+                    <h3 class="font-medium text-gray-700 mb-2">Recommended Tools:</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <a href="https://huggingface.co/spaces/UNESCO/nllb" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            UNESCO Language Translator (200 languages)
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/microsoft/PhineSpeechTranslator" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            Phi-4 Audio File Translator (8 languages)
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 9: Work with data or spreadsheets -->
+            <div class="tool-card border rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
+                <h2 class="text-xl font-bold mb-4">I need to work with data or spreadsheets</h2>
+                
+                <div class="ml-4">
+                    <p class="text-gray-600 mb-4">
+                        Use AI models directly in Google Sheets for data processing, or create AI-powered spreadsheets from scratch using natural language.
+                    </p>
+
+                    <h3 class="font-medium text-gray-700 mb-2">Examples:</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li class="text-gray-600">Classify and clean survey responses</li>
+                        <li class="text-gray-600">Extract key information from lists of data</li>
+                        <li class="text-gray-600">Create custom datasets for analysis</li>
+                        <li class="text-gray-600">Automate data processing workflows</li>
+                    </ul>
+                </div>
+
+                <div class="mt-4 pt-4 border-t">
+                    <h3 class="font-medium text-gray-700 mb-2">Recommended Tools:</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <a href="https://huggingface.co/spaces/JournalistsonHF/huggingface-on-sheets" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            HuggingFace on Sheets
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/aisheets/sheets" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            AI-Powered Spreadsheets
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 10: Build a website or app -->
+            <div class="tool-card border rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
+                <h2 class="text-xl font-bold mb-4">I want to build a website or app</h2>
+                
+                <div class="ml-4">
+                    <p class="text-gray-600 mb-4">
+                        Vibecode, create web applications, build websites with single prompts, or optimize content for search engines.
+                    </p>
+
+                    <h3 class="font-medium text-gray-700 mb-2">Examples:</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li class="text-gray-600">Build interactive data visualizations</li>
+                        <li class="text-gray-600">Create landing pages for stories or projects</li>
+                        <li class="text-gray-600">Rapidly prototype digital tools</li>
+                        <li class="text-gray-600">Optimize articles for better search visibility</li>
+                    </ul>
+                </div>
+
+                <div class="mt-4 pt-4 border-t">
+                    <h3 class="font-medium text-gray-700 mb-2">Recommended Tools:</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <a href="https://huggingface.co/spaces/Qwen/Qwen2.5-Coder-Artifacts" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            Qwen2.5-Coder
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/enzostvs/deepsite" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            DeepSite (Single Prompt Websites)
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/chat/assistant/66227594635ce17e1b021daf" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            SEO Assistant
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 11: Which AI model should I choose? -->
+            <div class="tool-card border rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
+                <h2 class="text-xl font-bold mb-4">Which AI model should I choose?</h2>
+                
+                <div class="ml-4">
+                    <p class="text-gray-600 mb-4">
+                        Compare AI models across different benchmarks, evaluate environmental impact, and create custom evaluations for your specific needs.
+                    </p>
+
+                    <h3 class="font-medium text-gray-700 mb-2">Examples:</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li class="text-gray-600">Find the best model for specific journalism tasks</li>
+                        <li class="text-gray-600">Compare speech recognition accuracy</li>
+                        <li class="text-gray-600">Evaluate models for sustainability reporting</li>
+                        <li class="text-gray-600">Test agent capabilities for automated workflows</li>
+                        <li class="text-gray-600">Create custom benchmarks for domain-specific evaluation</li>
+                    </ul>
+                </div>
+
+                <div class="mt-4 pt-4 border-t">
+                    <h3 class="font-medium text-gray-700 mb-2">Recommended Tools:</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <a href="https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            OpenLLM Leaderboard
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/hf-audio/open_asr_leaderboard" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            Speech Recognition Leaderboard
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/mteb/leaderboard" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            Embedding Leaderboard
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/smolagents/smolagents-leaderboard" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            Smolagents Leaderboard
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/AIEnergyScore/Leaderboard" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            AI Energy Score
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/yourbench/demo" target="_blank" rel="noopener noreferrer" class="tool-link">
+                            Yourbench (Custom Benchmarks)
+                            <svg xmlns="http://www.w3.org/2000/svg" class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

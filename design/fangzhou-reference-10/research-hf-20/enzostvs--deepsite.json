@@ -1,0 +1,473 @@
+{
+  "_id": "67e454cdd4f34388bcd19c38",
+  "id": "enzostvs/deepsite",
+  "sdk": "docker",
+  "likes": 16610,
+  "tags": [
+    "docker",
+    "region:us"
+  ],
+  "private": false,
+  "author": "enzostvs",
+  "sha": "d4c8bedc29019597fa5dd25cd8a73e875f1ea8b9",
+  "lastModified": "2026-02-06T12:47:43.000Z",
+  "cardData": {
+    "title": "DeepSite v4",
+    "emoji": "🐳",
+    "colorFrom": "blue",
+    "colorTo": "blue",
+    "sdk": "docker",
+    "pinned": true,
+    "app_port": 3001,
+    "license": "mit",
+    "failure_strategy": "rollback",
+    "short_description": "Generate any application by Vibe Coding it",
+    "models": [
+      "deepseek-ai/DeepSeek-V3-0324",
+      "deepseek-ai/DeepSeek-V3.2",
+      "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+      "moonshotai/Kimi-K2-Instruct-0905",
+      "zai-org/GLM-4.7",
+      "MiniMaxAI/MiniMax-M2.1"
+    ]
+  },
+  "subdomain": "enzostvs-deepsite",
+  "gated": false,
+  "disabled": false,
+  "host": "https://enzostvs-deepsite.hf.space",
+  "models": [
+    "deepseek-ai/DeepSeek-V3-0324",
+    "deepseek-ai/DeepSeek-V3.2",
+    "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+    "moonshotai/Kimi-K2-Instruct-0905",
+    "zai-org/GLM-4.7",
+    "MiniMaxAI/MiniMax-M2.1"
+  ],
+  "region": "us",
+  "siblings": [
+    {
+      "rfilename": ".env.example"
+    },
+    {
+      "rfilename": ".github/workflows/deploy-prod.yml"
+    },
+    {
+      "rfilename": ".gitignore"
+    },
+    {
+      "rfilename": "Dockerfile"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "actions/mentions.ts"
+    },
+    {
+      "rfilename": "actions/projects.ts"
+    },
+    {
+      "rfilename": "app/(public)/layout.tsx"
+    },
+    {
+      "rfilename": "app/(public)/page.tsx"
+    },
+    {
+      "rfilename": "app/(public)/signin/page.tsx"
+    },
+    {
+      "rfilename": "app/[owner]/[repoId]/page.tsx"
+    },
+    {
+      "rfilename": "app/api/ask/route.ts"
+    },
+    {
+      "rfilename": "app/api/auth/[...nextauth]/route.ts"
+    },
+    {
+      "rfilename": "app/api/healthcheck/route.ts"
+    },
+    {
+      "rfilename": "app/api/projects/[repoId]/[commitId]/route.ts"
+    },
+    {
+      "rfilename": "app/api/projects/[repoId]/download/route.ts"
+    },
+    {
+      "rfilename": "app/api/projects/[repoId]/medias/route.ts"
+    },
+    {
+      "rfilename": "app/api/projects/[repoId]/rename/route.ts"
+    },
+    {
+      "rfilename": "app/api/projects/[repoId]/route.ts"
+    },
+    {
+      "rfilename": "app/api/projects/route.ts"
+    },
+    {
+      "rfilename": "app/api/redesign/route.ts"
+    },
+    {
+      "rfilename": "app/favicon.ico"
+    },
+    {
+      "rfilename": "app/globals.css"
+    },
+    {
+      "rfilename": "app/layout.tsx"
+    },
+    {
+      "rfilename": "app/new/page.tsx"
+    },
+    {
+      "rfilename": "app/not-found.tsx"
+    },
+    {
+      "rfilename": "assets/deepseek.svg"
+    },
+    {
+      "rfilename": "assets/hf-logo.svg"
+    },
+    {
+      "rfilename": "assets/kimi.svg"
+    },
+    {
+      "rfilename": "assets/minimax.svg"
+    },
+    {
+      "rfilename": "assets/pro.svg"
+    },
+    {
+      "rfilename": "assets/qwen.svg"
+    },
+    {
+      "rfilename": "assets/space.svg"
+    },
+    {
+      "rfilename": "assets/zai.svg"
+    },
+    {
+      "rfilename": "chart/Chart.yaml"
+    },
+    {
+      "rfilename": "chart/env/prod.yaml"
+    },
+    {
+      "rfilename": "chart/templates/_helpers.tpl"
+    },
+    {
+      "rfilename": "chart/templates/config.yaml"
+    },
+    {
+      "rfilename": "chart/templates/deployment.yaml"
+    },
+    {
+      "rfilename": "chart/templates/hpa.yaml"
+    },
+    {
+      "rfilename": "chart/templates/infisical.yaml"
+    },
+    {
+      "rfilename": "chart/templates/ingress-internal.yaml"
+    },
+    {
+      "rfilename": "chart/templates/ingress.yaml"
+    },
+    {
+      "rfilename": "chart/templates/network-policy.yaml"
+    },
+    {
+      "rfilename": "chart/templates/service-account.yaml"
+    },
+    {
+      "rfilename": "chart/templates/service-monitor.yaml"
+    },
+    {
+      "rfilename": "chart/templates/service.yaml"
+    },
+    {
+      "rfilename": "chart/values.yaml"
+    },
+    {
+      "rfilename": "components.json"
+    },
+    {
+      "rfilename": "components/ask-ai/ask-ai-landing.tsx"
+    },
+    {
+      "rfilename": "components/ask-ai/ask-ai.tsx"
+    },
+    {
+      "rfilename": "components/ask-ai/context.tsx"
+    },
+    {
+      "rfilename": "components/ask-ai/input-mentions.tsx"
+    },
+    {
+      "rfilename": "components/ask-ai/loading.tsx"
+    },
+    {
+      "rfilename": "components/ask-ai/models.tsx"
+    },
+    {
+      "rfilename": "components/ask-ai/redesign.tsx"
+    },
+    {
+      "rfilename": "components/ask-ai/uploader.tsx"
+    },
+    {
+      "rfilename": "components/ask-ai/useGeneration.ts"
+    },
+    {
+      "rfilename": "components/chat/index.tsx"
+    },
+    {
+      "rfilename": "components/chat/useChat.ts"
+    },
+    {
+      "rfilename": "components/code/index.tsx"
+    },
+    {
+      "rfilename": "components/code/monaco-editor.tsx"
+    },
+    {
+      "rfilename": "components/code/useEditor.ts"
+    },
+    {
+      "rfilename": "components/editor/commits.tsx"
+    },
+    {
+      "rfilename": "components/editor/header.tsx"
+    },
+    {
+      "rfilename": "components/editor/history-view.tsx"
+    },
+    {
+      "rfilename": "components/editor/index.tsx"
+    },
+    {
+      "rfilename": "components/editor/night-light.json"
+    },
+    {
+      "rfilename": "components/editor/night.json"
+    },
+    {
+      "rfilename": "components/editor/project-settings.tsx"
+    },
+    {
+      "rfilename": "components/grid-pattern/index.tsx"
+    },
+    {
+      "rfilename": "components/loading/index.tsx"
+    },
+    {
+      "rfilename": "components/login/login-buttons.tsx"
+    },
+    {
+      "rfilename": "components/not-authorized.tsx"
+    },
+    {
+      "rfilename": "components/not-found/buttons.tsx"
+    },
+    {
+      "rfilename": "components/pro-modal/index.tsx"
+    },
+    {
+      "rfilename": "components/projects/big-project-card.tsx"
+    },
+    {
+      "rfilename": "components/projects/project-card.tsx"
+    },
+    {
+      "rfilename": "components/projects/useManualUpdates.ts"
+    },
+    {
+      "rfilename": "components/projects/useProject.ts"
+    },
+    {
+      "rfilename": "components/projects/useProjects.ts"
+    },
+    {
+      "rfilename": "components/projects/user-projects.tsx"
+    },
+    {
+      "rfilename": "components/providers/react-query.tsx"
+    },
+    {
+      "rfilename": "components/providers/session.tsx"
+    },
+    {
+      "rfilename": "components/providers/theme.tsx"
+    },
+    {
+      "rfilename": "components/public/animated-dots-background.tsx"
+    },
+    {
+      "rfilename": "components/public/bento.tsx"
+    },
+    {
+      "rfilename": "components/public/hero-header.tsx"
+    },
+    {
+      "rfilename": "components/public/navigation.tsx"
+    },
+    {
+      "rfilename": "components/tour/card.tsx"
+    },
+    {
+      "rfilename": "components/ui/avatar.tsx"
+    },
+    {
+      "rfilename": "components/ui/button-group.tsx"
+    },
+    {
+      "rfilename": "components/ui/button.tsx"
+    },
+    {
+      "rfilename": "components/ui/card.tsx"
+    },
+    {
+      "rfilename": "components/ui/dialog.tsx"
+    },
+    {
+      "rfilename": "components/ui/dropdown-menu.tsx"
+    },
+    {
+      "rfilename": "components/ui/input.tsx"
+    },
+    {
+      "rfilename": "components/ui/popover.tsx"
+    },
+    {
+      "rfilename": "components/ui/select.tsx"
+    },
+    {
+      "rfilename": "components/ui/separator.tsx"
+    },
+    {
+      "rfilename": "components/ui/sonner.tsx"
+    },
+    {
+      "rfilename": "components/ui/toggle-group.tsx"
+    },
+    {
+      "rfilename": "components/ui/toggle.tsx"
+    },
+    {
+      "rfilename": "components/user-menu/index.tsx"
+    },
+    {
+      "rfilename": "components/viewer/blank-page.tsx"
+    },
+    {
+      "rfilename": "components/viewer/index.tsx"
+    },
+    {
+      "rfilename": "eslint.config.mjs"
+    },
+    {
+      "rfilename": "huggingface.d.ts"
+    },
+    {
+      "rfilename": "lib/auth.ts"
+    },
+    {
+      "rfilename": "lib/format.ts"
+    },
+    {
+      "rfilename": "lib/onboarding.tsx"
+    },
+    {
+      "rfilename": "lib/prompts.ts"
+    },
+    {
+      "rfilename": "lib/providers.ts"
+    },
+    {
+      "rfilename": "lib/seo.ts"
+    },
+    {
+      "rfilename": "lib/type.ts"
+    },
+    {
+      "rfilename": "lib/utils.ts"
+    },
+    {
+      "rfilename": "modules.d.ts"
+    },
+    {
+      "rfilename": "next-auth.d.ts"
+    },
+    {
+      "rfilename": "next.config.ts"
+    },
+    {
+      "rfilename": "package.json"
+    },
+    {
+      "rfilename": "pnpm-lock.yaml"
+    },
+    {
+      "rfilename": "postcss.config.mjs"
+    },
+    {
+      "rfilename": "public/arrow.svg"
+    },
+    {
+      "rfilename": "public/background_noisy.webp"
+    },
+    {
+      "rfilename": "public/banner.png"
+    },
+    {
+      "rfilename": "public/deepsite-badge.js"
+    },
+    {
+      "rfilename": "public/ding.mp3"
+    },
+    {
+      "rfilename": "public/googleb32deb948e0015cb.html"
+    },
+    {
+      "rfilename": "public/logo.svg"
+    },
+    {
+      "rfilename": "public/robots.txt"
+    },
+    {
+      "rfilename": "tsconfig.json"
+    }
+  ],
+  "createdAt": "2025-03-26T19:26:05.000Z",
+  "usedStorage": 573689925,
+  "runtime": {
+    "stage": "RUNNING",
+    "hardware": {
+      "current": "cpu-xl",
+      "requested": "cpu-xl"
+    },
+    "gcTimeout": 172800,
+    "replicas": {
+      "current": 1,
+      "requested": 1
+    },
+    "devMode": false,
+    "domains": [
+      {
+        "domain": "enzostvs-space-generator.hf.space",
+        "stage": "READY"
+      },
+      {
+        "domain": "enzostvs-deepsite.hf.space",
+        "stage": "READY"
+      },
+      {
+        "domain": "deepsite.hf.co",
+        "stage": "EXPIRED_CHALLENGE"
+      }
+    ],
+    "sha": "d4c8bedc29019597fa5dd25cd8a73e875f1ea8b9",
+    "pySpacesVersion": "0.48.2"
+  }
+}

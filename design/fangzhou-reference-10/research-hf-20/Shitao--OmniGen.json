@@ -1,0 +1,282 @@
+{
+  "_id": "6711ff2a5951bdb8caff8035",
+  "id": "Shitao/OmniGen",
+  "sdk": "gradio",
+  "likes": 706,
+  "tags": [
+    "gradio",
+    "dwpose",
+    "pose",
+    "Text-to-Image",
+    "Image-to-Image",
+    "language models",
+    "LLMs",
+    "region:us"
+  ],
+  "private": false,
+  "author": "Shitao",
+  "sha": "8032ab804e15c6c220878957ff330a1a595f2ec3",
+  "lastModified": "2024-12-20T03:41:27.000Z",
+  "cardData": {
+    "title": "OmniGen",
+    "emoji": "🖼",
+    "colorFrom": "purple",
+    "colorTo": "red",
+    "sdk": "gradio",
+    "sdk_version": "5.4.0",
+    "app_file": "app.py",
+    "pinned": false,
+    "license": "mit",
+    "tags": [
+      "dwpose",
+      "pose",
+      "Text-to-Image",
+      "Image-to-Image",
+      "language models",
+      "LLMs"
+    ],
+    "short_description": "Image generator/identifier/reposer"
+  },
+  "subdomain": "shitao-omnigen",
+  "gated": false,
+  "disabled": false,
+  "host": "https://shitao-omnigen.hf.space",
+  "models": [
+    "Shitao/OmniGen-v1",
+    "stabilityai/sdxl-vae"
+  ],
+  "region": "us",
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": ".gitignore"
+    },
+    {
+      "rfilename": "LICENSE"
+    },
+    {
+      "rfilename": "OmniGen/__init__.py"
+    },
+    {
+      "rfilename": "OmniGen/__pycache__/__init__.cpython-310.pyc"
+    },
+    {
+      "rfilename": "OmniGen/__pycache__/model.cpython-310.pyc"
+    },
+    {
+      "rfilename": "OmniGen/__pycache__/pipeline.cpython-310.pyc"
+    },
+    {
+      "rfilename": "OmniGen/__pycache__/processor.cpython-310.pyc"
+    },
+    {
+      "rfilename": "OmniGen/__pycache__/scheduler.cpython-310.pyc"
+    },
+    {
+      "rfilename": "OmniGen/__pycache__/transformer.cpython-310.pyc"
+    },
+    {
+      "rfilename": "OmniGen/__pycache__/utils.cpython-310.pyc"
+    },
+    {
+      "rfilename": "OmniGen/model.py"
+    },
+    {
+      "rfilename": "OmniGen/pipeline.py"
+    },
+    {
+      "rfilename": "OmniGen/processor.py"
+    },
+    {
+      "rfilename": "OmniGen/scheduler.py"
+    },
+    {
+      "rfilename": "OmniGen/train.py"
+    },
+    {
+      "rfilename": "OmniGen/train_helper/__init__.py"
+    },
+    {
+      "rfilename": "OmniGen/train_helper/data.py"
+    },
+    {
+      "rfilename": "OmniGen/train_helper/loss.py"
+    },
+    {
+      "rfilename": "OmniGen/transformer.py"
+    },
+    {
+      "rfilename": "OmniGen/utils.py"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "app.py"
+    },
+    {
+      "rfilename": "docs/fine-tuning.md"
+    },
+    {
+      "rfilename": "docs/inference.md"
+    },
+    {
+      "rfilename": "imgs/.DS_Store"
+    },
+    {
+      "rfilename": "imgs/demo_cases.png"
+    },
+    {
+      "rfilename": "imgs/demo_cases/AI_Pioneers.jpg"
+    },
+    {
+      "rfilename": "imgs/demo_cases/edit.png"
+    },
+    {
+      "rfilename": "imgs/demo_cases/entity.png"
+    },
+    {
+      "rfilename": "imgs/demo_cases/reasoning.png"
+    },
+    {
+      "rfilename": "imgs/demo_cases/same_pose.png"
+    },
+    {
+      "rfilename": "imgs/demo_cases/skeletal.png"
+    },
+    {
+      "rfilename": "imgs/demo_cases/skeletal2img.png"
+    },
+    {
+      "rfilename": "imgs/demo_cases/t2i_woman_with_book.png"
+    },
+    {
+      "rfilename": "imgs/overall.jpg"
+    },
+    {
+      "rfilename": "imgs/referring.png"
+    },
+    {
+      "rfilename": "imgs/test_cases/1.jpg"
+    },
+    {
+      "rfilename": "imgs/test_cases/2.jpg"
+    },
+    {
+      "rfilename": "imgs/test_cases/3.jpg"
+    },
+    {
+      "rfilename": "imgs/test_cases/4.jpg"
+    },
+    {
+      "rfilename": "imgs/test_cases/Amanda.jpg"
+    },
+    {
+      "rfilename": "imgs/test_cases/cat.jpeg"
+    },
+    {
+      "rfilename": "imgs/test_cases/control.jpg"
+    },
+    {
+      "rfilename": "imgs/test_cases/guitar1.png"
+    },
+    {
+      "rfilename": "imgs/test_cases/icl1.jpg"
+    },
+    {
+      "rfilename": "imgs/test_cases/icl2.jpg"
+    },
+    {
+      "rfilename": "imgs/test_cases/icl3.jpg"
+    },
+    {
+      "rfilename": "imgs/test_cases/img1.jpg"
+    },
+    {
+      "rfilename": "imgs/test_cases/img2.jpg"
+    },
+    {
+      "rfilename": "imgs/test_cases/img3.jpg"
+    },
+    {
+      "rfilename": "imgs/test_cases/lecun.png"
+    },
+    {
+      "rfilename": "imgs/test_cases/liuyifei.png"
+    },
+    {
+      "rfilename": "imgs/test_cases/mckenna.jpg"
+    },
+    {
+      "rfilename": "imgs/test_cases/pose.png"
+    },
+    {
+      "rfilename": "imgs/test_cases/rose.jpg"
+    },
+    {
+      "rfilename": "imgs/test_cases/taylor.png"
+    },
+    {
+      "rfilename": "imgs/test_cases/trump.png"
+    },
+    {
+      "rfilename": "imgs/test_cases/turing.png"
+    },
+    {
+      "rfilename": "imgs/test_cases/two_man.jpg"
+    },
+    {
+      "rfilename": "imgs/test_cases/vase.jpg"
+    },
+    {
+      "rfilename": "imgs/test_cases/watch.jpg"
+    },
+    {
+      "rfilename": "imgs/test_cases/woman.png"
+    },
+    {
+      "rfilename": "imgs/test_cases/yifei2.png"
+    },
+    {
+      "rfilename": "imgs/test_cases/young_musk.jpg"
+    },
+    {
+      "rfilename": "imgs/test_cases/young_trump.jpeg"
+    },
+    {
+      "rfilename": "imgs/test_cases/zhang.png"
+    },
+    {
+      "rfilename": "requirements.txt"
+    },
+    {
+      "rfilename": "setup.py"
+    },
+    {
+      "rfilename": "train.py"
+    }
+  ],
+  "createdAt": "2024-10-18T06:24:42.000Z",
+  "usedStorage": 65531231,
+  "runtime": {
+    "stage": "RUNTIME_ERROR",
+    "hardware": {
+      "current": null,
+      "requested": "zero-a10g"
+    },
+    "gcTimeout": 172800,
+    "errorMessage": "Scheduling failure: unable to schedule",
+    "replicas": {
+      "requested": 1
+    },
+    "devMode": false,
+    "domains": [
+      {
+        "domain": "shitao-omnigen.hf.space",
+        "stage": "READY"
+      }
+    ]
+  }
+}

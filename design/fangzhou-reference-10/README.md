@@ -1,3 +1,5 @@
+2026-10-19 新增：[Hugging Face 20个对标](huggingface-20.html) · [来源与适配说明](HUGGINGFACE-20-NOTES.md)。内部C已选定。
+
 # 方舟 UI 设计成果与参考归档
 
 更新：2026-10-19。当前外部首页已选 **08「刊头与大片」**，主视觉为黄色服装照片，主标题为 **用 AI，想象内容的下一种可能**。以下历史记录保留探索过程，不代表当前仍有30个待选方向。
@@ -5,7 +7,7 @@
 ## 当前入口
 
 - `editorial-30.html?view=08`：已选首页，作品详情与登录界面演示。
-- `internal-card-styles.html`：新增内部卡片风格 A / B / C，待用户选择。
+- `internal-card-styles.html`：内部已选 C「专注创作」，A/B 保留对照。
 - `editorial-shortlist.html`：06 / 08 / 26 / 15 对照，08已选定。
 - `editorial-30-overview.html`：30版首页历史探索总览。
 - `index.html`、`directions.html`、`macos-research.html`：此前内部与配色原型。

@@ -1,0 +1,360 @@
+{
+  "_id": "63206caf9f7a9f2208c5ec4c",
+  "id": "sczhou/CodeFormer",
+  "sdk": "gradio",
+  "likes": 2435,
+  "tags": [
+    "gradio",
+    "region:us"
+  ],
+  "private": false,
+  "author": "sczhou",
+  "sha": "13b06b1d0a6c35aaadbce8b2a9c7132f8ff53d86",
+  "lastModified": "2026-05-23T13:20:22.000Z",
+  "cardData": {
+    "title": "CodeFormer",
+    "emoji": "🐼",
+    "colorFrom": "blue",
+    "colorTo": "green",
+    "sdk": "gradio",
+    "sdk_version": "6.1.0",
+    "app_file": "app.py",
+    "pinned": false
+  },
+  "subdomain": "sczhou-codeformer",
+  "gated": false,
+  "disabled": false,
+  "host": "https://sczhou-codeformer.hf.space",
+  "region": "us",
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": ".gitignore"
+    },
+    {
+      "rfilename": "CodeFormer/README.md"
+    },
+    {
+      "rfilename": "CodeFormer/assets/CodeFormer_logo.png"
+    },
+    {
+      "rfilename": "CodeFormer/assets/color_enhancement_result1.png"
+    },
+    {
+      "rfilename": "CodeFormer/assets/color_enhancement_result2.png"
+    },
+    {
+      "rfilename": "CodeFormer/assets/inpainting_result1.png"
+    },
+    {
+      "rfilename": "CodeFormer/assets/inpainting_result2.png"
+    },
+    {
+      "rfilename": "CodeFormer/assets/network.jpg"
+    },
+    {
+      "rfilename": "CodeFormer/assets/restoration_result1.png"
+    },
+    {
+      "rfilename": "CodeFormer/assets/restoration_result2.png"
+    },
+    {
+      "rfilename": "CodeFormer/assets/restoration_result3.png"
+    },
+    {
+      "rfilename": "CodeFormer/assets/restoration_result4.png"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/VERSION"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/__init__.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/archs/__init__.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/archs/arcface_arch.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/archs/arch_util.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/archs/codeformer_arch.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/archs/rrdbnet_arch.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/archs/vgg_arch.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/archs/vqgan_arch.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/data/__init__.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/data/data_sampler.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/data/data_util.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/data/prefetch_dataloader.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/data/transforms.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/losses/__init__.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/losses/loss_util.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/losses/losses.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/metrics/__init__.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/metrics/metric_util.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/metrics/psnr_ssim.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/models/__init__.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/ops/__init__.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/ops/dcn/__init__.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/ops/dcn/deform_conv.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/ops/dcn/src/deform_conv_cuda.cpp"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/ops/dcn/src/deform_conv_cuda_kernel.cu"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/ops/dcn/src/deform_conv_ext.cpp"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/ops/fused_act/__init__.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/ops/fused_act/fused_act.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/ops/fused_act/src/fused_bias_act.cpp"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/ops/fused_act/src/fused_bias_act_kernel.cu"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/ops/upfirdn2d/__init__.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/ops/upfirdn2d/src/upfirdn2d.cpp"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/ops/upfirdn2d/src/upfirdn2d_kernel.cu"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/ops/upfirdn2d/upfirdn2d.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/setup.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/train.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/utils/__init__.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/utils/dist_util.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/utils/download_util.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/utils/file_client.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/utils/img_util.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/utils/lmdb_util.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/utils/logger.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/utils/matlab_functions.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/utils/misc.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/utils/options.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/utils/realesrgan_utils.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/utils/registry.py"
+    },
+    {
+      "rfilename": "CodeFormer/basicsr/version.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/detection/__init__.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/detection/align_trans.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/detection/matlab_cp2tform.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/detection/retinaface/retinaface.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/detection/retinaface/retinaface_net.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/detection/retinaface/retinaface_utils.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/detection/yolov5face/__init__.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/detection/yolov5face/face_detector.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/detection/yolov5face/models/__init__.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/detection/yolov5face/models/common.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/detection/yolov5face/models/experimental.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/detection/yolov5face/models/yolo.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/detection/yolov5face/models/yolov5l.yaml"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/detection/yolov5face/models/yolov5n.yaml"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/detection/yolov5face/utils/__init__.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/detection/yolov5face/utils/autoanchor.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/detection/yolov5face/utils/datasets.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/detection/yolov5face/utils/extract_ckpt.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/detection/yolov5face/utils/general.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/detection/yolov5face/utils/torch_utils.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/parsing/__init__.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/parsing/bisenet.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/parsing/parsenet.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/parsing/resnet.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/utils/__init__.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/utils/face_restoration_helper.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/utils/face_utils.py"
+    },
+    {
+      "rfilename": "CodeFormer/facelib/utils/misc.py"
+    },
+    {
+      "rfilename": "CodeFormer/inference_codeformer.py"
+    },
+    {
+      "rfilename": "CodeFormer/requirements.txt"
+    },
+    {
+      "rfilename": "CodeFormer/scripts/crop_align_face.py"
+    },
+    {
+      "rfilename": "CodeFormer/scripts/download_pretrained_models.py"
+    },
+    {
+      "rfilename": "CodeFormer/scripts/download_pretrained_models_from_gdrive.py"
+    },
+    {
+      "rfilename": "CodeFormer/weights/README.md"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "app.py"
+    },
+    {
+      "rfilename": "app_2.py"
+    },
+    {
+      "rfilename": "packages.txt"
+    },
+    {
+      "rfilename": "requirements.txt"
+    }
+  ],
+  "createdAt": "2022-09-13T11:42:39.000Z",
+  "usedStorage": 22223147,
+  "runtime": {
+    "stage": "RUNNING",
+    "hardware": {
+      "current": "zero-a10g",
+      "requested": "zero-a10g"
+    },
+    "gcTimeout": 172800,
+    "replicas": {
+      "current": 1,
+      "requested": 1
+    },
+    "devMode": false,
+    "domains": [
+      {
+        "domain": "sczhou-codeformer.hf.space",
+        "stage": "READY"
+      }
+    ],
+    "sha": "13b06b1d0a6c35aaadbce8b2a9c7132f8ff53d86",
+    "pySpacesVersion": "0.50.2"
+  }
+}

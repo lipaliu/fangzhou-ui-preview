@@ -1,0 +1,256 @@
+{
+  "_id": "663ad3a408778abaf07ea511",
+  "id": "lllyasviel/IC-Light",
+  "sdk": "gradio",
+  "likes": 1366,
+  "tags": [
+    "gradio",
+    "region:us"
+  ],
+  "private": false,
+  "author": "lllyasviel",
+  "sha": "607696fa4cad6dffb31e9f455a6b0e0f5636f24d",
+  "lastModified": "2026-07-14T06:34:44.000Z",
+  "cardData": {
+    "title": "IC Light",
+    "emoji": "📈",
+    "colorFrom": "yellow",
+    "colorTo": "red",
+    "sdk": "gradio",
+    "sdk_version": "4.29.0",
+    "app_file": "app.py",
+    "pinned": false,
+    "license": "creativeml-openrail-m"
+  },
+  "subdomain": "lllyasviel-ic-light",
+  "gated": false,
+  "disabled": false,
+  "host": "https://lllyasviel-ic-light.hf.space",
+  "models": [
+    "briaai/RMBG-1.4",
+    "lllyasviel/ic-light",
+    "runwayml/stable-diffusion-v1-5",
+    "stablediffusionapi/realistic-vision-v51"
+  ],
+  "region": "us",
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": ".gitignore"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "app.py"
+    },
+    {
+      "rfilename": "briarmbg.py"
+    },
+    {
+      "rfilename": "db_examples.py"
+    },
+    {
+      "rfilename": "imgs/alter/i1.jpeg"
+    },
+    {
+      "rfilename": "imgs/alter/i2.png"
+    },
+    {
+      "rfilename": "imgs/alter/i3.png"
+    },
+    {
+      "rfilename": "imgs/alter/i4.png"
+    },
+    {
+      "rfilename": "imgs/alter/i5.png"
+    },
+    {
+      "rfilename": "imgs/alter/i6.webp"
+    },
+    {
+      "rfilename": "imgs/alter/o1.png"
+    },
+    {
+      "rfilename": "imgs/alter/o2.png"
+    },
+    {
+      "rfilename": "imgs/alter/o3.png"
+    },
+    {
+      "rfilename": "imgs/alter/o4.png"
+    },
+    {
+      "rfilename": "imgs/alter/o5.png"
+    },
+    {
+      "rfilename": "imgs/bgs/1.webp"
+    },
+    {
+      "rfilename": "imgs/bgs/10.webp"
+    },
+    {
+      "rfilename": "imgs/bgs/11.png"
+    },
+    {
+      "rfilename": "imgs/bgs/12.png"
+    },
+    {
+      "rfilename": "imgs/bgs/13.png"
+    },
+    {
+      "rfilename": "imgs/bgs/14.png"
+    },
+    {
+      "rfilename": "imgs/bgs/15.png"
+    },
+    {
+      "rfilename": "imgs/bgs/2.webp"
+    },
+    {
+      "rfilename": "imgs/bgs/3.webp"
+    },
+    {
+      "rfilename": "imgs/bgs/4.webp"
+    },
+    {
+      "rfilename": "imgs/bgs/5.webp"
+    },
+    {
+      "rfilename": "imgs/bgs/6.webp"
+    },
+    {
+      "rfilename": "imgs/bgs/7.webp"
+    },
+    {
+      "rfilename": "imgs/bgs/8.webp"
+    },
+    {
+      "rfilename": "imgs/bgs/9.webp"
+    },
+    {
+      "rfilename": "imgs/dummy.png"
+    },
+    {
+      "rfilename": "imgs/i1.webp"
+    },
+    {
+      "rfilename": "imgs/i10.png"
+    },
+    {
+      "rfilename": "imgs/i11.png"
+    },
+    {
+      "rfilename": "imgs/i13.png"
+    },
+    {
+      "rfilename": "imgs/i14.png"
+    },
+    {
+      "rfilename": "imgs/i15.png"
+    },
+    {
+      "rfilename": "imgs/i16.png"
+    },
+    {
+      "rfilename": "imgs/i3.png"
+    },
+    {
+      "rfilename": "imgs/i5.png"
+    },
+    {
+      "rfilename": "imgs/i6.jpg"
+    },
+    {
+      "rfilename": "imgs/i7.jpg"
+    },
+    {
+      "rfilename": "imgs/i8.webp"
+    },
+    {
+      "rfilename": "imgs/i9.png"
+    },
+    {
+      "rfilename": "imgs/o1.png"
+    },
+    {
+      "rfilename": "imgs/o10.png"
+    },
+    {
+      "rfilename": "imgs/o11.png"
+    },
+    {
+      "rfilename": "imgs/o12.png"
+    },
+    {
+      "rfilename": "imgs/o13.png"
+    },
+    {
+      "rfilename": "imgs/o14.png"
+    },
+    {
+      "rfilename": "imgs/o15.png"
+    },
+    {
+      "rfilename": "imgs/o16.png"
+    },
+    {
+      "rfilename": "imgs/o2.png"
+    },
+    {
+      "rfilename": "imgs/o3.png"
+    },
+    {
+      "rfilename": "imgs/o4.png"
+    },
+    {
+      "rfilename": "imgs/o5.png"
+    },
+    {
+      "rfilename": "imgs/o6.png"
+    },
+    {
+      "rfilename": "imgs/o7.png"
+    },
+    {
+      "rfilename": "imgs/o8.png"
+    },
+    {
+      "rfilename": "imgs/o9.png"
+    },
+    {
+      "rfilename": "models/iclight_sd15_fc.safetensors"
+    },
+    {
+      "rfilename": "models/model_download_here"
+    },
+    {
+      "rfilename": "requirements.txt"
+    }
+  ],
+  "createdAt": "2024-05-08T01:21:40.000Z",
+  "usedStorage": 1787592414,
+  "runtime": {
+    "stage": "RUNNING",
+    "hardware": {
+      "current": "zero-a10g",
+      "requested": "zero-a10g"
+    },
+    "gcTimeout": 172800,
+    "replicas": {
+      "current": 1,
+      "requested": 2
+    },
+    "devMode": false,
+    "domains": [
+      {
+        "domain": "lllyasviel-ic-light.hf.space",
+        "stage": "READY"
+      }
+    ],
+    "sha": "607696fa4cad6dffb31e9f455a6b0e0f5636f24d",
+    "pySpacesVersion": "0.51.0"
+  }
+}

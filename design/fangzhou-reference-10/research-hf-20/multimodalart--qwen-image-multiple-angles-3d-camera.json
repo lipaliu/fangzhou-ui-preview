@@ -1,0 +1,75 @@
+{
+  "_id": "695ed435cc177b5e774e0cd4",
+  "id": "multimodalart/qwen-image-multiple-angles-3d-camera",
+  "sdk": "gradio",
+  "likes": 2701,
+  "tags": [
+    "gradio",
+    "region:us"
+  ],
+  "private": false,
+  "author": "multimodalart",
+  "sha": "3a95a450b7b4d8a1bc85ee2ab16a616335f208b2",
+  "lastModified": "2026-08-07T12:44:36.000Z",
+  "cardData": {
+    "title": "Qwen Image Multiple Angles 3D Camera",
+    "emoji": "🎥",
+    "colorFrom": "indigo",
+    "colorTo": "purple",
+    "sdk": "gradio",
+    "sdk_version": "6.22.0",
+    "app_file": "app.py",
+    "pinned": false
+  },
+  "subdomain": "multimodalart-qwen-image-multiple-angles-3d-camera",
+  "gated": false,
+  "disabled": false,
+  "host": "https://multimodalart-qwen-image-multiple-angles-3d-camera.hf.space",
+  "models": [
+    "fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA",
+    "lightx2v/Qwen-Image-Edit-2511-Lightning",
+    "Qwen/Qwen-Image-Edit-2511"
+  ],
+  "region": "us",
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "app.py"
+    },
+    {
+      "rfilename": "requirements.txt"
+    }
+  ],
+  "createdAt": "2026-01-07T21:46:29.000Z",
+  "usedStorage": 334421090,
+  "runtime": {
+    "stage": "RUNNING",
+    "hardware": {
+      "current": "zero-a10g",
+      "requested": "zero-a10g"
+    },
+    "gcTimeout": 172800,
+    "replicas": {
+      "current": 1,
+      "requested": "auto"
+    },
+    "devMode": false,
+    "domains": [
+      {
+        "domain": "multimodalart-multiple-angles.hf.space",
+        "stage": "READY"
+      },
+      {
+        "domain": "multimodalart-qwen-image-multiple-angles-3d-camera.hf.space",
+        "stage": "READY"
+      }
+    ],
+    "sha": "3a95a450b7b4d8a1bc85ee2ab16a616335f208b2",
+    "pySpacesVersion": "0.51.1"
+  }
+}

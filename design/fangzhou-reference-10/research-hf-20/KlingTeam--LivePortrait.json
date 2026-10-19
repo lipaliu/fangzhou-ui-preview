@@ -1,0 +1,416 @@
+{
+  "_id": "668820cc361cc52d3e219a24",
+  "id": "KlingTeam/LivePortrait",
+  "sdk": "gradio",
+  "likes": 3810,
+  "tags": [
+    "gradio",
+    "Multimodal",
+    "Motion control",
+    "Image-to-Video",
+    "Video-to-Video",
+    "language models",
+    "LLMs",
+    "region:us"
+  ],
+  "private": false,
+  "author": "KlingTeam",
+  "sha": "a531730891f3ddcd5a30bc32a24a2f387cf3ae61",
+  "lastModified": "2024-08-30T11:20:51.000Z",
+  "cardData": {
+    "title": "Live Portrait",
+    "emoji": "🤪",
+    "colorFrom": "red",
+    "colorTo": "yellow",
+    "sdk": "gradio",
+    "sdk_version": "4.37.2",
+    "app_file": "app.py",
+    "pinned": false,
+    "disable_embedding": true,
+    "tags": [
+      "Multimodal",
+      "Motion control",
+      "Image-to-Video",
+      "Video-to-Video",
+      "language models",
+      "LLMs"
+    ],
+    "short_description": "Apply the motion of a video on a portrait"
+  },
+  "subdomain": "klingteam-liveportrait",
+  "gated": false,
+  "disabled": false,
+  "host": "https://klingteam-liveportrait.hf.space",
+  "region": "us",
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": ".gitignore"
+    },
+    {
+      "rfilename": ".vscode/settings.json"
+    },
+    {
+      "rfilename": "LICENSE"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "app.py"
+    },
+    {
+      "rfilename": "assets/docs/inference.gif"
+    },
+    {
+      "rfilename": "assets/docs/showcase.gif"
+    },
+    {
+      "rfilename": "assets/docs/showcase2.gif"
+    },
+    {
+      "rfilename": "assets/examples/driving/d0.mp4"
+    },
+    {
+      "rfilename": "assets/examples/driving/d14.mp4"
+    },
+    {
+      "rfilename": "assets/examples/driving/d14_trim.mp4"
+    },
+    {
+      "rfilename": "assets/examples/driving/d15.mp4"
+    },
+    {
+      "rfilename": "assets/examples/driving/d16.mp4"
+    },
+    {
+      "rfilename": "assets/examples/driving/d18.mp4"
+    },
+    {
+      "rfilename": "assets/examples/driving/d19.mp4"
+    },
+    {
+      "rfilename": "assets/examples/driving/d3.mp4"
+    },
+    {
+      "rfilename": "assets/examples/driving/d6.mp4"
+    },
+    {
+      "rfilename": "assets/examples/driving/d6_trim.mp4"
+    },
+    {
+      "rfilename": "assets/examples/driving/d9.mp4"
+    },
+    {
+      "rfilename": "assets/examples/source/s0.jpg"
+    },
+    {
+      "rfilename": "assets/examples/source/s1.jpg"
+    },
+    {
+      "rfilename": "assets/examples/source/s10.jpg"
+    },
+    {
+      "rfilename": "assets/examples/source/s12.jpg"
+    },
+    {
+      "rfilename": "assets/examples/source/s2.jpg"
+    },
+    {
+      "rfilename": "assets/examples/source/s22.jpg"
+    },
+    {
+      "rfilename": "assets/examples/source/s3.jpg"
+    },
+    {
+      "rfilename": "assets/examples/source/s4.jpg"
+    },
+    {
+      "rfilename": "assets/examples/source/s5.jpg"
+    },
+    {
+      "rfilename": "assets/examples/source/s6.jpg"
+    },
+    {
+      "rfilename": "assets/examples/source/s7.jpg"
+    },
+    {
+      "rfilename": "assets/examples/source/s8.jpg"
+    },
+    {
+      "rfilename": "assets/examples/source/s9.jpg"
+    },
+    {
+      "rfilename": "assets/gradio_description_animate_clear.md"
+    },
+    {
+      "rfilename": "assets/gradio_description_animation.md"
+    },
+    {
+      "rfilename": "assets/gradio_description_retargeting.md"
+    },
+    {
+      "rfilename": "assets/gradio_description_upload.md"
+    },
+    {
+      "rfilename": "assets/gradio_title.md"
+    },
+    {
+      "rfilename": "inference.py"
+    },
+    {
+      "rfilename": "pretrained_weights/.gitkeep"
+    },
+    {
+      "rfilename": "pretrained_weights/insightface/models/buffalo_l/2d106det.onnx"
+    },
+    {
+      "rfilename": "pretrained_weights/insightface/models/buffalo_l/det_10g.onnx"
+    },
+    {
+      "rfilename": "pretrained_weights/liveportrait/base_models/appearance_feature_extractor.pth"
+    },
+    {
+      "rfilename": "pretrained_weights/liveportrait/base_models/motion_extractor.pth"
+    },
+    {
+      "rfilename": "pretrained_weights/liveportrait/base_models/spade_generator.pth"
+    },
+    {
+      "rfilename": "pretrained_weights/liveportrait/base_models/warping_module.pth"
+    },
+    {
+      "rfilename": "pretrained_weights/liveportrait/landmark.onnx"
+    },
+    {
+      "rfilename": "pretrained_weights/liveportrait/retargeting_models/stitching_retargeting_module.pth"
+    },
+    {
+      "rfilename": "readme.md"
+    },
+    {
+      "rfilename": "requirements.txt"
+    },
+    {
+      "rfilename": "speed.py"
+    },
+    {
+      "rfilename": "src/config/__init__.py"
+    },
+    {
+      "rfilename": "src/config/argument_config.py"
+    },
+    {
+      "rfilename": "src/config/base_config.py"
+    },
+    {
+      "rfilename": "src/config/crop_config.py"
+    },
+    {
+      "rfilename": "src/config/inference_config.py"
+    },
+    {
+      "rfilename": "src/config/models.yaml"
+    },
+    {
+      "rfilename": "src/gradio_pipeline.py"
+    },
+    {
+      "rfilename": "src/live_portrait_pipeline.py"
+    },
+    {
+      "rfilename": "src/live_portrait_wrapper.py"
+    },
+    {
+      "rfilename": "src/modules/__init__.py"
+    },
+    {
+      "rfilename": "src/modules/appearance_feature_extractor.py"
+    },
+    {
+      "rfilename": "src/modules/convnextv2.py"
+    },
+    {
+      "rfilename": "src/modules/dense_motion.py"
+    },
+    {
+      "rfilename": "src/modules/motion_extractor.py"
+    },
+    {
+      "rfilename": "src/modules/spade_generator.py"
+    },
+    {
+      "rfilename": "src/modules/stitching_retargeting_network.py"
+    },
+    {
+      "rfilename": "src/modules/util.py"
+    },
+    {
+      "rfilename": "src/modules/warping_network.py"
+    },
+    {
+      "rfilename": "src/template_maker.py"
+    },
+    {
+      "rfilename": "src/utils/__init__.py"
+    },
+    {
+      "rfilename": "src/utils/camera.py"
+    },
+    {
+      "rfilename": "src/utils/crop.py"
+    },
+    {
+      "rfilename": "src/utils/cropper.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/__init__.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/app/__init__.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/app/common.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/app/face_analysis.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/data/__init__.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/data/image.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/data/images/Tom_Hanks_54745.png"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/data/images/mask_black.jpg"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/data/images/mask_blue.jpg"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/data/images/mask_green.jpg"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/data/images/mask_white.jpg"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/data/images/t1.jpg"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/data/objects/meanshape_68.pkl"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/data/pickle_object.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/data/rec_builder.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/model_zoo/__init__.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/model_zoo/arcface_onnx.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/model_zoo/attribute.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/model_zoo/inswapper.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/model_zoo/landmark.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/model_zoo/model_store.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/model_zoo/model_zoo.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/model_zoo/retinaface.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/model_zoo/scrfd.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/utils/__init__.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/utils/constant.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/utils/download.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/utils/face_align.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/utils/filesystem.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/utils/storage.py"
+    },
+    {
+      "rfilename": "src/utils/dependencies/insightface/utils/transform.py"
+    },
+    {
+      "rfilename": "src/utils/face_analysis_diy.py"
+    },
+    {
+      "rfilename": "src/utils/helper.py"
+    },
+    {
+      "rfilename": "src/utils/io.py"
+    },
+    {
+      "rfilename": "src/utils/landmark_runner.py"
+    },
+    {
+      "rfilename": "src/utils/resources/mask_template.png"
+    },
+    {
+      "rfilename": "src/utils/retargeting_utils.py"
+    },
+    {
+      "rfilename": "src/utils/rprint.py"
+    },
+    {
+      "rfilename": "src/utils/timer.py"
+    },
+    {
+      "rfilename": "src/utils/video.py"
+    }
+  ],
+  "createdAt": "2024-07-05T16:35:24.000Z",
+  "usedStorage": 685398085,
+  "runtime": {
+    "stage": "RUNNING",
+    "hardware": {
+      "current": "zero-a10g",
+      "requested": "zero-a10g"
+    },
+    "gcTimeout": 172800,
+    "replicas": {
+      "current": 6,
+      "requested": 6
+    },
+    "devMode": false,
+    "domains": [
+      {
+        "domain": "kwaivgi-liveportrait.hf.space",
+        "stage": "READY"
+      },
+      {
+        "domain": "klingteam-liveportrait.hf.space",
+        "stage": "READY"
+      }
+    ],
+    "sha": "a531730891f3ddcd5a30bc32a24a2f387cf3ae61",
+    "pySpacesVersion": "0.47.0"
+  }
+}

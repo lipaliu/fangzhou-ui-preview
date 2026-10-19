@@ -1,0 +1,208 @@
+{
+  "_id": "682466f2221997b9722fcff8",
+  "id": "Lightricks/ltx-video-distilled",
+  "sdk": "gradio",
+  "likes": 1606,
+  "tags": [
+    "gradio",
+    "mcp-server",
+    "region:us"
+  ],
+  "private": false,
+  "author": "Lightricks",
+  "sha": "8a42e93469c66b62d794b83a4233f5fc8439e2b5",
+  "lastModified": "2026-06-15T08:47:19.000Z",
+  "cardData": {
+    "title": "LTX Video Fast",
+    "emoji": "🎥",
+    "colorFrom": "yellow",
+    "colorTo": "pink",
+    "sdk": "gradio",
+    "sdk_version": "5.42.0",
+    "app_file": "app.py",
+    "pinned": false,
+    "short_description": "ultra-fast video model, LTX 0.9.8 13B distilled"
+  },
+  "subdomain": "lightricks-ltx-video-distilled",
+  "gated": false,
+  "disabled": false,
+  "host": "https://lightricks-ltx-video-distilled.hf.space",
+  "models": [
+    "Lightricks/LTX-Video",
+    "Lightricks/LTX-Video-0.9.8-13B-distilled",
+    "PixArt-alpha/PixArt-alpha",
+    "PixArt-alpha/PixArt-XL-2-256x256"
+  ],
+  "region": "us",
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "app.py"
+    },
+    {
+      "rfilename": "configs/ltxv-13b-0.9.7-dev.yaml"
+    },
+    {
+      "rfilename": "configs/ltxv-13b-0.9.7-distilled.yaml"
+    },
+    {
+      "rfilename": "configs/ltxv-13b-0.9.8-dev-fp8.yaml"
+    },
+    {
+      "rfilename": "configs/ltxv-13b-0.9.8-dev.yaml"
+    },
+    {
+      "rfilename": "configs/ltxv-13b-0.9.8-distilled-fp8.yaml"
+    },
+    {
+      "rfilename": "configs/ltxv-13b-0.9.8-distilled.yaml"
+    },
+    {
+      "rfilename": "configs/ltxv-2b-0.9.1.yaml"
+    },
+    {
+      "rfilename": "configs/ltxv-2b-0.9.5.yaml"
+    },
+    {
+      "rfilename": "configs/ltxv-2b-0.9.6-dev.yaml"
+    },
+    {
+      "rfilename": "configs/ltxv-2b-0.9.6-distilled.yaml"
+    },
+    {
+      "rfilename": "configs/ltxv-2b-0.9.8-distilled-fp8.yaml"
+    },
+    {
+      "rfilename": "configs/ltxv-2b-0.9.8-distilled.yaml"
+    },
+    {
+      "rfilename": "configs/ltxv-2b-0.9.yaml"
+    },
+    {
+      "rfilename": "inference.py"
+    },
+    {
+      "rfilename": "ltx_video/__init__.py"
+    },
+    {
+      "rfilename": "ltx_video/models/__init__.py"
+    },
+    {
+      "rfilename": "ltx_video/models/autoencoders/__init__.py"
+    },
+    {
+      "rfilename": "ltx_video/models/autoencoders/causal_conv3d.py"
+    },
+    {
+      "rfilename": "ltx_video/models/autoencoders/causal_video_autoencoder.py"
+    },
+    {
+      "rfilename": "ltx_video/models/autoencoders/conv_nd_factory.py"
+    },
+    {
+      "rfilename": "ltx_video/models/autoencoders/dual_conv3d.py"
+    },
+    {
+      "rfilename": "ltx_video/models/autoencoders/latent_upsampler.py"
+    },
+    {
+      "rfilename": "ltx_video/models/autoencoders/pixel_norm.py"
+    },
+    {
+      "rfilename": "ltx_video/models/autoencoders/pixel_shuffle.py"
+    },
+    {
+      "rfilename": "ltx_video/models/autoencoders/vae.py"
+    },
+    {
+      "rfilename": "ltx_video/models/autoencoders/vae_encode.py"
+    },
+    {
+      "rfilename": "ltx_video/models/autoencoders/video_autoencoder.py"
+    },
+    {
+      "rfilename": "ltx_video/models/transformers/__init__.py"
+    },
+    {
+      "rfilename": "ltx_video/models/transformers/attention.py"
+    },
+    {
+      "rfilename": "ltx_video/models/transformers/embeddings.py"
+    },
+    {
+      "rfilename": "ltx_video/models/transformers/symmetric_patchifier.py"
+    },
+    {
+      "rfilename": "ltx_video/models/transformers/transformer3d.py"
+    },
+    {
+      "rfilename": "ltx_video/pipelines/__init__.py"
+    },
+    {
+      "rfilename": "ltx_video/pipelines/crf_compressor.py"
+    },
+    {
+      "rfilename": "ltx_video/pipelines/pipeline_ltx_video.py"
+    },
+    {
+      "rfilename": "ltx_video/schedulers/__init__.py"
+    },
+    {
+      "rfilename": "ltx_video/schedulers/rf.py"
+    },
+    {
+      "rfilename": "ltx_video/utils/__init__.py"
+    },
+    {
+      "rfilename": "ltx_video/utils/diffusers_config_mapping.py"
+    },
+    {
+      "rfilename": "ltx_video/utils/prompt_enhance_utils.py"
+    },
+    {
+      "rfilename": "ltx_video/utils/skip_layer_strategy.py"
+    },
+    {
+      "rfilename": "ltx_video/utils/torch_utils.py"
+    },
+    {
+      "rfilename": "requirements.txt"
+    }
+  ],
+  "createdAt": "2025-05-14T09:48:34.000Z",
+  "usedStorage": 4110474,
+  "runtime": {
+    "stage": "RUNNING",
+    "hardware": {
+      "current": "zero-a10g",
+      "requested": "zero-a10g"
+    },
+    "gcTimeout": 172800,
+    "replicas": {
+      "current": 2,
+      "requested": "auto"
+    },
+    "devMode": false,
+    "domains": [
+      {
+        "domain": "linoyts-ltx-video-2.hf.space",
+        "stage": "READY"
+      },
+      {
+        "domain": "linoyts-ltx-video-distilled.hf.space",
+        "stage": "READY"
+      },
+      {
+        "domain": "lightricks-ltx-video-distilled.hf.space",
+        "stage": "READY"
+      }
+    ],
+    "sha": "8a42e93469c66b62d794b83a4233f5fc8439e2b5",
+    "pySpacesVersion": "0.50.4"
+  }
+}

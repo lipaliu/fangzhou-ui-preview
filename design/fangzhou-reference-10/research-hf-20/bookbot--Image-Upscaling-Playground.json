@@ -1,0 +1,137 @@
+{
+  "_id": "625ed0b5797f372ea0c7f524",
+  "id": "bookbot/Image-Upscaling-Playground",
+  "sdk": "gradio",
+  "likes": 874,
+  "tags": [
+    "gradio",
+    "region:us"
+  ],
+  "private": false,
+  "author": "bookbot",
+  "sha": "5033746daf4974d01e6fa928179d435d38be4178",
+  "lastModified": "2026-10-05T04:14:53.000Z",
+  "cardData": {
+    "title": "Image Upscaling Playground",
+    "emoji": "🦆",
+    "colorFrom": "green",
+    "colorTo": "yellow",
+    "sdk": "gradio",
+    "sdk_version": "6.29.1",
+    "app_file": "app.py",
+    "pinned": false,
+    "license": "apache-2.0"
+  },
+  "subdomain": "bookbot-image-upscaling-playground",
+  "gated": false,
+  "disabled": false,
+  "host": "https://bookbot-image-upscaling-playground.hf.space",
+  "region": "us",
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "app.py"
+    },
+    {
+      "rfilename": "examples/example_1.png"
+    },
+    {
+      "rfilename": "examples/example_2.png"
+    },
+    {
+      "rfilename": "examples/example_3.png"
+    },
+    {
+      "rfilename": "examples/example_4.png"
+    },
+    {
+      "rfilename": "examples/example_5.png"
+    },
+    {
+      "rfilename": "examples_x2/example_1.png"
+    },
+    {
+      "rfilename": "examples_x2/example_2.png"
+    },
+    {
+      "rfilename": "examples_x2/example_3.png"
+    },
+    {
+      "rfilename": "examples_x2/example_4.png"
+    },
+    {
+      "rfilename": "examples_x2/example_5.png"
+    },
+    {
+      "rfilename": "examples_x2_25/example_1.png"
+    },
+    {
+      "rfilename": "examples_x2_25/example_2.png"
+    },
+    {
+      "rfilename": "examples_x2_25/example_3.png"
+    },
+    {
+      "rfilename": "examples_x2_25/example_4.png"
+    },
+    {
+      "rfilename": "examples_x2_25/example_5.png"
+    },
+    {
+      "rfilename": "minecraft_examples/minecraft-1.png"
+    },
+    {
+      "rfilename": "minecraft_examples/minecraft-2.png"
+    },
+    {
+      "rfilename": "minecraft_examples/minecraft-3.png"
+    },
+    {
+      "rfilename": "minecraft_examples/minecraft-4.png"
+    },
+    {
+      "rfilename": "minecraft_examples/minecraft-5.png"
+    },
+    {
+      "rfilename": "models/minecraft_modelx4.ort"
+    },
+    {
+      "rfilename": "models/modelx2 25 JXL.ort"
+    },
+    {
+      "rfilename": "models/modelx2.ort"
+    },
+    {
+      "rfilename": "models/modelx4.ort"
+    },
+    {
+      "rfilename": "requirements.txt"
+    }
+  ],
+  "createdAt": "2022-04-19T15:09:41.000Z",
+  "usedStorage": 0,
+  "runtime": {
+    "stage": "RUNTIME_ERROR",
+    "hardware": {
+      "current": null,
+      "requested": "cpu-basic"
+    },
+    "gcTimeout": 86400,
+    "errorMessage": "Exit code: 1. Reason: /usr/local/lib/python3.13/site-packages/gradio/interface.py:171: UserWarning: The parameters have been moved from the Blocks constructor to the launch() method in Gradio 6.0: css. Please pass these parameters to launch() instead.\n  super().__init__(\nTraceback (most recent call last):\n  File \"/app/app.py\", line 68, in <module>\n    gr.Interface(\n    ~~~~~~~~~~~~^\n        fn=upscale,\n        ^^^^^^^^^^^\n    ...<13 lines>...\n        css=css,\n        ^^^^^^^^\n    ).launch()\n    ^\n  File \"/usr/local/lib/python3.13/site-packages/gradio/interface.py\", line 171, in __init__\n    super().__init__(\n    ~~~~~~~~~~~~~~~~^\n        analytics_enabled=analytics_enabled,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"/usr/local/lib/python3.13/site-packages/gradio/blocks.py\", line 1426, in __init__\n    super().__init__(render=False, **kwargs)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: BlockContext.__init__() got an unexpected keyword argument 'allow_flagging'\n",
+    "replicas": {
+      "requested": 1
+    },
+    "devMode": false,
+    "domains": [
+      {
+        "domain": "bookbot-image-upscaling-playground.hf.space",
+        "stage": "READY"
+      }
+    ]
+  }
+}
