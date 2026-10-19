@@ -1,7 +1,7 @@
 {
   "date": "2026-10-19",
   "scope": "本次方舟UI/VI对话成果；未包含无关业务文件",
-  "file_count": 1105,
+  "file_count": 1119,
   "excluded_symlinks": [],
   "files": [
     {
@@ -211,13 +211,13 @@
     },
     {
       "file": "design/fangzhou-reference-10/HUGGINGFACE-20-NOTES.md",
-      "bytes": 16187,
-      "sha256": "4d29cd138d2ea595cdb89637fb0fd4c639072e5b5f6dacf93b3ac6f0dbdc1ded"
+      "bytes": 16265,
+      "sha256": "4fe6627a5cdc0bae331cf08ba6abeaf9932999b11c4d2739263cb224baaf701f"
     },
     {
       "file": "design/fangzhou-reference-10/INTERNAL-CARD-STYLES.md",
-      "bytes": 842,
-      "sha256": "b23ac2bf308363990ac260461b568c94eafdf3111109f53fc2794cea82330ad9"
+      "bytes": 1069,
+      "sha256": "8ad11721f55fe26f9466093eed4dcebcb9efc150645117479653d7c5d612e02d"
     },
     {
       "file": "design/fangzhou-reference-10/MACOS-COLOR-RESEARCH.md",
@@ -226,8 +226,8 @@
     },
     {
       "file": "design/fangzhou-reference-10/README.md",
-      "bytes": 3951,
-      "sha256": "dc2ce7c611c9fdf2ff690fd034adc7e2c6b5445667e24d7cd5b4a18830ac07c4"
+      "bytes": 4244,
+      "sha256": "6cf70059ca2d6796899513533ec17dfee559f4a60243b7035e9ac003c0c6f52c"
     },
     {
       "file": "design/fangzhou-reference-10/SELECTED-PREVIEW-NOTES.md",
@@ -238,6 +238,11 @@
       "file": "design/fangzhou-reference-10/SOURCE-NOTES.md",
       "bytes": 11338,
       "sha256": "cdd2aedc03a844c57030030fd87557f71d0418926c65fd3ded20ef069811c03a"
+    },
+    {
+      "file": "design/fangzhou-reference-10/WORKSPACE-SIMPLE-NOTES.md",
+      "bytes": 2216,
+      "sha256": "7c8cffa25994bdf873af042a4315272c7d8073a5b97b680d79fa22a9340bc313"
     },
     {
       "file": "design/fangzhou-reference-10/app.css",
@@ -335,6 +340,11 @@
       "sha256": "704369c1febe1953f21397fcfa5897f15eac269e885dd4d07c3a7221db5dd887"
     },
     {
+      "file": "design/fangzhou-reference-10/build-workspace.mjs",
+      "bytes": 340,
+      "sha256": "43016064b9870f80142854211388e1e23dccbd1675d9c418585d3387cee96ebb"
+    },
+    {
       "file": "design/fangzhou-reference-10/build.mjs",
       "bytes": 340,
       "sha256": "b60d98b44a01faec85955fb8c0b605442ffab1b16d1d169be095c787040ec7be"
@@ -391,8 +401,8 @@
     },
     {
       "file": "design/fangzhou-reference-10/editorial-30.js",
-      "bytes": 230020,
-      "sha256": "8fe86bcd2ecff473ae4bacfa635bf6d4208f7b0b68513bdca1b7ccd44e877854"
+      "bytes": 230032,
+      "sha256": "997e4d708721aabcb364488c7d09a79059e7f54e20ff32c5c7767b56551bd993"
     },
     {
       "file": "design/fangzhou-reference-10/editorial-shortlist.html",
@@ -431,8 +441,8 @@
     },
     {
       "file": "design/fangzhou-reference-10/huggingface-20.html",
-      "bytes": 3209,
-      "sha256": "fb3903ca8f3955cad6f37b6cbf183e9a9ba27cb238c8e15015b71c4e5000fa57"
+      "bytes": 3151,
+      "sha256": "687f7eaa9796ed2def52ee64360d0485713acce98dfaf2ed64979c0a5f388cff"
     },
     {
       "file": "design/fangzhou-reference-10/huggingface-20.js",
@@ -561,8 +571,8 @@
     },
     {
       "file": "design/fangzhou-reference-10/package.json",
-      "bytes": 574,
-      "sha256": "d936a7d134ac3c85a76e392fcf1b3013ed1a5153487d9d61749f857dc9d98ef6"
+      "bytes": 653,
+      "sha256": "5bb892971e35d4515fe73991563079b3ac9ef159bb867867fa3da8c40eb097c0"
     },
     {
       "file": "design/fangzhou-reference-10/references.json",
@@ -4745,6 +4755,36 @@
       "sha256": "6f6cb23a9fa009d0542cbe372548470b2f02f261dd0a810f4fe0910bab77215c"
     },
     {
+      "file": "design/fangzhou-reference-10/screens/workspace-simple/01-generate.png",
+      "bytes": 33797,
+      "sha256": "5fa3d2fd343b3e3e9d04582f6353d476f5d847512841e15dedf731895620055f"
+    },
+    {
+      "file": "design/fangzhou-reference-10/screens/workspace-simple/02-output-settings.png",
+      "bytes": 39281,
+      "sha256": "1884e0d93eb383f2605bfb06d7af98b319e4a78e29351a0c96707bc7d562db40"
+    },
+    {
+      "file": "design/fangzhou-reference-10/screens/workspace-simple/03-assets.png",
+      "bytes": 70190,
+      "sha256": "5d7221b4d31db86acd83fa16d6395277a0cef617d5978454ee36e485c12a8039"
+    },
+    {
+      "file": "design/fangzhou-reference-10/screens/workspace-simple/04-canvas.png",
+      "bytes": 46680,
+      "sha256": "dc75ec6feac67c75f0682736f5cf62000f698640329f939c8efce882da52cf0d"
+    },
+    {
+      "file": "design/fangzhou-reference-10/screens/workspace-simple/05-mobile-settings.png",
+      "bytes": 30903,
+      "sha256": "6c7c49a8aec482c5bb8a6d4c0a0d60c67b801cab659bd4519f517835c9193a55"
+    },
+    {
+      "file": "design/fangzhou-reference-10/screens/workspace-simple/06-final-generate.png",
+      "bytes": 39941,
+      "sha256": "3a9555e8aff1a0d967baacf16e417e30a9bfb46082b023ae3f3d2c03122c2d92"
+    },
+    {
       "file": "design/fangzhou-reference-10/src/app.tsx",
       "bytes": 20770,
       "sha256": "7f8bba4fd651213b53b162cc20116a9f800c58cade8e5a5731a701970a0da700"
@@ -4766,8 +4806,8 @@
     },
     {
       "file": "design/fangzhou-reference-10/src/editorial-30.tsx",
-      "bytes": 23224,
-      "sha256": "09bc447443b0b6547de0dc0b207b35625f65c26ee75369f1ae121ee716fff282"
+      "bytes": 23236,
+      "sha256": "5a908d4bb6745b40f5b4a1387bb39a745ca117988348ae9bfd83e552c554fe33"
     },
     {
       "file": "design/fangzhou-reference-10/src/macos-research.js",
@@ -4808,6 +4848,21 @@
       "file": "design/fangzhou-reference-10/src/ui-select.tsx",
       "bytes": 3385,
       "sha256": "3638995c768edb4587879274efa7f9c9d2ce7eb332ad6ac9364409ff1ac78cf6"
+    },
+    {
+      "file": "design/fangzhou-reference-10/src/workspace-store.ts",
+      "bytes": 1582,
+      "sha256": "143129a088f15fd5222f2b1c2eb102e856011e375477861ba764b5f4da858c8d"
+    },
+    {
+      "file": "design/fangzhou-reference-10/src/workspace.css",
+      "bytes": 17718,
+      "sha256": "5f3a78f02ed38c9742a25fc4a5f97130c9b2c3398451c6720e69fe6527e8a64d"
+    },
+    {
+      "file": "design/fangzhou-reference-10/src/workspace.tsx",
+      "bytes": 22019,
+      "sha256": "536d259f6cfc831fcd029546f6b9f44e4aa976f0228fbc975880f0396408ace0"
     },
     {
       "file": "design/fangzhou-reference-10/validation.json",
@@ -5268,6 +5323,21 @@
       "file": "design/fangzhou-reference-10/vendor/paper-shaders/package.json",
       "bytes": 563,
       "sha256": "b4709f3cc156f4d11e800c7c4765b41719e822042b69fa869bd8d11a165fb974"
+    },
+    {
+      "file": "design/fangzhou-reference-10/workspace.css",
+      "bytes": 37545,
+      "sha256": "bf7e75b73d2a44d5477717bb8bfc55871d5633cf7074c1d0636e2e06b9d8395e"
+    },
+    {
+      "file": "design/fangzhou-reference-10/workspace.html",
+      "bytes": 352,
+      "sha256": "1aa8677b57f05c595ee726dbbc9620bd60576ec7bedb7e2889ef9c41c86ed6d5"
+    },
+    {
+      "file": "design/fangzhou-reference-10/workspace.js",
+      "bytes": 498816,
+      "sha256": "64bea2108e9a150dc234d95647bc1758a44ff112efc2f93000d1248a0eab587b"
     },
     {
       "file": "design/fangzhou-vi-v1/README.md",

@@ -4,6 +4,7 @@
 
 | 内容 | 入口 |
 |---|---|
+| 当前工作区 · 02 + 05 / C | [生成 / 画布 / 我的资产](design/fangzhou-reference-10/workspace.html) · [功能与验证](design/fangzhou-reference-10/WORKSPACE-SIMPLE-NOTES.md) |
 | Hugging Face 20个对标 | [参考预览](design/fangzhou-reference-10/huggingface-20.html) · [核查与适配说明](design/fangzhou-reference-10/HUGGINGFACE-20-NOTES.md) |
 | 已选08首页源码与预览 | [design/fangzhou-reference-10](design/fangzhou-reference-10/README.md) |
 | 已选首页截图 | [08中文Slogan](design/fangzhou-reference-10/screens/editorial-30/selected-08-slogan-zh.png) |
@@ -19,7 +20,7 @@
 
 要重新构建最新探索页面：`cd design/fangzhou-reference-10 && npm ci && npm run build`。本轮保留根目录原有内部原型及其历史，新增成果按目录归档，不覆盖旧功能。
 
-本次包含三个方舟UI/VI成果目录中的页面、源码、必要资产、截图、参考来源与许可证；排除依赖安装目录、系统文件、缓存、凭据、生成源映射与无关业务资料。全部文件是私有研究/原型交付；账号、生成、计费、生产权限并未接入。GitHub同步不等于网站公网部署。内部C「专注创作」已选定，A/B保留历史对照；外部首页08已选定。
+本次包含三个方舟UI/VI成果目录中的页面、源码、必要资产、截图、参考来源与许可证；排除依赖安装目录、系统文件、缓存、凭据、生成源映射与无关业务资料。全部文件是私有研究/原型交付；账号、生成、计费、生产权限并未接入。GitHub同步不等于网站公网部署。内部C结合02 + 05，当前仅有生成、画布、我的资产三个入口；支持单人本机保存，真实账号与资产隔离待接入。A/B保留历史对照；外部首页08已选定。
 
 ---
 

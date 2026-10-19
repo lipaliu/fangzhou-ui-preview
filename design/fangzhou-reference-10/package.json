@@ -4,8 +4,9 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "build": "node build.mjs && node build-directions.mjs && node build-macos-research.mjs && node build-editorial-30.mjs",
-    "build:editorial": "node build-editorial-30.mjs"
+    "build": "node build.mjs && node build-directions.mjs && node build-macos-research.mjs && node build-editorial-30.mjs && node build-workspace.mjs",
+    "build:editorial": "node build-editorial-30.mjs",
+    "build:workspace": "node build-workspace.mjs"
   },
   "dependencies": {
     "@radix-ui/react-popover": "^1.1.23",
