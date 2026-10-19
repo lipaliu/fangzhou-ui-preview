@@ -1,0 +1,1 @@
+import {build} from 'esbuild';import {fileURLToPath} from 'node:url';import {dirname} from 'node:path';await build({absWorkingDir:dirname(fileURLToPath(import.meta.url)),entryPoints:['src/app.tsx'],bundle:true,minify:true,outfile:'app.js',define:{'process.env.NODE_ENV':'"production"'},jsx:'automatic',sourcemap:true,legalComments:'eof'});

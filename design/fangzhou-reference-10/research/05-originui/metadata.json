@@ -1,0 +1,35 @@
+{
+  "id": "05",
+  "repo": "origin-space/originui",
+  "sha": "dd49ec9c2c268ae751724ddc64b343cb3a7e773b",
+  "homepage": "https://coss.com",
+  "license_api": "AGPL-3.0",
+  "roots": [
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "readme_links": [
+    "https://github.com/user-attachments/assets/56dfe7f7-85b7-44ee-b89a-1c30c5c4a156",
+    "https://www.typescriptlang.org/",
+    "http://localhost:3000",
+    "http://localhost:4000/ui",
+    "http://localhost:4000/ui",
+    "http://localhost:3000",
+    "http://localhost:4001",
+    "http://localhost:4001/origin",
+    "http://localhost:3000",
+    "http://localhost:4000/ui",
+    "https://www.typescriptlang.org/",
+    "https://biomejs.dev/",
+    "https://base-ui.com/",
+    "https://tailwindcss.com/",
+    "https://cal.com",
+    "https://coss.com/ui/particles",
+    "https://tailwindcss.com/",
+    "https://base-ui.com/",
+    "https://ui.shadcn.com/",
+    "https://fumadocs.dev/"
+  ],
+  "folder": "/Users/lipaliu/Documents/ChatGPT/方舟技术团队/output/fangzhou-reference-10/research/05-originui"
+}

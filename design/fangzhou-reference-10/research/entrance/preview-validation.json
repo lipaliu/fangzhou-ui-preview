@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-04",
+  "cards": 10,
+  "screenshots_loaded": 10,
+  "desktop_width": 1440,
+  "mobile_width": 390,
+  "horizontal_overflow": false,
+  "category_filter": "3 gallery cards / 5 motion cards",
+  "expanded_state_switch": "08 original to 08-open screenshot",
+  "zoom_dialog": "opened / closed / trigger focus restored",
+  "source_interactions": [
+    "06 image opened",
+    "07 view changed",
+    "08 item opened",
+    "09 preview opened",
+    "10 scrolled"
+  ],
+  "not_verified": [
+    "actual authentication",
+    "third-party demos mobile/keyboard/reduced-motion",
+    "frame rate",
+    "marketing website source correspondence for 01/02"
+  ]
+}

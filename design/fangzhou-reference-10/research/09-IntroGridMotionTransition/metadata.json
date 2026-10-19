@@ -1,0 +1,27 @@
+{
+  "id": "09",
+  "repo": "codrops/IntroGridMotionTransition",
+  "sha": "07ec3988e873e1710fb65b9d921c3aa6c05b16eb",
+  "homepage": null,
+  "license_api": "MIT",
+  "roots": [
+    "LICENSE",
+    "README.md"
+  ],
+  "readme_links": [
+    "https://tympanus.net/codrops/wp-content/uploads/2024/05/hovermotion_feat.jpg",
+    "https://tympanus.net/codrops/?p=77934",
+    "https://tympanus.net/Development/IntroGridMotionTransition",
+    "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/set_up_a_local_testing_server",
+    "https://midjourney.com",
+    "http://www.X.com/codrops",
+    "http://www.facebook.com/codrops",
+    "https://github.com/codrops",
+    "https://www.instagram.com/codropsss/",
+    "http://www.codrops.com"
+  ],
+  "folder": "/Users/lipaliu/Documents/ChatGPT/方舟技术团队/output/fangzhou-reference-10/research/09-IntroGridMotionTransition",
+  "code_paths": [
+    "js/index.js"
+  ]
+}

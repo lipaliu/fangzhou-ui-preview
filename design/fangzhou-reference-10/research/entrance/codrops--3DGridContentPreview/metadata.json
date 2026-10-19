@@ -1,0 +1,17 @@
+{
+  "repo": "codrops/3DGridContentPreview",
+  "sha": "f16ca5d074526037393065fb621edb0e93fff52b",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "licensepath": "LICENSE",
+  "paths": [],
+  "demos": [
+    "http://tympanus.net/Development/3DGridContentPreview/"
+  ],
+  "homepage": "https://tympanus.net/codrops/?p=54253"
+}

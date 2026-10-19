@@ -1,0 +1,13 @@
+/* 方舟统一字体：Apple 平台调用本机系统字体，其他平台使用本机无衬线后备。 */
+:root { --fz-font-ui: -apple-system, BlinkMacSystemFont, system-ui, "PingFang SC", "Helvetica Neue", "Segoe UI", "Microsoft YaHei", sans-serif; }
+html { font-family: var(--fz-font-ui); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body { font-family: var(--fz-font-ui); font-weight: 400; line-height: 1.6; }
+button, input, textarea, select, option { font-family: var(--fz-font-ui); }
+button, select { font-weight: 500; }
+strong, b, h1, h2, h3, h4, h5, h6 { font-weight: 600; }
+h1, h2, h3, .simple-title h1, .simple-kicker, .eyebrow { letter-spacing: normal; }
+.brand small { letter-spacing: .04em; }
+textarea { font-weight: 400; line-height: 1.65; }
+input { font-weight: 400; line-height: 1.5; }
+code, pre, kbd, samp { font-family: var(--fz-font-ui); }
+.price, .fee, .task-table, .output-summary, .ui-output-panel { font-variant-numeric: tabular-nums; }

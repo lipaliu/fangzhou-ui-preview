@@ -1,0 +1,12 @@
+{
+  "repo": "DavidHDev/react-bits",
+  "ref": "ca44b3f9ee180676a06d7de8ec6bea84cddff85b",
+  "verified_date": "2026-10-04",
+  "files": [
+    "README.md",
+    "LICENSE.md",
+    "package.json",
+    "src/content/Components/DomeGallery/DomeGallery.jsx",
+    "src/content/Components/DomeGallery/DomeGallery.css"
+  ]
+}

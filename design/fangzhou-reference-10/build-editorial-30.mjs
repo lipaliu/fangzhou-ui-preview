@@ -1,0 +1,1 @@
+import {build} from 'esbuild';await build({entryPoints:['src/editorial-30.tsx'],bundle:true,minify:true,outfile:'editorial-30.js',define:{'process.env.NODE_ENV':'"production"'},jsx:'automatic',legalComments:'eof'});

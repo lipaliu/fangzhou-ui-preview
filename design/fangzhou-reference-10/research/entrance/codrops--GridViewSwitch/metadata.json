@@ -1,0 +1,20 @@
+{
+  "repo": "codrops/GridViewSwitch",
+  "sha": "530cc792a07daec6ce84c7988c02ee5a12aa9ebd",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "licensepath": "LICENSE",
+  "paths": [
+    "css/base.css",
+    "js/index.js"
+  ],
+  "demos": [
+    "http://tympanus.net/Development/GridViewSwitch/"
+  ],
+  "homepage": null
+}

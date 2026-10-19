@@ -1,0 +1,14 @@
+{
+  "registry_tarball": "https://registry.npmjs.org/gsap/-/gsap-3.15.0.tgz",
+  "version": "3.15.0",
+  "sha256": "d2e33ad202d4811e9084883f7ff9a27967ac4095caef51ca4c9d20697a253b1c",
+  "files": [
+    "index.js",
+    "gsap-core.js",
+    "CSSPlugin.js",
+    "Flip.js",
+    "utils/matrix.js",
+    "package.json"
+  ],
+  "license_url": "https://gsap.com/standard-license/"
+}

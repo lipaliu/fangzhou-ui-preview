@@ -1,0 +1,29 @@
+{
+  "id": "10",
+  "repo": "codrops/ImageExpansionTypography",
+  "sha": "0d614791f94198bcab655762b26a3cb85da851f4",
+  "homepage": null,
+  "license_api": "MIT",
+  "roots": [
+    "LICENSE",
+    "README.md"
+  ],
+  "readme_links": [
+    "https://tympanus.net/codrops/wp-content/uploads/2024/04/expandimage_feat.jpg",
+    "https://tympanus.net/codrops/?p=76821",
+    "http://tympanus.net/Development/ImageExpansionTypography/",
+    "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/set_up_a_local_testing_server",
+    "https://midjourney.com",
+    "https://www.collletttivo.it/typefaces/coconat",
+    "http://www.X.com/codrops",
+    "http://www.facebook.com/codrops",
+    "https://github.com/codrops",
+    "https://www.instagram.com/codropsss/",
+    "https://www.buymeacoffee.com/codrops",
+    "http://www.codrops.com"
+  ],
+  "folder": "/Users/lipaliu/Documents/ChatGPT/方舟技术团队/output/fangzhou-reference-10/research/10-ImageExpansionTypography",
+  "code_paths": [
+    "js/index.js"
+  ]
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "role": "正文",
+    "foreground": "#17283E",
+    "background": "#FFFFFF",
+    "ratio": 14.9,
+    "target": 4.5,
+    "passes": true
+  },
+  {
+    "role": "次级文字",
+    "foreground": "#35475E",
+    "background": "#FFFFFF",
+    "ratio": 9.48,
+    "target": 4.5,
+    "passes": true
+  },
+  {
+    "role": "辅助文字",
+    "foreground": "#5B6C82",
+    "background": "#F5FAFF",
+    "ratio": 5.11,
+    "target": 4.5,
+    "passes": true
+  },
+  {
+    "role": "主按钮文字",
+    "foreground": "#FFFFFF",
+    "background": "#0071E3",
+    "ratio": 4.7,
+    "target": 4.5,
+    "passes": true
+  },
+  {
+    "role": "主按钮悬停",
+    "foreground": "#FFFFFF",
+    "background": "#0064CA",
+    "ratio": 5.71,
+    "target": 4.5,
+    "passes": true
+  },
+  {
+    "role": "紫色实底文字",
+    "foreground": "#FFFFFF",
+    "background": "#5E5CE6",
+    "ratio": 5.06,
+    "target": 4.5,
+    "passes": true
+  },
+  {
+    "role": "蓝色选中项",
+    "foreground": "#005BB7",
+    "background": "#EAF3FF",
+    "ratio": 5.9,
+    "target": 4.5,
+    "passes": true
+  },
+  {
+    "role": "紫色模型标签",
+    "foreground": "#4842BA",
+    "background": "#F0EEFF",
+    "ratio": 6.65,
+    "target": 4.5,
+    "passes": true
+  },
+  {
+    "role": "橙色费用标签",
+    "foreground": "#8A4B00",
+    "background": "#FFF3DE",
+    "ratio": 6.2,
+    "target": 4.5,
+    "passes": true
+  },
+  {
+    "role": "成功状态",
+    "foreground": "#167345",
+    "background": "#EAF7EF",
+    "ratio": 5.33,
+    "target": 4.5,
+    "passes": true
+  },
+  {
+    "role": "警告状态",
+    "foreground": "#8A4B00",
+    "background": "#FFF3DE",
+    "ratio": 6.2,
+    "target": 4.5,
+    "passes": true
+  },
+  {
+    "role": "失败状态",
+    "foreground": "#B42332",
+    "background": "#FFF0F1",
+    "ratio": 5.88,
+    "target": 4.5,
+    "passes": true
+  },
+  {
+    "role": "排队状态",
+    "foreground": "#35475E",
+    "background": "#EDF0F5",
+    "ratio": 8.3,
+    "target": 4.5,
+    "passes": true
+  },
+  {
+    "role": "控件边框",
+    "foreground": "#8591A3",
+    "background": "#FFFFFF",
+    "ratio": 3.19,
+    "target": 3,
+    "passes": true
+  }
+]

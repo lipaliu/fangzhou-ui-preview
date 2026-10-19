@@ -1,3 +1,29 @@
+# 方舟 UI / VI 成果总入口
+
+2026-10-19 已同步本轮完整设计成果，保持此仓库私有。外部首页选定 **08**，主标题 **用 AI，想象内容的下一种可能**，沿用黄色服装主视觉、透明Logo和Apple系统字体。
+
+| 内容 | 入口 |
+|---|---|
+| 已选08首页源码与预览 | [design/fangzhou-reference-10](design/fangzhou-reference-10/README.md) |
+| 已选首页截图 | [08中文Slogan](design/fangzhou-reference-10/screens/editorial-30/selected-08-slogan-zh.png) |
+| 内部卡片三种风格 | [风格说明](design/fangzhou-reference-10/INTERNAL-CARD-STYLES.md) · [A](design/fangzhou-reference-10/screens/internal-cards/A.png) / [B](design/fangzhou-reference-10/screens/internal-cards/B.png) / [C](design/fangzhou-reference-10/screens/internal-cards/C.png) |
+| Logo与品牌原型 | [design/fangzhou-brand-preview](design/fangzhou-brand-preview/README.md) |
+| VI文字、变量与13状态 | [design/fangzhou-vi-v1](design/fangzhou-vi-v1/README.md) |
+| 选择与修改记录 | [EDITORIAL-30-NOTES](design/fangzhou-reference-10/EDITORIAL-30-NOTES.md) |
+| 文件清单与SHA256 | [SYNC-MANIFEST.json](SYNC-MANIFEST.json) |
+
+## 运行
+
+在仓库根目录执行 `python3 -m http.server 8783 --bind 127.0.0.1`，打开 `http://127.0.0.1:8783/START-HERE.html`。
+
+要重新构建最新探索页面：`cd design/fangzhou-reference-10 && npm ci && npm run build`。本轮保留根目录原有内部原型及其历史，新增成果按目录归档，不覆盖旧功能。
+
+本次包含三个方舟UI/VI成果目录中的页面、源码、必要资产、截图、参考来源与许可证；排除依赖安装目录、系统文件、缓存、凭据、生成源映射与无关业务资料。全部文件是私有研究/原型交付；账号、生成、计费、生产权限并未接入。GitHub同步不等于网站公网部署。内卡A/B/C待用户选择，外部首页08已选定。
+
+---
+
+## 早期内部原型记录
+
 # 方舟智创 · UI 交互预览
 
 基于 Lipa UI 的方舟创作工具改版原型。当前版将个人生成入口收敛为一个输入框，保留描述、模型、参考素材、输出规格与费用位置；修正了原生下拉菜单与界面视觉不一致的问题。

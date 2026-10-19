@@ -1,0 +1,217 @@
+{
+  "date": "2026-10-04",
+  "candidate_count": 10,
+  "desktop": [
+    {
+      "id": "01",
+      "brokenImages": 0,
+      "documentWidth": 1440,
+      "font": "-apple-system, \"system-ui\", system-ui, \"PingFang SC\", \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei\", sans-serif",
+      "height": 1158,
+      "width": 1440
+    },
+    {
+      "id": "02",
+      "brokenImages": 0,
+      "documentWidth": 1440,
+      "font": "-apple-system, \"system-ui\", system-ui, \"PingFang SC\", \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei\", sans-serif",
+      "height": 1000,
+      "width": 1440
+    },
+    {
+      "id": "03",
+      "brokenImages": 0,
+      "documentWidth": 1440,
+      "font": "-apple-system, \"system-ui\", system-ui, \"PingFang SC\", \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei\", sans-serif",
+      "height": 1000,
+      "width": 1440
+    },
+    {
+      "id": "04",
+      "brokenImages": 0,
+      "documentWidth": 1440,
+      "font": "-apple-system, \"system-ui\", system-ui, \"PingFang SC\", \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei\", sans-serif",
+      "height": 1150,
+      "width": 1440
+    },
+    {
+      "id": "05",
+      "brokenImages": 0,
+      "documentWidth": 1440,
+      "font": "-apple-system, \"system-ui\", system-ui, \"PingFang SC\", \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei\", sans-serif",
+      "height": 1000,
+      "width": 1440
+    },
+    {
+      "id": "06",
+      "brokenImages": 0,
+      "documentWidth": 1440,
+      "font": "-apple-system, \"system-ui\", system-ui, \"PingFang SC\", \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei\", sans-serif",
+      "height": 1113,
+      "width": 1440
+    },
+    {
+      "id": "07",
+      "brokenImages": 0,
+      "documentWidth": 1440,
+      "font": "-apple-system, \"system-ui\", system-ui, \"PingFang SC\", \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei\", sans-serif",
+      "height": 1069,
+      "width": 1440
+    },
+    {
+      "id": "08",
+      "brokenImages": 0,
+      "documentWidth": 1440,
+      "font": "-apple-system, \"system-ui\", system-ui, \"PingFang SC\", \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei\", sans-serif",
+      "height": 1132,
+      "width": 1440
+    },
+    {
+      "id": "09",
+      "brokenImages": 0,
+      "documentWidth": 1440,
+      "font": "-apple-system, \"system-ui\", system-ui, \"PingFang SC\", \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei\", sans-serif",
+      "height": 1514,
+      "width": 1440
+    },
+    {
+      "id": "10",
+      "brokenImages": 0,
+      "documentWidth": 1440,
+      "font": "-apple-system, \"system-ui\", system-ui, \"PingFang SC\", \"Helvetica Neue\", \"Segoe UI\", \"Microsoft YaHei\", sans-serif",
+      "height": 1572,
+      "width": 1440
+    }
+  ],
+  "mobile": [
+    {
+      "id": "01",
+      "brokenImages": 0,
+      "composer": true,
+      "documentWidth": 390,
+      "height": 1295,
+      "overflow": [],
+      "width": 390
+    },
+    {
+      "id": "02",
+      "brokenImages": 0,
+      "composer": true,
+      "documentWidth": 390,
+      "height": 1297,
+      "overflow": [],
+      "width": 390
+    },
+    {
+      "id": "03",
+      "brokenImages": 0,
+      "composer": true,
+      "documentWidth": 390,
+      "height": 1091,
+      "overflow": [],
+      "width": 390
+    },
+    {
+      "id": "04",
+      "brokenImages": 0,
+      "composer": true,
+      "documentWidth": 390,
+      "height": 1790,
+      "overflow": [],
+      "width": 390
+    },
+    {
+      "id": "05",
+      "brokenImages": 0,
+      "composer": true,
+      "documentWidth": 390,
+      "height": 1421,
+      "overflow": [],
+      "width": 390
+    },
+    {
+      "id": "06",
+      "brokenImages": 0,
+      "composer": true,
+      "documentWidth": 390,
+      "height": 1825,
+      "overflow": [],
+      "width": 390
+    },
+    {
+      "id": "07",
+      "brokenImages": 0,
+      "composer": true,
+      "documentWidth": 390,
+      "height": 1255,
+      "overflow": [],
+      "width": 390
+    },
+    {
+      "id": "08",
+      "brokenImages": 0,
+      "composer": true,
+      "documentWidth": 390,
+      "height": 1515,
+      "overflow": [],
+      "width": 390
+    },
+    {
+      "id": "09",
+      "brokenImages": 0,
+      "composer": true,
+      "documentWidth": 390,
+      "height": 1518,
+      "overflow": [],
+      "width": 390
+    },
+    {
+      "id": "10",
+      "brokenImages": 0,
+      "composer": true,
+      "documentWidth": 390,
+      "height": 1588,
+      "overflow": [],
+      "width": 390
+    }
+  ],
+  "images": true,
+  "interactions": [
+    "素材详情与添加参考",
+    "返回焦点",
+    "模型选择",
+    "输出规格与费用反馈",
+    "本地摘要",
+    "作品切换",
+    "网格进入创作",
+    "图像滚动展开",
+    "减少动效回退",
+    "手机规格面板",
+    "总览原版/适配切换",
+    "分类筛选"
+  ],
+  "http": [
+    {
+      "url": "http://127.0.0.1:8782/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8782/app.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8782/app.css",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8782/overview.html",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8774/?revision=bright-20261004",
+      "status": 200
+    }
+  ],
+  "user_approval": "待评审",
+  "scope": "UI 探索，不包含后端生成或生产画布性能验证"
+}

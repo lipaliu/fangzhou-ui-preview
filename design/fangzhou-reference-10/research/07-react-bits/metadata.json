@@ -1,0 +1,49 @@
+{
+  "id": "07",
+  "repo": "DavidHDev/react-bits",
+  "sha": "ca44b3f9ee180676a06d7de8ec6bea84cddff85b",
+  "homepage": "https://reactbits.dev",
+  "license_api": "NOASSERTION",
+  "roots": [
+    "LICENSE.md",
+    "README.md",
+    "package.json"
+  ],
+  "readme_links": [
+    "https://github.com/davidhdev/react-bits/stargazers",
+    "https://img.shields.io/github/stars/davidhdev/react-bits",
+    "https://github.com/davidhdev/react-bits/blob/main/LICENSE.md",
+    "https://img.shields.io/badge/License-MIT+Commons_Clause-magenta",
+    "https://reactbits.dev/",
+    "https://reactbits.dev/get-started/installation",
+    "https://reactbits.dev/tools",
+    "https://reactbits.dev/tools",
+    "https://reactbits.dev/tools",
+    "https://reactbits.dev/tools",
+    "https://ui.shadcn.com/",
+    "https://jsrepo.dev",
+    "https://reactbits.dev/get-started/installation",
+    "https://www.shadcnblocks.com/?utm_source=reactbits&utm_medium=sponsor&utm_campaign=diamond&ref=reactbits",
+    "https://shadcncraft.com/?utm_source=reactbits&utm_medium=sponsor&utm_campaign=silver&ref=reactbits",
+    "https://shadcnuikit.com/?utm_source=reactbits&utm_medium=sponsor&utm_campaign=silver&ref=reactbits",
+    "https://shadcnstudio.com/?utm_source=reactbits&utm_medium=sponsor&utm_campaign=silver&ref=reactbits",
+    "https://reactbits.dev/sponsors",
+    "https://github.com/DavidHDev/react-bits/issues",
+    "https://github.com/DavidHDev/react-bits/issues/new?template=2-feature-request.yml",
+    "https://github.com/DavidHDev/react-bits/blob/main/CONTRIBUTING.md",
+    "https://github.com/davidhdev/react-bits/graphs/contributors",
+    "https://contrib.rocks/image?repo=davidhdev/react-bits",
+    "https://contrib-circles.vercel.app/davidhdev/react-bits?padding=16&borders=none&transparent=true",
+    "https://github.com/DavidHDev",
+    "https://vue-bits.dev/",
+    "https://sveltebits.xyz/",
+    "https://repobeats.axiom.co/api/embed/b1bf4dc0226458617adbdbf5586f2df953eb0922.svg",
+    "https://github.com/DavidHDev/react-bits/issues",
+    "https://github.com/davidhdev/react-bits/blob/main/LICENSE.md"
+  ],
+  "folder": "/Users/lipaliu/Documents/ChatGPT/方舟技术团队/output/fangzhou-reference-10/research/07-react-bits",
+  "code_paths": [
+    "src/content/Components/Dock/Dock.jsx",
+    "src/ts-default/Components/Dock/Dock.tsx"
+  ]
+}

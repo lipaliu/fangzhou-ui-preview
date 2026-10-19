@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>anim8-grid — Fullscreen Mode</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #000; overflow: hidden; }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      pointer-events: none;
+    }
+    .overlay h1 {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: #fff;
+      font-size: clamp(1.5rem, 5vw, 3rem);
+      text-shadow: 0 2px 20px rgba(0,0,0,0.8);
+    }
+    .overlay p {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: rgba(255,255,255,0.6);
+      font-size: clamp(0.7rem, 2vw, 1rem);
+      margin-top: 0.5rem;
+      text-shadow: 0 1px 10px rgba(0,0,0,0.8);
+      text-align: center;
+      padding: 0 1rem;
+    }
+
+    .controls {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 20;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 0;
+      background: rgba(0,0,0,0.7);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+    .control-item {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: #fff;
+      font-size: 0.8rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.7rem 1rem;
+      border-right: 1px solid rgba(255,255,255,0.06);
+    }
+    .control-item .label {
+      flex-shrink: 0;
+      color: rgba(255,255,255,0.5);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      min-width: 50px;
+    }
+    .control-item input[type="range"] {
+      flex: 1;
+      min-width: 60px;
+      height: 4px;
+      accent-color: #7c6ef6;
+      cursor: pointer;
+    }
+    .control-item select {
+      flex: 1;
+      min-width: 80px;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.2);
+      color: #fff;
+      padding: 0.25rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      cursor: pointer;
+    }
+    .control-item select option {
+      background: #222;
+      color: #fff;
+    }
+    .val {
+      min-width: 40px;
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+      font-size: 0.8rem;
+      color: #7c6ef6;
+      font-weight: 600;
+    }
+
+    @media (max-width: 600px) {
+      .controls {
+        grid-template-columns: 1fr 1fr;
+      }
+      .control-item {
+        padding: 0.5rem 0.6rem;
+        font-size: 0.7rem;
+      }
+      .control-item .label {
+        font-size: 0.6rem;
+        min-width: 40px;
+      }
+      .val { font-size: 0.7rem; min-width: 32px; }
+    }
+
+    @media (max-width: 380px) {
+      .controls {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="grid-container"></div>
+
+  <div class="overlay">
+    <h1>anim8-grid</h1>
+    <p id="info">Detecting resolution...</p>
+  </div>
+
+  <div class="controls">
+    <div class="control-item">
+      <span class="label">Cell</span>
+      <input type="range" id="cellSize" min="40" max="300" value="120" step="10">
+      <span class="val" id="cellSizeVal">120px</span>
+    </div>
+    <div class="control-item">
+      <span class="label">Items</span>
+      <input type="range" id="maxItems" min="1" max="30" value="5" step="1">
+      <span class="val" id="maxItemsVal">5</span>
+    </div>
+    <div class="control-item">
+      <span class="label">Speed</span>
+      <input type="range" id="animDuration" min="100" max="2000" value="600" step="50">
+      <span class="val" id="animDurationVal">600ms</span>
+    </div>
+    <div class="control-item">
+      <span class="label">Interval</span>
+      <input type="range" id="interval" min="300" max="5000" value="1500" step="100">
+      <span class="val" id="intervalVal">1.5s</span>
+    </div>
+    <div class="control-item">
+      <span class="label">Anim</span>
+      <select id="animType">
+        <option value="random" selected>random</option>
+        <option value="fadeInOut">fadeInOut</option>
+        <option value="slideLeft">slideLeft</option>
+        <option value="slideRight">slideRight</option>
+        <option value="slideTop">slideTop</option>
+        <option value="slideBottom">slideBottom</option>
+        <option value="rotateLeft">rotateLeft</option>
+        <option value="rotateRight">rotateRight</option>
+        <option value="rotateTop">rotateTop</option>
+        <option value="rotateBottom">rotateBottom</option>
+        <option value="scale">scale</option>
+        <option value="rotate3d">rotate3d</option>
+        <option value="rotateLeftScale">rotateLeftScale</option>
+        <option value="rotateRightScale">rotateRightScale</option>
+        <option value="rotateTopScale">rotateTopScale</option>
+        <option value="rotateBottomScale">rotateBottomScale</option>
+      </select>
+    </div>
+  </div>
+
+  <script type="module">
+    import { createGrid } from '../dist/anim8-grid.mjs'
+
+    const images = Array.from({ length: 120 }, (_, i) =>
+      `https://picsum.photos/200/200?random=${i + 1}`
+    )
+
+    const container = document.getElementById('grid-container')
+    const info = document.getElementById('info')
+
+    const cellSizeInput = document.getElementById('cellSize')
+    const cellSizeVal = document.getElementById('cellSizeVal')
+    const maxItemsInput = document.getElementById('maxItems')
+    const maxItemsVal = document.getElementById('maxItemsVal')
+    const animDurationInput = document.getElementById('animDuration')
+    const animDurationVal = document.getElementById('animDurationVal')
+    const intervalInput = document.getElementById('interval')
+    const intervalVal = document.getElementById('intervalVal')
+    const animTypeSelect = document.getElementById('animType')
+
+    function updateInfo() {
+      const w = window.innerWidth
+      const h = window.innerHeight
+      const cs = parseInt(cellSizeInput.value)
+      const cols = Math.ceil(w / cs)
+      const rows = Math.ceil(h / cs)
+      info.textContent = `${w}x${h} | ${cols}x${rows} grid (${cols * rows} cells)`
+    }
+
+    // Create grid once
+    const grid = createGrid(container, {
+      images,
+      fullscreen: true,
+      cellSize: 120,
+      animationType: 'random',
+      animationDuration: 600,
+      rotationInterval: 1500,
+      itemsPerCycle: 'random',
+      maxItemsPerCycle: 5,
+    })
+
+    updateInfo()
+
+    // Cell size -> rebuild grid (update with cellSize)
+    cellSizeInput.addEventListener('input', () => {
+      const val = parseInt(cellSizeInput.value)
+      cellSizeVal.textContent = `${val}px`
+      grid.update({ cellSize: val })
+      updateInfo()
+    })
+
+    // Items per cycle -> hot update (no rebuild)
+    maxItemsInput.addEventListener('input', () => {
+      const val = parseInt(maxItemsInput.value)
+      maxItemsVal.textContent = String(val)
+      grid.update({ maxItemsPerCycle: val })
+    })
+
+    // Animation speed -> hot update
+    animDurationInput.addEventListener('input', () => {
+      const val = parseInt(animDurationInput.value)
+      animDurationVal.textContent = `${val}ms`
+      grid.update({ animationDuration: val })
+    })
+
+    // Rotation interval -> hot update (restarts timer)
+    intervalInput.addEventListener('input', () => {
+      const val = parseInt(intervalInput.value)
+      intervalVal.textContent = val >= 1000 ? `${(val / 1000).toFixed(1)}s` : `${val}ms`
+      grid.update({ rotationInterval: val })
+    })
+
+    // Animation type -> hot update
+    animTypeSelect.addEventListener('change', () => {
+      grid.update({ animationType: animTypeSelect.value })
+    })
+
+    // Update info on window resize
+    window.addEventListener('resize', updateInfo)
+  </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "id": "01",
+  "repo": "sitepins/powerai-astro",
+  "sha": "a1176bf882bf0b1af98115f3280c2a6928e69261",
+  "homepage": "",
+  "license_api": "MIT",
+  "roots": [
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "readme_links": [
+    "https://powerai-astro.pages.dev/",
+    "https://github.com/user-attachments/assets/f3e93268-c11a-47e3-b3b8-17eb5cf09992",
+    "https://sitepins.com/?utm_source=github&utm_medium=readme&utm_campaign=powerai_astro&aff=poweraiastro",
+    "https://powerai-astro.pages.dev/",
+    "https://img.shields.io/badge/Live%20Demo-View%20Site-blue?style=for-the-badge&logo=cloudflare",
+    "https://app.sitepins.com/new/clone?name=PoweraiAstro&repository=https://github.com/sitepins/powerai-astro&aff=poweraiastro",
+    "https://sitepins.com/button.svg",
+    "https://dash.cloudflare.com/",
+    "https://developers.cloudflare.com/workers/wrangler/install-and-update/",
+    "https://netlify.com",
+    "https://sitepins.com/?utm_source=github&utm_medium=readme&utm_campaign=powerai_astro&aff=poweraiastro",
+    "https://app.sitepins.com/new/clone?name=PoweraiAstro&repository=https://github.com/sitepins/powerai-astro&aff=poweraiastro",
+    "https://sitepins.com/button.svg",
+    "https://your-domain.com",
+    "https://github.com/sitepins/powerai-astro/issues",
+    "https://sitepins.com/?utm_source=github&utm_medium=readme&utm_campaign=powerai_astro&aff=poweraiastro",
+    "https://github.com/sitepins/powerai-astro/blob/main/LICENSE"
+  ],
+  "folder": "/Users/lipaliu/Documents/ChatGPT/方舟技术团队/output/fangzhou-reference-10/research/01-powerai-astro",
+  "code_paths": [
+    "src/layouts/components/Hero.astro"
+  ]
+}

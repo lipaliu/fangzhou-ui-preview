@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-03",
+  "build": "npm run build passed",
+  "logo": "官方原JPG保留；导航使用内置imagegen生成的浅色透明PNG适配版，不作为官方源文件",
+  "prototype": {
+    "desktop": [
+      "1440×1000，各主要版面及类型/模型/输出菜单实际展开"
+    ],
+    "mobile": [
+      "390×844，生成页与输出浮层实际展开",
+      "320×844，全部必要控件可达，无页面横向溢出"
+    ],
+    "keyboard": [
+      "类型ArrowDown+Enter切到视频：Seedance 2，16:9/720p/5秒",
+      "ArrowUp+Enter切回图片：Seedream 5.0 Lite，3:2/2K/1张",
+      "菜单Escape关闭并回到触发器"
+    ]
+  },
+  "handbook": {
+    "widths": [
+      320,
+      390,
+      768,
+      1024,
+      1440
+    ],
+    "noHorizontalOverflow": true,
+    "interactions": [
+      "图片放大及下一张",
+      "VI样张模型切换",
+      "预览/VI切换",
+      "目录定位"
+    ],
+    "contrastPairs": 14,
+    "contrastAllPassed": true
+  },
+  "notVerified": [
+    "生产接口与收费",
+    "真实服务端管理员鉴权",
+    "生产画布卡顿修复",
+    "最终视觉获用户认可",
+    "官方矢量logo及透明导出",
+    "全产品所有组件满足对比度和可访问性"
+  ],
+  "screenshots": [
+    {
+      "file": "screenshots/01-create.jpg",
+      "sha256": "dd5a9f934a5a63db829003e9f88eb37d6d6bac6f9a445edba64bc669f64878e1"
+    },
+    {
+      "file": "screenshots/02-reference-picker.jpg",
+      "sha256": "29a0e51bb4eaf0909630d9faa9f8b01be388c27ca2d4bdf0671225190e4d85dd"
+    },
+    {
+      "file": "screenshots/03-create-references.jpg",
+      "sha256": "fcac1adcb47f37ad150fc38165dacf88fc693e66b3292eaa6c7e33cd1f550435"
+    },
+    {
+      "file": "screenshots/04-menu-type.jpg",
+      "sha256": "73bd6ae39685b6b772ec379ff3f126b65de95eb52df3f3f5b3276dea071c0980"
+    },
+    {
+      "file": "screenshots/05-menu-model.jpg",
+      "sha256": "bb7121ef8f087c03cc46cf8142d1c353ecab987cda8d807581adb104bf243573"
+    },
+    {
+      "file": "screenshots/06-menu-output.jpg",
+      "sha256": "4f191e4cd18c2acd6b39fb1cfbac86a16ce92cdb16c622b560b8cb30cd6bb6a8"
+    },
+    {
+      "file": "screenshots/07-library.jpg",
+      "sha256": "214fc76ed10e958cca5ff6c15d6f7e7c464ecd6c3b70f8e53c82f00e7fcb4a95"
+    },
+    {
+      "file": "screenshots/08-canvas.jpg",
+      "sha256": "adbcea0ce44d67b6a5fb00f7eb14544363e8fd161f2ec9410272c64193ccde63"
+    },
+    {
+      "file": "screenshots/09-tasks-personal.jpg",
+      "sha256": "778505d2b051b77f293f14403b06513d72ea6e45a3271872a40fc3c6ed0951cb"
+    },
+    {
+      "file": "screenshots/10-tasks-admin.jpg",
+      "sha256": "f8894d93d6ba4963d48821e5a6466d184cafdf1730ce765d2d2fb1c6717ba834"
+    },
+    {
+      "file": "screenshots/11-mobile-create.jpg",
+      "sha256": "8853419165a62979caa462547db4e112caec6f91ff9ce2ab4969a6a984c3c95f"
+    },
+    {
+      "file": "screenshots/12-mobile-output.jpg",
+      "sha256": "397ab9fee733056f4979be6c3b9f5e02e4110b2556eadce79a88af4d945b271f"
+    },
+    {
+      "file": "screenshots/13-video-create.jpg",
+      "sha256": "7ea7f429cffe8a350bd34d2d128c624fb81e58f4f92522cc9ab72fac62bfb752"
+    },
+    {
+      "file": "screenshots/prototype-320.png",
+      "sha256": "80bdb9ee157bf8b0d9c72a05e58437d3b6172003d4c03c2a6044d11e35968867"
+    },
+    {
+      "file": "screenshots/vi-1024.png",
+      "sha256": "792e10a6c167f902aeca99c0a4eb7d7f69fc37d8e42921bf76076f2ebf925646"
+    },
+    {
+      "file": "screenshots/vi-320.png",
+      "sha256": "4dc670b583718aed2e32bc1d54fbd8036fa6aece7d519a1f6179fea0e7ba968a"
+    },
+    {
+      "file": "screenshots/vi-768.png",
+      "sha256": "a5cd1f80b3212ec7f00c8dd3ad95d6631e944eb17be8c191e43b09ff58ab6fd9"
+    },
+    {
+      "file": "screenshots/vi-components-open.jpg",
+      "sha256": "d48d545eded8c8c9d1f7c99bec15142a68b44cc279927cea871b8b10e6dc22f6"
+    },
+    {
+      "file": "screenshots/vi-mobile-components.png",
+      "sha256": "3d5e8fa4e71f02e861d38310456beb09ee2c1abcbdccf82cc0dd09162d1bee5b"
+    },
+    {
+      "file": "screenshots/14-apple-typography.jpg",
+      "sha256": "499c6104996073276b8285d062794b8ec72fc16cefd15eb45d0b4330b3262262"
+    },
+    {
+      "file": "screenshots/15-logo-correction.png",
+      "sha256": "fb661bad0ffb93277e72cee11d12139a29af0dbaf7793cf3803ca63a9e463fc7"
+    },
+    {
+      "file": "screenshots/16-transparent-logo.png",
+      "sha256": "12b4cf35f894d89e8512c28986b5ff079851c3ec34c03ef3e94aef38971ff0f4"
+    },
+    {
+      "file": "screenshots/17-create-ready.jpg",
+      "sha256": "d0011def6cfa80ddc1dff4a06007e3859f7b3b399b9143554cc3f32c767d35ec"
+    }
+  ],
+  "typographyRevision": {
+    "date": "2026-10-03",
+    "request": "所有字体使用苹果感觉",
+    "uiAndHandbook": "Apple 系统栈统一，标题600/控件500/正文400，中文正常字距",
+    "platformFontsConfirmed": {
+      "chineseTitle": "PingFangSC-Semibold",
+      "chineseControl": "PingFangSC-Medium",
+      "englishModel": ".SF NS"
+    },
+    "verified": [
+      "本地原型重新构建通过",
+      "13个界面状态截图重新捕获",
+      "中文标题、菜单与英文模型实际字体检查",
+      "390px输出浮层无页面横向溢出",
+      "VI字体章节与总板更新"
+    ],
+    "priorQaImages": "prototype-320.png、vi-*.png、vi-components-open.jpg 为本次字体统一前的历史验证截图"
+  },
+  "navigationLogoRevision": {
+    "date": "2026-10-03",
+    "request": "左上角去掉中文名称，显示 logo 蓝色细节",
+    "result": "桌面使用原图图形与原图 FANGZHOU 字标，蓝银色保留；窄屏仅图形",
+    "asset": "原 JPG 通过 CSS 裁切展示，未重绘或调色",
+    "verified": [
+      "重新构建通过",
+      "桌面导航截图已目视检查",
+      "390px无页面横向溢出",
+      "13个预览状态与VI导航同步"
+    ]
+  },
+  "transparentLogoRevision": {
+    "date": "2026-10-03",
+    "result": "取消导航深色块，真实RGBA透明底；浅色底使用蓝灰与蓝银渐变适配",
+    "asset": "assets/fangzhou-logo-light-transparent-v1.png",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "mode": "内置imagegen",
+    "verified": [
+      "原型构建通过",
+      "桌面实际截图目视检查",
+      "390px无横向溢出且导航底色rgba(0,0,0,0)",
+      "13个预览状态重新捕获",
+      "VI顶栏和规范同步"
+    ],
+    "prompt": "assets/transparent-logo-notes.md",
+    "history": "15-logo-correction.png为上一轮深色导航历史截图，16-transparent-logo.png为当前导航截图"
+  },
+  "brightIntegrationRevision": {
+    "date": "2026-10-04",
+    "authorizedTarget": "用户确认：当前本地方舟预览",
+    "primaryUrl": "http://127.0.0.1:8774/?revision=bright-20261004",
+    "originalCode": "/Users/lipaliu/Documents/ChatGPT/审美培训/output/fangzhou-merged-preview",
+    "mirrorCode": "output/fangzhou-brand-preview",
+    "result": "透明logo/Apple字体合入原本地页面；白色内容/浅蓝工作区/蓝色主操作与标题；更清楚的文字对比",
+    "build": "两个本地入口构建均通过",
+    "verified": [
+      "原入口实际浏览器截图",
+      "类型/模型/输出设置展开",
+      "描述输入后提交按钮启用，未提交生成",
+      "素材库/参考选择/画布/个人与管理员演示页",
+      "320/390/768/1024页面无横向溢出",
+      "14组定义配色对比度计算通过"
+    ],
+    "backups": [
+      "原入口 revisions/2026-10-04-before-brand-integration",
+      "品牌副本 revisions/2026-10-04-before-bright"
+    ],
+    "unchangedScope": "仅本地界面；未改线上站或生产服务"
+  }
+}

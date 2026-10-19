@@ -1,0 +1,13 @@
+{
+  "repo": "codrops/GridLayoutScrollableContent",
+  "sha": "a953a79b07b6a54ba7902d36611a0069051f7ba6",
+  "license": null,
+  "licensepath": null,
+  "paths": [
+    "css/base.css"
+  ],
+  "demos": [
+    "http://tympanus.net/Development/GridLayoutScrollableContent/"
+  ],
+  "homepage": "https://tympanus.net/codrops/?p=35959"
+}

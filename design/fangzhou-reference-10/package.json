@@ -1,0 +1,21 @@
+{
+  "name": "fangzhou-design-explorations",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs && node build-directions.mjs && node build-macos-research.mjs && node build-editorial-30.mjs",
+    "build:editorial": "node build-editorial-30.mjs"
+  },
+  "dependencies": {
+    "@radix-ui/react-popover": "^1.1.23",
+    "@radix-ui/react-select": "^2.3.7",
+    "@xyflow/react": "12.11.2",
+    "lucide-react": "0.511.0",
+    "react": "19.2.1",
+    "react-dom": "19.2.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.1"
+  }
+}

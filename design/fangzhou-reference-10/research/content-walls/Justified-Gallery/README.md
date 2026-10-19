@@ -1,0 +1,143 @@
+<div align="center">
+  <a href="http://miromannino.github.io/Justified-Gallery/" target="_blank">
+    <img src="https://raw.github.com/miromannino/Justified-Gallery/gh-imgs/justified-gallery.webp" style="width:100%;max-width:100%" />
+  </a>
+
+  <p><strong>Justified Gallery is a JavaScript library that allows you to create an high quality justified gallery of images.</strong></p>
+
+  <a href="http://miromannino.github.io/Justified-Gallery/" target="_blank">
+    <img src="https://img.shields.io/badge/official%20project%20page-visit-2ea44f?style=for-the-badge" alt="Official project page" />
+  </a>
+
+<br/>
+
+</div>
+
+<br/>
+
+<div align="center">
+  This is a common problem for people who create websites: you have a series of images to display, but you are not sure how to arrange them in an elegant way.  Important websites such as 500px, Flickr, or Google display images in an excellent way, justifying them similarly to brick wall. Justified Gallery will give you the power to do that too.
+</div>
+
+<div align="center">Justified Gallery is a professional and open source library that even 500px chose for displaying their images!</div>
+
+<br/>
+
+<div align="center">
+
+[![npm version](https://img.shields.io/npm/v/justified-gallery?style=for-the-badge)](https://www.npmjs.com/package/justified-gallery)
+[![license](https://img.shields.io/npm/l/justified-gallery?style=for-the-badge)](https://github.com/miromannino/Justified-Gallery/blob/master/LICENSE)
+
+[![open issues](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/miromannino/75ca0785d41059c9a61f37e477609f9c/raw/open-issues.json&style=for-the-badge)](https://github.com/miromannino/Justified-Gallery/issues)
+[![closed issues](https://img.shields.io/github/issues-closed/miromannino/Justified-Gallery?style=for-the-badge&color=brightgreen)](https://github.com/miromannino/Justified-Gallery/issues?q=is%3Aissue+is%3Aclosed)
+[![unit tests](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/miromannino/75ca0785d41059c9a61f37e477609f9c/raw/unit-tests.json&style=for-the-badge)](https://github.com/miromannino/Justified-Gallery/actions/workflows/ci.yml)
+[![e2e tests](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/miromannino/75ca0785d41059c9a61f37e477609f9c/raw/e2e-tests.json&style=for-the-badge)](https://github.com/miromannino/Justified-Gallery/actions/workflows/ci.yml)
+
+</div>
+
+<div align="center">
+
+[![GitHub stars](https://img.shields.io/github/stars/miromannino/Justified-Gallery?style=for-the-badge)](https://github.com/miromannino/Justified-Gallery/stargazers)
+[![total downloads](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/miromannino/75ca0785d41059c9a61f37e477609f9c/raw/downloads.json&style=for-the-badge)](#downloads)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://gist.githubusercontent.com/miromannino/75ca0785d41059c9a61f37e477609f9c/raw/downloads-chart-dark.svg">
+  <img src="https://gist.githubusercontent.com/miromannino/75ca0785d41059c9a61f37e477609f9c/raw/downloads-chart-light.svg" alt="Monthly npm downloads (last 24 months)" style="width:100%;max-width:100%">
+</picture>
+
+<em>(combined across <code>justified-gallery</code> and legacy
+<code>justifiedGallery</code> npm packages)</em>
+
+</div>
+
+## Usage
+
+```ts
+import { JustifiedGallery } from "justified-gallery";
+import "justified-gallery/style.css";
+
+const gallery = document.getElementById("gallery");
+const jg = new JustifiedGallery(gallery);
+jg.init();
+
+// later, on unmount:
+jg.destroy();
+```
+
+`JustifiedGallery` is a plain class working against a real `HTMLElement`, so it
+integrates the same way in any framework: get a ref to the container, call
+`init()` once it's mounted, and call `destroy()` on cleanup. See
+[`test/browser/html/react_gallery.tsx`](test/browser/html/react_gallery.tsx) and
+[`test/browser/html/vue_gallery.vue`](test/browser/html/vue_gallery.vue) for
+working React and Vue examples.
+
+The stylesheet keeps entries hidden until they're positioned, so you don't see a
+flash of raw, unpositioned images. This only applies inside a container with the
+`justified-gallery` class, since that's what the CSS targets:
+
+```css
+.justified-gallery > a,
+.justified-gallery > div,
+.justified-gallery > figure {
+  opacity: 0;
+  /* ... */
+}
+```
+
+`init()` adds that class for you, but not until your script runs. So the hiding
+won't actually happen before then unless you also add the class yourself,
+directly in your markup:
+
+```html
+<div id="gallery" class="justified-gallery">...</div>
+```
+
+`init()` adding the class again is harmless; `destroy()` still removes it.
+
+This also depends on the CSS itself being loaded before your script runs. The
+`import "justified-gallery/style.css"` above takes care of that for bundler
+setups (bundlers usually put CSS imports into a `<link>` that loads ahead of
+your JS). If you're loading the library from a plain `<script>` tag or CDN with
+no build step, link the stylesheet the same way, directly in `<head>`, before
+your script tag:
+
+```html
+<link
+  rel="stylesheet"
+  href="https://.../justified-gallery/dist/assets/justified-gallery.css"
+/>
+```
+
+## Contributing
+
+- Prerequisites:
+
+  - Node.js
+  - `npm install` to install all dependencies.
+
+- Develop:
+
+  - `npm run dev` starts a Vite dev server against `test/browser`, serving the
+    source directly (no build step needed while iterating). In this mode
+    `/text/browser/html` pages can be explored. These are the same pages used by
+    the e2e tests.
+
+- Build:
+
+  - `npm run build` compiles the library for distribution: bundles
+    `src/justified-gallery.ts` with Vite into `dist/justified-gallery.js` and
+    `dist/assets/justified-gallery.css`, and emits type declarations
+    (`dist/*.d.ts`) with `tsc`.
+  - `npm run preview` serves the built `dist` output locally.
+
+- Test:
+
+  - `npm test` runs the full suite (unit tests, then browser/e2e tests).
+  - `npm run test:unit` runs the Vitest unit tests in `test/unit`.
+  - `npm run test:e2e` runs the Playwright browser tests in `test/browser`.
+
+- Try the built package as a real npm dependency:
+  - `scripts/test-local-package.sh` builds the library, `npm link`s it, and
+    links/serves it from `sandbox-consumer/` (a throwaway, gitignored Vite
+    project) — useful to confirm the published package resolves and works the
+    way a downstream consumer would experience it.

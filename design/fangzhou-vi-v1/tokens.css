@@ -1,0 +1,82 @@
+/* 方舟智创 VI v1 · 待视觉评审 · 生产接入前按组件映射 */
+:root {
+  --fz-color-silver: #DFE3EE;
+  --fz-color-bridge-blue: #8A9BC4;
+  --fz-color-blue: #0071E3;
+  --fz-color-blue-hover: #0064CA;
+  --fz-color-blue-pressed: #0056AE;
+  --fz-color-blue-soft: #EAF3FF;
+  --fz-color-blue-ink: #005BB7;
+  --fz-color-purple: #5E5CE6;
+  --fz-color-purple-soft: #F0EEFF;
+  --fz-color-purple-ink: #4842BA;
+  --fz-color-orange: #FF9500;
+  --fz-color-orange-soft: #FFF3DE;
+  --fz-color-orange-ink: #8A4B00;
+  --fz-color-ink: #17283E;
+  --fz-color-text-secondary: #35475E;
+  --fz-color-text-muted: #5B6C82;
+  --fz-color-canvas: #F8FBFF;
+  --fz-color-surface: #FFFFFF;
+  --fz-color-surface-soft: #F5FAFF;
+  --fz-color-line: #DCEAF7;
+  --fz-color-control-line: #8591A3;
+  --fz-color-success: #167345;
+  --fz-color-success-soft: #EAF7EF;
+  --fz-color-warning: #8A4B00;
+  --fz-color-warning-soft: #FFF3DE;
+  --fz-color-error: #B42332;
+  --fz-color-error-soft: #FFF0F1;
+  --fz-color-pending: #515B6B;
+  --fz-color-pending-soft: #EDF0F5;
+  --fz-color-brand-dark: #03120D;
+  --fz-space-0: 0px;
+  --fz-space-2: 2px;
+  --fz-space-4: 4px;
+  --fz-space-8: 8px;
+  --fz-space-12: 12px;
+  --fz-space-16: 16px;
+  --fz-space-20: 20px;
+  --fz-space-24: 24px;
+  --fz-space-32: 32px;
+  --fz-space-40: 40px;
+  --fz-space-48: 48px;
+  --fz-space-64: 64px;
+  --fz-space-80: 80px;
+  --fz-radius-small: 8px;
+  --fz-radius-control: 12px;
+  --fz-radius-menu: 16px;
+  --fz-radius-panel: 20px;
+  --fz-radius-composer: 24px;
+  --fz-radius-pill: 999px;
+  --fz-shadow-contact: 0 2px 8px rgba(29,29,31,.05);
+  --fz-shadow-panel: 0 8px 28px rgba(34,48,78,.08);
+  --fz-shadow-overlay: 0 16px 48px rgba(34,48,78,.14);
+  --fz-motion-feedback: 120ms;
+  --fz-motion-popover: 160ms;
+  --fz-motion-panel: 220ms;
+  --fz-motion-curve: cubic-bezier(.2,.8,.2,1);
+  --fz-z-content: 0;
+  --fz-z-context: 20;
+  --fz-z-nav: 40;
+  --fz-z-popover: 100;
+  --fz-z-modal: 200;
+  --fz-z-toast: 300;
+  --fz-font-ui: -apple-system, BlinkMacSystemFont, system-ui, "PingFang SC", "Helvetica Neue", "Segoe UI", "Microsoft YaHei", sans-serif;
+  --fz-control-height: 40px;
+  --fz-touch-target: 44px;
+  --fz-glass-bg: rgba(255,255,255,.82);
+  --fz-glass-blur: 16px;
+}
+.fz-content { background: var(--fz-color-surface); color: var(--fz-color-ink); }
+.fz-glass { background: var(--fz-glass-bg); backdrop-filter: blur(var(--fz-glass-blur)) saturate(1.15); border: 1px solid rgba(255,255,255,.9); box-shadow: var(--fz-shadow-contact); }
+[data-material="solid"] .fz-glass, [data-performance="true"] .fz-glass { background: #FFF; backdrop-filter: none; box-shadow: none; }
+@media (prefers-reduced-transparency: reduce) { .fz-glass { background: #FFF; backdrop-filter: none; } }
+@media (prefers-reduced-motion: reduce) { .fz-animated { transition: none !important; animation: none !important; } }
+.fz-type-display { font-size: 44px; line-height: 1.18; font-weight: 600; }
+.fz-type-page { font-size: 32px; line-height: 1.3; font-weight: 600; }
+.fz-type-section { font-size: 24px; line-height: 1.35; font-weight: 600; }
+.fz-type-subhead { font-size: 18px; line-height: 1.5; font-weight: 600; }
+.fz-type-body { font-size: 16px; line-height: 1.65; font-weight: 400; }
+.fz-type-control { font-size: 14px; line-height: 1.45; font-weight: 500; }
+.fz-type-caption { font-size: 12px; line-height: 1.5; font-weight: 400; }

@@ -1,0 +1,38 @@
+{
+  "id": "03",
+  "repo": "vercel/ai-chatbot",
+  "sha": "c2f8235e1f3ea903ad8b7f61447c4f74164b5c58",
+  "homepage": "https://chatbot.ai-sdk.dev",
+  "license_api": "NOASSERTION",
+  "roots": [
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "readme_links": [
+    "https://chatbot.ai-sdk.dev/demo",
+    "https://chatbot.ai-sdk.dev/docs",
+    "https://nextjs.org",
+    "https://ai-sdk.dev/docs/introduction",
+    "https://ui.shadcn.com",
+    "https://tailwindcss.com",
+    "https://radix-ui.com",
+    "https://vercel.com/marketplace/neon",
+    "https://vercel.com/storage/blob",
+    "https://authjs.dev",
+    "https://vercel.com/docs/ai-gateway",
+    "https://ai-sdk.dev/docs/introduction",
+    "https://openai.com",
+    "https://anthropic.com",
+    "https://cohere.com/",
+    "https://ai-sdk.dev/providers/ai-sdk-providers",
+    "https://vercel.com/button",
+    "https://vercel.com/templates/next.js/chatbot",
+    "https://vercel.com/docs/projects/environment-variables",
+    "http://localhost:3000"
+  ],
+  "folder": "/Users/lipaliu/Documents/ChatGPT/方舟技术团队/output/fangzhou-reference-10/research/03-ai-chatbot",
+  "code_paths": [
+    "components/chat/multimodal-input.tsx"
+  ]
+}

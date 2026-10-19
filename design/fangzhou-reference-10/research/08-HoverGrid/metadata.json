@@ -1,0 +1,11 @@
+{
+  "id": "08",
+  "repo": "codrops/HoverGrid",
+  "sha": "0a59474715182c0d0bc2219c48f9cdd4f570cf9b",
+  "folder": "/Users/lipaliu/Documents/ChatGPT/方舟技术团队/output/fangzhou-reference-10/research/08-HoverGrid",
+  "license_api": "MIT",
+  "readme_links": [],
+  "code_paths": [
+    "js/index.js"
+  ]
+}

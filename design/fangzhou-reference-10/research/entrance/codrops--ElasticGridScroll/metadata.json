@@ -1,0 +1,19 @@
+{
+  "repo": "codrops/ElasticGridScroll",
+  "sha": "40e474582ae72df26cd9d90b05d5b15fed423abd",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "licensepath": "LICENSE",
+  "paths": [
+    "css/base.css"
+  ],
+  "demos": [
+    "https://tympanus.net/Tutorials/ElasticGridScroll/"
+  ],
+  "homepage": null
+}

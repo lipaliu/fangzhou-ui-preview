@@ -1,0 +1,19 @@
+{
+  "repo": "codrops/GridToSlider",
+  "sha": "1d8b2abb52ba9207459d1b2ee6ac372f429ef8de",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "licensepath": "LICENSE",
+  "paths": [
+    "css/base.css"
+  ],
+  "demos": [
+    "http://tympanus.net/Development/GridToSlider/"
+  ],
+  "homepage": null
+}

@@ -1,0 +1,11 @@
+{
+  "repo": "PuruVJ/macos-web",
+  "ref": "14204808226d67fce14924d0b2ea889c807f12a9",
+  "verified_date": "2026-10-04",
+  "files": [
+    "README.md",
+    "LICENSE",
+    "package.json",
+    "src/components/Dock/Dock.svelte"
+  ]
+}

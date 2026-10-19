@@ -1,0 +1,12 @@
+{
+  "repo": "paper-design/shaders",
+  "ref": "43cd68db79fa0b1759f72ffc941b3238e2a3954c",
+  "verified_date": "2026-10-04",
+  "files": [
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "NOTICE",
+    "packages/shaders/src/shaders/mesh-gradient.ts"
+  ]
+}

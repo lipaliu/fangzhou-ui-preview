@@ -1,0 +1,11 @@
+{
+  "repo": "rdev/liquid-glass-react",
+  "ref": "ac48eab18d1f7f444ae30002d240cae29c863a21",
+  "verified_date": "2026-10-04",
+  "files": [
+    "README.md",
+    "LICENSE",
+    "package.json",
+    "src/index.tsx"
+  ]
+}

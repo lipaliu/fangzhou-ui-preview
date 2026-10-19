@@ -1,0 +1,11 @@
+{
+  "id": "04",
+  "repo": "magicuidesign/magicui",
+  "sha": "d7207e5692d14c00dceafa8488d6d01f197fa0e4",
+  "folder": "/Users/lipaliu/Documents/ChatGPT/方舟技术团队/output/fangzhou-reference-10/research/04-magicui",
+  "license_api": "MIT",
+  "readme_links": [],
+  "code_paths": [
+    "apps/www/registry/magicui/bento-grid.tsx"
+  ]
+}
